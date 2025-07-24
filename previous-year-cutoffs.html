@@ -649,7 +649,7 @@
 
             <!-- Navigation Grid - All 5 buttons in single row -->
             <div class="max-w-full mx-auto">
-                <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
                     <a href="index.html"
                         class="nav-btn flex flex-col items-center space-y-4 p-10 rounded-3xl transition-all duration-300 min-h-[140px]">
                         <div class="text-4xl">🔍</div>
@@ -683,6 +683,14 @@
                         <div class="text-center">
                             <div class="font-semibold text-base">Previous Year Cutoffs</div>
                             <div class="text-xs text-gray-400 mt-1">Historical data</div>
+                        </div>
+                    </a>
+                    <a href="college-details.html"
+                        class="nav-btn flex flex-col items-center space-y-4 p-10 rounded-3xl transition-all duration-300 min-h-[140px]">
+                        <div class="text-4xl">🏛️</div>
+                        <div class="text-center">
+                            <div class="font-semibold text-base">College Info</div>
+                            <div class="text-xs text-gray-400 mt-1">Detailed profiles</div>
                         </div>
                     </a>
                     <a href="college-predictor.html"
@@ -1785,6 +1793,12 @@
 
     <!-- Navigation Active State Manager -->
     <script src="navigation-active-state.js"></script>
+
+    <!-- Vercel Analytics -->
+    <script type="module">
+        import { inject } from '@vercel/analytics';
+        inject();
+    </script>
 </body>
 
 </html>

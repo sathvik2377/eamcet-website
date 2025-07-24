@@ -1577,5 +1577,11 @@
             setTimeout(() => document.getElementById('mobileWarningOverlay').style.display = 'flex', 1000);
         }
     </script>
+
+    <!-- Vercel Analytics -->
+    <script type="module">
+        import { inject } from '@vercel/analytics';
+        inject();
+    </script>
 </body>
 </html>
