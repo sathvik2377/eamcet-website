@@ -29,6 +29,101 @@
         }
     </script>
     <style>
+        /* Mobile Warning Popup Styles */
+        .mobile-warning-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .mobile-warning-popup {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 2px solid #00d4ff;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 90%;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.3);
+            animation: popupSlideIn 0.5s ease-out;
+        }
+
+        @keyframes popupSlideIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8) translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .warning-icon {
+            font-size: 4rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        .popup-title {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .popup-text {
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .popup-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .popup-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .btn-continue {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+        }
+
+        .btn-continue:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-desktop {
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            color: white;
+        }
+
+        .btn-desktop:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+        }
+
         /* College Info Theme - Blue/Cyan variant of Cosmic Gateway */
         .modern-bg {
             background: linear-gradient(135deg, #0A1128 0%, #080810 25%, #0A1128 50%, #080810 75%, #0A1128 100%);
@@ -747,6 +842,48 @@
                 font-size: 0.95rem;
                 line-height: 1.3;
             }
+
+            /* Enhanced mobile responsiveness */
+            .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .search-input {
+                font-size: 16px; /* Prevents zoom on iOS */
+                padding: 12px 16px;
+            }
+
+            .nav-btn {
+                min-height: 100px;
+                padding: 1rem;
+            }
+
+            .nav-btn .text-3xl {
+                font-size: 2rem;
+            }
+
+            /* Mobile-specific header adjustments */
+            header .container {
+                padding: 1rem;
+            }
+
+            /* Mobile table responsiveness */
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            /* Mobile button adjustments */
+            .popup-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .popup-btn {
+                width: 100%;
+                max-width: 200px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -824,6 +961,59 @@
     </style>
 </head>
 <body class="modern-bg text-white">
+    <!-- Mobile Warning Popup -->
+    <div id="mobileWarningOverlay" class="mobile-warning-overlay" style="display: none;">
+        <div class="mobile-warning-popup">
+            <div class="warning-icon">⚠️</div>
+            <div class="popup-title">Mobile Device Detected</div>
+            <div class="popup-text">
+                This website is optimized for desktop viewing. For the best experience with college information, detailed tables, and interactive features, we strongly recommend:
+                <br><br>
+                <strong>• Using a desktop or laptop computer</strong><br>
+                <strong>• Switching to desktop mode in your mobile browser</strong>
+                <br><br>
+                Mobile viewing may result in cramped layouts and difficult navigation.
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-btn btn-desktop" onclick="showDesktopInstructions()">
+                    📱 Switch to Desktop Mode
+                </button>
+                <button class="popup-btn btn-continue" onclick="closeMobileWarning()">
+                    ⚠️ Continue Anyway
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desktop Mode Instructions Popup -->
+    <div id="desktopInstructionsOverlay" class="mobile-warning-overlay" style="display: none;">
+        <div class="mobile-warning-popup">
+            <div class="warning-icon">📱</div>
+            <div class="popup-title">Enable Desktop Mode</div>
+            <div class="popup-text">
+                <strong>For Chrome/Edge:</strong><br>
+                1. Tap the menu (⋮) in the top right<br>
+                2. Check "Desktop site"<br><br>
+
+                <strong>For Safari:</strong><br>
+                1. Tap the "AA" icon in the address bar<br>
+                2. Select "Request Desktop Website"<br><br>
+
+                <strong>For Firefox:</strong><br>
+                1. Tap the menu (⋮) in the top right<br>
+                2. Check "Desktop site"
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-btn btn-desktop" onclick="closeDesktopInstructions()">
+                    ✅ Got it!
+                </button>
+                <button class="popup-btn btn-continue" onclick="closeMobileWarning()">
+                    ⚠️ Continue Anyway
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="card-dark border-b border-white/5 sticky top-0 z-50 backdrop-blur-xl">
         <div class="container mx-auto px-6 py-4">
@@ -2069,8 +2259,88 @@
             `;
         }
 
+        // Mobile Detection and Warning System
+        function isMobileDevice() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
+            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+            return mobileRegex.test(userAgent) || screenWidth <= 768;
+        }
+
+        function showMobileWarning() {
+            const overlay = document.getElementById('mobileWarningOverlay');
+            if (overlay) {
+                overlay.style.display = 'flex';
+                // Prevent body scroll when popup is open
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeMobileWarning() {
+            const overlay = document.getElementById('mobileWarningOverlay');
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+
+            if (overlay) {
+                overlay.style.display = 'none';
+            }
+            if (desktopOverlay) {
+                desktopOverlay.style.display = 'none';
+            }
+
+            // Restore body scroll
+            document.body.style.overflow = 'auto';
+
+            // Store user preference to not show again for this session
+            sessionStorage.setItem('mobileWarningDismissed', 'true');
+        }
+
+        function showDesktopInstructions() {
+            const mobileOverlay = document.getElementById('mobileWarningOverlay');
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+
+            if (mobileOverlay) {
+                mobileOverlay.style.display = 'none';
+            }
+            if (desktopOverlay) {
+                desktopOverlay.style.display = 'flex';
+            }
+        }
+
+        function closeDesktopInstructions() {
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+            if (desktopOverlay) {
+                desktopOverlay.style.display = 'none';
+            }
+
+            // Restore body scroll
+            document.body.style.overflow = 'auto';
+
+            // Store user preference
+            sessionStorage.setItem('mobileWarningDismissed', 'true');
+        }
+
+        // Check for mobile device on page load
+        function checkMobileAndShowWarning() {
+            // Don't show if user already dismissed it in this session
+            if (sessionStorage.getItem('mobileWarningDismissed') === 'true') {
+                return;
+            }
+
+            if (isMobileDevice()) {
+                // Show warning after a short delay to ensure page is loaded
+                setTimeout(showMobileWarning, 1000);
+            }
+        }
+
+        // Enhanced initialization
+        function initWithMobileCheck() {
+            init(); // Call the original init function
+            checkMobileAndShowWarning(); // Check for mobile and show warning if needed
+        }
+
         // Initialize the application when DOM is loaded
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', initWithMobileCheck);
     </script>
 </body>
 </html>

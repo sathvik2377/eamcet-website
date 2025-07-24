@@ -21,6 +21,113 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <style>
+        /* Mobile Warning Popup Styles */
+        .mobile-warning-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .mobile-warning-popup {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 2px solid #ff6b35;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 90%;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(255, 107, 53, 0.3);
+            animation: popupSlideIn 0.5s ease-out;
+        }
+
+        @keyframes popupSlideIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8) translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .warning-icon {
+            font-size: 4rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        .popup-title {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .popup-text {
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .popup-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .popup-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .btn-continue {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+        }
+
+        .btn-continue:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-desktop {
+            background: linear-gradient(135deg, #ff6b35, #ff8c42);
+            color: white;
+        }
+
+        .btn-desktop:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
+        }
+
+        /* Enhanced mobile responsiveness */
+        @media (max-width: 768px) {
+            .popup-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .popup-btn {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
         /* Archival Nebula Theme - Historical and insightful */
         html {
             overflow: auto !important;
@@ -457,6 +564,60 @@
 </head>
 
 <body>
+    <!-- Mobile Warning Popup -->
+    <div id="mobileWarningOverlay" class="mobile-warning-overlay" style="display: none;">
+        <div class="mobile-warning-popup">
+            <div class="warning-icon">⚠️</div>
+            <div class="popup-title">Mobile Device Detected</div>
+            <div class="popup-text">
+                This historical cutoffs data contains extensive tables that are optimized for desktop viewing. The detailed year-wise data may be difficult to navigate on mobile devices.
+                <br><br>
+                <strong>For the best experience:</strong><br>
+                <strong>• Use a desktop or laptop computer</strong><br>
+                <strong>• Switch to desktop mode in your mobile browser</strong>
+                <br><br>
+                Mobile viewing may result in cramped tables and difficult navigation.
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-btn btn-desktop" onclick="showDesktopInstructions()">
+                    📱 Switch to Desktop Mode
+                </button>
+                <button class="popup-btn btn-continue" onclick="closeMobileWarning()">
+                    ⚠️ Continue Anyway
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desktop Mode Instructions Popup -->
+    <div id="desktopInstructionsOverlay" class="mobile-warning-overlay" style="display: none;">
+        <div class="mobile-warning-popup">
+            <div class="warning-icon">📱</div>
+            <div class="popup-title">Enable Desktop Mode</div>
+            <div class="popup-text">
+                <strong>For Chrome/Edge:</strong><br>
+                1. Tap the menu (⋮) in the top right<br>
+                2. Check "Desktop site"<br><br>
+
+                <strong>For Safari:</strong><br>
+                1. Tap the "AA" icon in the address bar<br>
+                2. Select "Request Desktop Website"<br><br>
+
+                <strong>For Firefox:</strong><br>
+                1. Tap the menu (⋮) in the top right<br>
+                2. Check "Desktop site"
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-btn btn-desktop" onclick="closeDesktopInstructions()">
+                    ✅ Got it!
+                </button>
+                <button class="popup-btn btn-continue" onclick="closeMobileWarning()">
+                    ⚠️ Continue Anyway
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation Header -->
     <header class="nav-container sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4">
@@ -1562,6 +1723,64 @@
                 loadPhaseData('phase3');
             }, 1000);
         });
+
+        // Mobile Detection and Warning System
+        function isMobileDevice() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
+            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+            return mobileRegex.test(userAgent) || screenWidth <= 768;
+        }
+
+        function showMobileWarning() {
+            const overlay = document.getElementById('mobileWarningOverlay');
+            if (overlay) {
+                overlay.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeMobileWarning() {
+            const overlay = document.getElementById('mobileWarningOverlay');
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+
+            if (overlay) overlay.style.display = 'none';
+            if (desktopOverlay) desktopOverlay.style.display = 'none';
+
+            document.body.style.overflow = 'auto';
+            sessionStorage.setItem('mobileWarningDismissed', 'true');
+        }
+
+        function showDesktopInstructions() {
+            const mobileOverlay = document.getElementById('mobileWarningOverlay');
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+
+            if (mobileOverlay) mobileOverlay.style.display = 'none';
+            if (desktopOverlay) desktopOverlay.style.display = 'flex';
+        }
+
+        function closeDesktopInstructions() {
+            const desktopOverlay = document.getElementById('desktopInstructionsOverlay');
+            if (desktopOverlay) desktopOverlay.style.display = 'none';
+
+            document.body.style.overflow = 'auto';
+            sessionStorage.setItem('mobileWarningDismissed', 'true');
+        }
+
+        // Check for mobile device on page load
+        function checkMobileAndShowWarning() {
+            if (sessionStorage.getItem('mobileWarningDismissed') === 'true') {
+                return;
+            }
+
+            if (isMobileDevice()) {
+                setTimeout(showMobileWarning, 1000);
+            }
+        }
+
+        // Initialize mobile check
+        document.addEventListener('DOMContentLoaded', checkMobileAndShowWarning);
     </script>
 
     <!-- Navigation Active State Manager -->
