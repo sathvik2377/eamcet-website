@@ -1,0 +1,56 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient for the background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f2fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Shadow effect -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background circle with gradient -->
+  <circle cx="60" cy="60" r="55" fill="url(#bgGradient)" filter="url(#shadow)" />
+  
+  <!-- Inner decorative ring -->
+  <circle cx="60" cy="60" r="48" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+  
+  <!-- Main text "TS" -->
+  <text x="60" y="75" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="url(#textGradient)" filter="url(#glow)">TS</text>
+  
+  <!-- Subtitle "EAMCET" -->
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="10" font-weight="600" 
+        text-anchor="middle" fill="rgba(255,255,255,0.8)">EAMCET</text>
+  
+  <!-- Decorative elements - small dots -->
+  <circle cx="30" cy="30" r="2" fill="rgba(255,255,255,0.6)" />
+  <circle cx="90" cy="30" r="2" fill="rgba(255,255,255,0.6)" />
+  <circle cx="30" cy="90" r="2" fill="rgba(255,255,255,0.6)" />
+  <circle cx="90" cy="90" r="2" fill="rgba(255,255,255,0.6)" />
+  
+  <!-- Academic cap icon on top -->
+  <g transform="translate(50, 20)">
+    <path d="M10 6L0 1L10 6L20 1V4L10 9L0 4V1Z" fill="rgba(255,255,255,0.7)" stroke="rgba(255,255,255,0.9)" stroke-width="0.5"/>
+    <path d="M2 4V7C2 8 6 9 10 9C14 9 18 8 18 7V4" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="0.5"/>
+  </g>
+</svg>
