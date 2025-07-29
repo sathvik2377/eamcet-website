@@ -1,0 +1,138 @@
+{
+  "partNumber": 5,
+  "colleges": [
+    {
+      "name": "SRIW - SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN (AUTONOMOUS), HASANPARTHY",
+      "value": "SRIW"
+    },
+    {
+      "name": "SRYS - SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), NAGOLE",
+      "value": "SRYS"
+    },
+    {
+      "name": "STLW - STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), ABIDS",
+      "value": "STLW"
+    },
+    {
+      "name": "SUCE - UNIVERSITY COLLEGE OF ENGINEERING, HUSNABAD, SATAVAHANA UNIVERSITY, HUSNABAD",
+      "value": "SUCE"
+    },
+    {
+      "name": "SVES - SRI VENKATESWARA ENGINEERING COLLEGE, SURYAPETA",
+      "value": "SVES"
+    },
+    {
+      "name": "SVIT - SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS), SECUNDERABAD",
+      "value": "SVIT"
+    },
+    {
+      "name": "SVSE - SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS), HANAMKONDA",
+      "value": "SVSE"
+    },
+    {
+      "name": "SWET - SHADAN WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), KHAIRTABAD",
+      "value": "SWET"
+    },
+    {
+      "name": "TCEK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEDDAPALLY",
+      "value": "TCEK"
+    },
+    {
+      "name": "TCTK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY, KARIMNAGAR",
+      "value": "TCTK"
+    },
+    {
+      "name": "TKEM - TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS), MIRPET",
+      "value": "TKEM"
+    },
+    {
+      "name": "TKRC - T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MIRPET",
+      "value": "TKRC"
+    },
+    {
+      "name": "TPCE - TALLA PADMAVATHI COLL OF ENGINEERING (AUTONOMOUS), KAZIPET",
+      "value": "TPCE"
+    },
+    {
+      "name": "TRRM - TRR COLLEGE OF TECHNOLOGY, MEERPET",
+      "value": "TRRM"
+    },
+    {
+      "name": "VAGE - VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS), WARANGAL",
+      "value": "VAGE"
+    },
+    {
+      "name": "VASV - VASAVI COLLEGE OF ENGINEERING, HYDERABAD",
+      "value": "VASV"
+    },
+    {
+      "name": "VBIT - VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+      "value": "VBIT"
+    },
+    {
+      "name": "VCET - VISWESWARAYA COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "VCET"
+    },
+    {
+      "name": "VGNT - VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), DESHMUKHI",
+      "value": "VGNT"
+    },
+    {
+      "name": "VGSE - VAAGESHWARI COLL OF ENGINEERING (AUTONOMOUS), KARIMNAGAR",
+      "value": "VGSE"
+    },
+    {
+      "name": "VGWL - VAGDEVI ENGINEERING COLLEGE (AUTONOMOUS), WARANGAL",
+      "value": "VGWL"
+    },
+    {
+      "name": "VISA - VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY, BHONGIR",
+      "value": "VISA"
+    },
+    {
+      "name": "VITS - SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI, MAHABUBNAGAR",
+      "value": "VITS"
+    },
+    {
+      "name": "VJEC - V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH, BACHUPALLY",
+      "value": "VJEC"
+    },
+    {
+      "name": "VJIT - VIDYAJYOTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), MOINABAD",
+      "value": "VJIT"
+    },
+    {
+      "name": "VJYA - VIJAYA ENGINEERING COLLEGE, KHAMMAM",
+      "value": "VJYA"
+    },
+    {
+      "name": "VMEG - VARDHAMAN COLLEGE OF ENGINEERING (AUTONOMOUS), SHAMSHABAD",
+      "value": "VMEG"
+    },
+    {
+      "name": "VMRH - VMR PRADEEP KUMAR INST OF ENGG & TECH, HANUMAKONDA",
+      "value": "VMRH"
+    },
+    {
+      "name": "VMTW - VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN (AUTONOMOUS), GHATKESAR",
+      "value": "VMTW"
+    },
+    {
+      "name": "VREC - VIJAYA RURAL ENGINEERING COLLEGE, NIZAMABAD",
+      "value": "VREC"
+    },
+    {
+      "name": "VRKW - DR VRK WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD",
+      "value": "VRKW"
+    },
+    {
+      "name": "WESL - CSI WESLEY INST OF TECHNOLOGY AND SCIENCES, SECUNDERABAD",
+      "value": "WESL"
+    },
+    {
+      "name": "WITS - WARANGAL INST OF TECHNOLOGY SCIENCE, WARANGAL",
+      "value": "WITS"
+    }
+  ],
+  "count": 33
+}

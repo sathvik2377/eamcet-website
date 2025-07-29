@@ -1,0 +1,5384 @@
+{
+  "scrapingDate": "2025-07-29T15:06:36.586Z",
+  "scrapingType": "comprehensive_with_gap_filling",
+  "totalColleges": 183,
+  "totalBranches": 1069,
+  "totalRecords": 84563,
+  "dataStructure": "college_folders_with_comprehensive_branch_csv_files",
+  "collegeStats": {
+    "ACEG - A C E ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR": {
+      "branches": 9,
+      "records": 924,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 370
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 24
+        }
+      ]
+    },
+    "ACEG_A_C_E_ENGINEERING_COLLEGE_AUTONOMOUS_GHATKESAR": {
+      "branches": 9,
+      "records": 924,
+      "branchDetails": [
+        {
+          "name": "CIVIL_ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "records": 370
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_DATA_SCIENCE",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_IOT",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS_AND_COMMUNICATION_ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION_TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL_ENGINEERING",
+          "records": 24
+        }
+      ]
+    },
+    "AITH - ANNAMACHARYA INST OF TECHNOLOGY AND SCI (AUTONOMOUS), HAYATHNAGAR": {
+      "branches": 7,
+      "records": 300,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 31
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 15
+        }
+      ]
+    },
+    "AITH_ANNAMACHARYA_INST_OF_TECHNOLOGY_AND_SCI_AUTONOMOUS_HAYATHNAGAR": {
+      "branches": 7,
+      "records": 300,
+      "branchDetails": [
+        {
+          "name": "CIVIL_ENGINEERING",
+          "records": 31
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_DATA_SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS_AND_COMMUNICATION_ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL_ENGINEERING",
+          "records": 15
+        }
+      ]
+    },
+    "AIZA - AIZZA COLLEGE OF ENGG AND TECHNOLOGY, MANCHERIAL": {
+      "branches": 1,
+      "records": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "AIZA_AIZZA_COLLEGE_OF_ENGG_AND_TECHNOLOGY_MANCHERIAL": {
+      "branches": 1,
+      "records": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "AKIT - ABDULKALAM INST OF TECHNOLOGY AND SCI, KOTHAGUDEM": {
+      "branches": 8,
+      "records": 303,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 44
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 19
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 22
+        }
+      ]
+    },
+    "ANRK - ANURAG ENGINEERING COLLEGE (AUTONOMOUS), KODAD": {
+      "branches": 6,
+      "records": 387,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 13
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 10
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 87
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        }
+      ]
+    },
+    "ANUG - ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG), GHATKESAR": {
+      "branches": 7,
+      "records": 832,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 184
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 186
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "ARJN - ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), BATASINGARAM": {
+      "branches": 3,
+      "records": 139,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "ASRA - AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY, HAYATHNAGAR": {
+      "branches": 7,
+      "records": 219,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 5
+        }
+      ]
+    },
+    "AURC - AURORA SCIENTIFIC AND TECH RESEARCH ACADEMY, HYDERABAD": {
+      "branches": 2,
+      "records": 52,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 6
+        }
+      ]
+    },
+    "AURG - AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE, GHATKESAR": {
+      "branches": 4,
+      "records": 410,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 41
+        }
+      ]
+    },
+    "AURH - RAMAPPA ENGINEERING COLLEGE, SHAYAMPET": {
+      "branches": 1,
+      "records": 13,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 13
+        }
+      ]
+    },
+    "AURK - AURORA S TECHNOLOGICAL AND MANAGEMENT ACADEMY, PARVATHAPUR": {
+      "branches": 1,
+      "records": 46,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        }
+      ]
+    },
+    "AVIH - AVANTHI INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR": {
+      "branches": 7,
+      "records": 608,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 44
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 14
+        }
+      ]
+    },
+    "AVNI - AVN INST OF ENGG &TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM": {
+      "branches": 8,
+      "records": 692,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 184
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "AZAD - AZAD COLLEGE OF ENGINEERING AND TECHNOLOGY, MOINABAD": {
+      "branches": 2,
+      "records": 58,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 38
+        }
+      ]
+    },
+    "BIET - BHARAT INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM": {
+      "branches": 9,
+      "records": 807,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 278
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 22
+        }
+      ]
+    },
+    "BITN - BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), NARSAMPET": {
+      "branches": 8,
+      "records": 595,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 174
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 86
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 173
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 20
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 109
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "BOMA - BOMMA INST OF TECHNOLOGY AND SCI, KHAMMAM": {
+      "branches": 5,
+      "records": 118,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 41
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 53
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 5
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 16
+        }
+      ]
+    },
+    "BOSE - ANU BOSE INSTT OF TECHNOLOGY FOR WOMENS (AUTONOMOUS), PALONCHA": {
+      "branches": 6,
+      "records": 394,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 30
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 86
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 85
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 70
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 84
+        }
+      ]
+    },
+    "BREW - BHOJREDDY ENGINEERING COLLEGE FOR WOMEN, SAIDABAD": {
+      "branches": 5,
+      "records": 370,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        }
+      ]
+    },
+    "BRIG - BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS (AUTONOMOUS), HAYATHNAGAR": {
+      "branches": 9,
+      "records": 422,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 10
+        }
+      ]
+    },
+    "BRIL - BRILLIANT INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR": {
+      "branches": 10,
+      "records": 489,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 9
+        }
+      ]
+    },
+    "BSKR - BHASKAR ENGINEERING COLLEGE, YENKAPALLY": {
+      "branches": 5,
+      "records": 231,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 24
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 23
+        }
+      ]
+    },
+    "BVRI - B V RAJU INSTITUTE OF TECHNOLOGY, NARSAPUR": {
+      "branches": 12,
+      "records": 1210,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 92
+        },
+        {
+          "name": "BIO-MEDICAL ENGINEERING",
+          "records": 32
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 184
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "PHARMACEUTICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "BVRW - BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS), BACHUPALLY": {
+      "branches": 4,
+      "records": 508,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "CASR - COLLEGE OF AGRICULTURAL ENGG, SANGAREDDY": {
+      "branches": 1,
+      "records": 31,
+      "branchDetails": [
+        {
+          "name": "AGRICULTURAL ENGINEERING",
+          "records": 31
+        }
+      ]
+    },
+    "CBIT - CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, GANDIPET": {
+      "branches": 12,
+      "records": 1155,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 92
+        },
+        {
+          "name": "BIO-TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "records": 47
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "records": 47
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 93
+        }
+      ]
+    },
+    "CDTK - COLLEGE OF DAIRY TECHNOLOGY, KAMAREDDY": {
+      "branches": 1,
+      "records": 31,
+      "branchDetails": [
+        {
+          "name": "DAIRYING",
+          "records": 31
+        }
+      ]
+    },
+    "CFSR - COLLEGE OF FOOD SCIENCE AND TECHNOLOGY, RUDRUR": {
+      "branches": 1,
+      "records": 14,
+      "branchDetails": [
+        {
+          "name": "FOOD TECHNOLOGY",
+          "records": 14
+        }
+      ]
+    },
+    "CHET - SRI CHAITANYA TECHNICAL CAMPUS, IBRAHIMPATAN": {
+      "branches": 7,
+      "records": 254,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "CHTN - SREE CHAITANYA COLLEGE OF ENGINEERING, KARIMNAGAR": {
+      "branches": 6,
+      "records": 312,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "COMPUTER SCIENCE & DESIGN",
+          "records": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 151
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 14
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 84
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 13
+        }
+      ]
+    },
+    "CHTS - SREE CHAITANYA INST OF TECHNOLOGY SCIENCES, KARIMNAGAR": {
+      "branches": 4,
+      "records": 254,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 87
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 100
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 44
+        }
+      ]
+    },
+    "CJIT - CHRISTU JYOTHI INSTITUTE OF TECHNOLOGY AND SCI, JANGAON": {
+      "branches": 5,
+      "records": 111,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 82
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 7
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "CMRG - CMR TECHNICAL CAMPUS (AUTONOMOUS), KANDLAKOYA": {
+      "branches": 4,
+      "records": 739,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "CMRK - C M R COLLEGE OF ENGG AND TECHNOLOGY , KANDLAKOYA": {
+      "branches": 7,
+      "records": 901,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 278
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "CMRM - CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS), KANDLAKOYA": {
+      "branches": 4,
+      "records": 785,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "CMRN - CMR ENGG COLLEGE (AUTONOMOUS), KANDLAKOYA": {
+      "branches": 4,
+      "records": 693,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        }
+      ]
+    },
+    "CVRH - CVR COLLEGE OF ENGINEERING, IBRAHIMPATAN": {
+      "branches": 12,
+      "records": 1478,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 186
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 508
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "DARE - DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH, KHAMMAM": {
+      "branches": 2,
+      "records": 22,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 16
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 6
+        }
+      ]
+    },
+    "DCET - DECCAN COLLEGE OF ENGINEERING AND TECHNOLOGY, DARUSSALAM": {
+      "branches": 8,
+      "records": 411,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 41
+        },
+        {
+          "name": "COMPUTER ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 210
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "ELECTRONICS AND TELECOMMUNICATION ENGG",
+          "records": 5
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 42
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 32
+        }
+      ]
+    },
+    "DRKI - D R K INSTITUTE OF SCI AND TECHNOLOGY, BOWRAMPET": {
+      "branches": 7,
+      "records": 598,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 20
+        }
+      ]
+    },
+    "ELEN - ELLENKI COLLGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PATANCHERU": {
+      "branches": 8,
+      "records": 603,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 12
+        }
+      ]
+    },
+    "ESUT - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM), KOTHAGUDEM": {
+      "branches": 3,
+      "records": 111,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 44
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 27
+        }
+      ]
+    },
+    "ESUTSF - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM)- SELF FINANCE, KOTHAGUDEM": {
+      "branches": 4,
+      "records": 44,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 14
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 5
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 1
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 24
+        }
+      ]
+    },
+    "GATE - GATE INSTITUTE OF TECHNOLOGYAND SCIENCES, KODAD": {
+      "branches": 6,
+      "records": 81,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 11
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 2
+        },
+        {
+          "name": "COMPUTER SCIENCE & DESIGN",
+          "records": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 58
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 5
+        }
+      ]
+    },
+    "GCTC - GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), KEESARA": {
+      "branches": 8,
+      "records": 1108,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "GKEM - G K INSTITUTE OF ENGG AND TECH, MAHABUBNAGAR": {
+      "branches": 2,
+      "records": 3,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 2
+        }
+      ]
+    },
+    "GLOB - GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), CHILKUR": {
+      "branches": 6,
+      "records": 449,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 208
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 11
+        }
+      ]
+    },
+    "GLWC - GOKARAJU LAILAVATHI ENGINEERING COLLEGE, BACHUPALLY": {
+      "branches": 2,
+      "records": 370,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        }
+      ]
+    },
+    "GNIT - GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 8,
+      "records": 739,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "GNTW - G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI, SHAIKPET": {
+      "branches": 7,
+      "records": 785,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRONICS AND TELEMATICS",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 93
+        }
+      ]
+    },
+    "GRRR - GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH (AUTONOMOUS), BACHUPALLY": {
+      "branches": 8,
+      "records": 1016,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 162
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 462
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "GURU - GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 11,
+      "records": 1202,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 232
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "HITM - HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS), MEDCHAL": {
+      "branches": 6,
+      "records": 646,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 69
+        }
+      ]
+    },
+    "HOLY - HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS), KEESARA": {
+      "branches": 8,
+      "records": 730,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 69
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 16
+        }
+      ]
+    },
+    "IARE - INSTITUTE OF AERONAUTICAL ENGINEERING, DUNDIGAL": {
+      "branches": 9,
+      "records": 855,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "IITT - INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY, SIDDIPET": {
+      "branches": 6,
+      "records": 152,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 89
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 2
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 14
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "INDI - SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 8,
+      "records": 693,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 24
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "INDU - SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 11,
+      "records": 1155,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 300
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "ISLC - ISL ENGINEERING COLLEGE (AUTONOMOUS), BANDLAGUDA": {
+      "branches": 6,
+      "records": 329,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 84
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 41
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 3
+        }
+      ]
+    },
+    "JAYA - JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS (AUTONOMOUS), NARSAMPET": {
+      "branches": 7,
+      "records": 170,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 31
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 4
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 16
+        }
+      ]
+    },
+    "JBIT - J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), YENKAPALLY": {
+      "branches": 11,
+      "records": 924,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 93
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 115
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 24
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMPUTER ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "JMTS - JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), KARIMNAGAR": {
+      "branches": 5,
+      "records": 372,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 2
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 113
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 25
+        }
+      ]
+    },
+    "JNKR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING JAGITIAL (AUTONOMOUS), JAGITIAL": {
+      "branches": 5,
+      "records": 326,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 62
+        }
+      ]
+    },
+    "JNMB - JNTUH UNIVERSITY COLLEGE OF ENGINEERING MAHABUBABAD, MAHABUBABAD": {
+      "branches": 5,
+      "records": 160,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 65
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 60
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 29
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 3
+        }
+      ]
+    },
+    "JNPASF - JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE, MASABTANK": {
+      "branches": 3,
+      "records": 82,
+      "branchDetails": [
+        {
+          "name": "B.PLANNING",
+          "records": 18
+        },
+        {
+          "name": "BUILDING SERVICES ENGG",
+          "records": 8
+        },
+        {
+          "name": "DIGITAL TECHNIQUES FOR DESIGN AND PLANNING",
+          "records": 56
+        }
+      ]
+    },
+    "JNPL - JNTUH UNIVERSITY COLLEGE OF ENGINEERING PALAIR, PALAIR": {
+      "branches": 5,
+      "records": 163,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 60
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 64
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 13
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "JNTH - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD, HYDERABAD": {
+      "branches": 11,
+      "records": 627,
+      "branchDetails": [
+        {
+          "name": "BIO-TECHNOLOGY",
+          "records": 33
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "records": 33
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "GEO INFORMATICS",
+          "records": 33
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "METALLURGICAL ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "JNTHMT - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH -5 YEAR INTEGRATED MTECH SELF FINANCE, KUKATPALLY": {
+      "branches": 2,
+      "records": 66,
+      "branchDetails": [
+        {
+          "name": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+          "records": 33
+        },
+        {
+          "name": "BTECH MECHANICAL WITH MTECH THERMAL ENGG",
+          "records": 33
+        }
+      ]
+    },
+    "JNTM - JNTUH UNIVERSITY COLLEGE OF ENGG MANTHANI, MANTHANI": {
+      "branches": 6,
+      "records": 358,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 62
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 62
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 51
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 51
+        }
+      ]
+    },
+    "JNTR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA, AGRAHARAM RAJANNA SIRCILLA": {
+      "branches": 6,
+      "records": 201,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 63
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 6
+        },
+        {
+          "name": "TEXTILE TECHNOLOGY _ TEXTILE ENGINEERING",
+          "records": 3
+        }
+      ]
+    },
+    "JNTS - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR, SULTANPUR": {
+      "branches": 7,
+      "records": 462,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "JNTSSF - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR - SELF FINANCE, SULTANPUR": {
+      "branches": 1,
+      "records": 66,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "JNWN - JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY, NARSINGAYAPALLY VILLAGE": {
+      "branches": 5,
+      "records": 176,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 7
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 38
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 3
+        }
+      ]
+    },
+    "JOGI - JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS), YENKAPALLY": {
+      "branches": 7,
+      "records": 612,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 18
+        }
+      ]
+    },
+    "JPNE - JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING (AUTONOMOUS), MAHABUBNAGAR": {
+      "branches": 8,
+      "records": 291,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 91
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 9
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 10
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "JPNH - JAYAPRAKASH NARAYAN ENGINEERING COLLEGE, BANDLAGUDA": {
+      "branches": 4,
+      "records": 336,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 126
+        }
+      ]
+    },
+    "KCEA - KSHATRIYA COLLEGE OF ENGINEERING, ARMOOR": {
+      "branches": 5,
+      "records": 77,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 63
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 4
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "KDDW - KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN, KODADA": {
+      "branches": 4,
+      "records": 342,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 171
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 87
+        }
+      ]
+    },
+    "KGRH - KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "branches": 6,
+      "records": 599,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 22
+        }
+      ]
+    },
+    "KITS - KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI, WARANGAL": {
+      "branches": 11,
+      "records": 1016,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "KITW - KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN, NIZAMABAD": {
+      "branches": 4,
+      "records": 207,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 90
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 67
+        }
+      ]
+    },
+    "KLRT - KLR COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PALONCHA": {
+      "branches": 8,
+      "records": 282,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 44
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 80
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 35
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 12
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 17
+        }
+      ]
+    },
+    "KMCE - KESHAV MEMORIAL COLLEGE OF ENGINEERING, IBRAHIMPATAN": {
+      "branches": 3,
+      "records": 369,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "KMEC - KESHAV MEMORIAL ENGINEERING COLLEGE, KACHWANISINGARAM": {
+      "branches": 2,
+      "records": 323,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        }
+      ]
+    },
+    "KMIT - KESHAV MEMORIAL INST OF TECHNOLOGY (AUTONOMOUS), NARAYANAGUDA": {
+      "branches": 2,
+      "records": 647,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 232
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 415
+        }
+      ]
+    },
+    "KNRR - KASIREDDY NARAYANAREDDY COLL ENGG RES (AUTONOMOUS), HAYATHNAGAR": {
+      "branches": 8,
+      "records": 439,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 43
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 30
+        }
+      ]
+    },
+    "KPRC - KPRIT COLLEGE OF ENGINEERING (AUTONOMOUS), GHATKESAR": {
+      "branches": 2,
+      "records": 277,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 184
+        }
+      ]
+    },
+    "KPRT - KOMMURI PRATAP REDDY INST OF TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "branches": 4,
+      "records": 575,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 323
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "KSGI - GOVERNMENT ENGINEERING COLLEGE KOSGI, KOSGI": {
+      "branches": 3,
+      "records": 41,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 6
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 30
+        }
+      ]
+    },
+    "KTKM - KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), HUZURABAD": {
+      "branches": 8,
+      "records": 484,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 93
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 9
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 8
+        }
+      ]
+    },
+    "KUEWSF - UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS, WARANGAL": {
+      "branches": 6,
+      "records": 350,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 29
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 63
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 62
+        }
+      ]
+    },
+    "KUWL - KU COLLEGE OF ENGINEERING AND TECHNOLOGY, WARANGAL": {
+      "branches": 7,
+      "records": 454,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 63
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 61
+        }
+      ]
+    },
+    "LRDS - LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), HIMAYATSAGAR": {
+      "branches": 8,
+      "records": 924,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 126
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 378
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 126
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 21
+        }
+      ]
+    },
+    "MDRK - MADHIRA INSTITUTE OF TECHNOLOGY AND SCI, KODAD": {
+      "branches": 5,
+      "records": 114,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 25
+        }
+      ]
+    },
+    "MECS - MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS), HYDERABAD": {
+      "branches": 8,
+      "records": 600,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "METH - METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), ABIDS": {
+      "branches": 7,
+      "records": 600,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 22
+        }
+      ]
+    },
+    "MGHA - MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), GHATKESAR": {
+      "branches": 7,
+      "records": 445,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 92
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 92
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "MGIT - MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GANDIPET": {
+      "branches": 11,
+      "records": 785,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL (MECHTRONICS) ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "METALLURGY AND MATERIAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "MGUNSF - MGU COLLEGE OF ENGINEERING AND TECHNOLOGY , NALGONDA": {
+      "branches": 3,
+      "records": 221,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 132
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 28
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 61
+        }
+      ]
+    },
+    "MHVR - MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), BANDLAGUDA": {
+      "branches": 8,
+      "records": 392,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 22
+        }
+      ]
+    },
+    "MINA - MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN, MIRYALAGUDA": {
+      "branches": 4,
+      "records": 120,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 73
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 16
+        }
+      ]
+    },
+    "MJCT - M J COLLEGE OF ENGINEERING AND TECHNOLOGY, BANJARA HILLS": {
+      "branches": 7,
+      "records": 588,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 336
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 42
+        }
+      ]
+    },
+    "MLID - M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS), DUNDIGAL": {
+      "branches": 7,
+      "records": 785,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "MLRD - MALLA REDDY COLLEGE OF ENGG TECHNOLOGY (AUTONOMOUS), MYSAMMAGUDA": {
+      "branches": 9,
+      "records": 1016,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "MLRS - MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS), DUNDIGAL": {
+      "branches": 7,
+      "records": 624,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 208
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 69
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "MMTZ - MUMTAZ COLL OF ENGG TECHNOLOGY, HYDERABAD": {
+      "branches": 4,
+      "records": 103,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "records": 16
+        }
+      ]
+    },
+    "MOTK - MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), SATHUPALLY": {
+      "branches": 8,
+      "records": 129,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 9
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 38
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 1
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 19
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 5
+        }
+      ]
+    },
+    "MRCE - MALLA REDDY COLLEGE OF ENGINEERING, MYSAMMAGUDA": {
+      "branches": 4,
+      "records": 693,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 278
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        }
+      ]
+    },
+    "MRCW - MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS), MAISAMMAGUDA": {
+      "branches": 7,
+      "records": 1201,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 508
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        }
+      ]
+    },
+    "MREM - MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES (AUTONOMOUS), MEDCHAL": {
+      "branches": 8,
+      "records": 643,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 44
+        }
+      ]
+    },
+    "MRTN - ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS), DHULAPALLY": {
+      "branches": 4,
+      "records": 531,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 184
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 185
+        }
+      ]
+    },
+    "MTEC - MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY, PEDDAPALLY": {
+      "branches": 7,
+      "records": 164,
+      "branchDetails": [
+        {
+          "name": "BIO-TECHNOLOGY",
+          "records": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 32
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 33
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 34
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 12
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 19
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 33
+        }
+      ]
+    },
+    "MVSR - M V S R ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL": {
+      "branches": 10,
+      "records": 831,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "NAWB - NAWAB SHAH ALAM KHAN COLL OF ENGG AND TECH (AUTONOMOUS), NEW MALAKPET": {
+      "branches": 7,
+      "records": 396,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "records": 42
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 51
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 9
+        }
+      ]
+    },
+    "NGIT - NEIL GOGTE INST OF TECHNOLOGY, KACHIVANI SINGARAM": {
+      "branches": 2,
+      "records": 323,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        }
+      ]
+    },
+    "NGMA - NIGAMA ENGINEERING COLLEGE, KARIMNAGAR": {
+      "branches": 1,
+      "records": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 2
+        }
+      ]
+    },
+    "NIET - NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY, CHOUTUPPAL": {
+      "branches": 3,
+      "records": 61,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 43
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 3
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 15
+        }
+      ]
+    },
+    "NNRG - NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS), GHATKESAR": {
+      "branches": 5,
+      "records": 716,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        }
+      ]
+    },
+    "NRCM - NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS), MAISAMMAGUDA": {
+      "branches": 8,
+      "records": 877,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 162
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "NREC - NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR": {
+      "branches": 6,
+      "records": 507,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 45
+        }
+      ]
+    },
+    "OUCE - O U COLLEGE OF ENGG HYDERABAD, HYDERABAD": {
+      "branches": 8,
+      "records": 495,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 66
+        },
+        {
+          "name": "BIO-MEDICAL ENGINEERING",
+          "records": 33
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "OUCT - O U COLLEGE OF TECH HYDERABAD, HYDERABAD": {
+      "branches": 3,
+      "records": 198,
+      "branchDetails": [
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "records": 66
+        },
+        {
+          "name": "FOOD TECHNOLOGY",
+          "records": 66
+        },
+        {
+          "name": "TEXTILE TECHNOLOGY _ TEXTILE ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "PALV - PALLAVI ENGINEERING COLLEGE (AUTONOMOUS), KUNTLOOR": {
+      "branches": 7,
+      "records": 450,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 36
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 45
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "PETW - PRINCETON INST OF ENGG TECH FOR WOMEN, GHATKESAR": {
+      "branches": 5,
+      "records": 361,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 69
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "PRIW - PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN, KHAMMAM": {
+      "branches": 4,
+      "records": 205,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 21
+        }
+      ]
+    },
+    "PUCE - UNIVERSITY COLLEGE OF ENGINEERING PALAMURU UNIVERSITY, MAHABUBNAGAR": {
+      "branches": 3,
+      "records": 191,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 63
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 62
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 66
+        }
+      ]
+    },
+    "RITW - RISHI MS INST OF ENGG AND TECH FOR WOMEN, KUKATPALLY": {
+      "branches": 3,
+      "records": 231,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 47
+        }
+      ]
+    },
+    "SAIS - SAI SPURTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), SATHUPALLY": {
+      "branches": 5,
+      "records": 183,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 55
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 28
+        }
+      ]
+    },
+    "SANA - SANA ENGINEERING COLLGE, KODAD": {
+      "branches": 6,
+      "records": 292,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 126
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 5
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 35
+        }
+      ]
+    },
+    "SBIT - SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), KHAMMAM": {
+      "branches": 5,
+      "records": 401,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 31
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        }
+      ]
+    },
+    "SCET - SHADAN COLL OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEERANCHERU": {
+      "branches": 10,
+      "records": 449,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 42
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 42
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 17
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 6
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "SCIT - SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH (AUTONOMOUS), KHAMMAM": {
+      "branches": 7,
+      "records": 343,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 90
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 136
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 32
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 13
+        }
+      ]
+    },
+    "SDES - SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 8,
+      "records": 846,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 26
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 69
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 43
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 15
+        }
+      ]
+    },
+    "SDEW - SRIDEVI WOMENS ENGINEERING COLLEGE (AUTONOMOUS), GANDIPET": {
+      "branches": 5,
+      "records": 854,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 69
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        }
+      ]
+    },
+    "SDGI - SREE DATTHA GRP OF INSTNS (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 5,
+      "records": 531,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        }
+      ]
+    },
+    "SIEI - SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 7,
+      "records": 717,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 26
+        }
+      ]
+    },
+    "SISG - SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS), GHATKESAR": {
+      "branches": 10,
+      "records": 740,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 186
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "SKEC - SREE KAVITHA ENGINEERING COLLEGE, KAREPALLY": {
+      "branches": 1,
+      "records": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 3
+        }
+      ]
+    },
+    "SMCD - ST MARYS ENGINEERING COLLEGE (AUTONOMOUS), DESHMUKHI": {
+      "branches": 3,
+      "records": 420,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        }
+      ]
+    },
+    "SMED - ST MARYS GROUP OF INSTITUTIONS AUTONOMOUS, DESHMUKHI": {
+      "branches": 3,
+      "records": 504,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 210
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        }
+      ]
+    },
+    "SMSK - SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "branches": 6,
+      "records": 600,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "SNIS - SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY, GHATKESAR": {
+      "branches": 9,
+      "records": 1524,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 254
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 439
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 323
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 185
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "SNTI - SCIENT INSTITUTE OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 5,
+      "records": 414,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 254
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "SPEC - ST PETERS ENGINEERING COLLEGE (AUTONOMOUS), MEDCHAL": {
+      "branches": 7,
+      "records": 855,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 277
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "SPHN - SPHOORTHY ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL": {
+      "branches": 6,
+      "records": 669,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 115
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "SRHP - SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE) , HASANPARTHY": {
+      "branches": 5,
+      "records": 548,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 91
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 87
+        }
+      ]
+    },
+    "SRIW - SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN (AUTONOMOUS), HASANPARTHY": {
+      "branches": 5,
+      "records": 554,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        }
+      ]
+    },
+    "SRYS - SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), NAGOLE": {
+      "branches": 4,
+      "records": 739,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 484
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 24
+        }
+      ]
+    },
+    "STLW - STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), ABIDS": {
+      "branches": 7,
+      "records": 693,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 70
+        },
+        {
+          "name": "COMPUTER ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        }
+      ]
+    },
+    "SUCE - UNIVERSITY COLLEGE OF ENGINEERING, HUSNABAD, SATAVAHANA UNIVERSITY, HUSNABAD": {
+      "branches": 4,
+      "records": 115,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "records": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 26
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 13
+        }
+      ]
+    },
+    "SVES - SRI VENKATESWARA ENGINEERING COLLEGE, SURYAPETA": {
+      "branches": 5,
+      "records": 137,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 10
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 35
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 72
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 7
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 13
+        }
+      ]
+    },
+    "SVIT - SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS), SECUNDERABAD": {
+      "branches": 6,
+      "records": 370,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 46
+        }
+      ]
+    },
+    "SVSE - SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS), HANAMKONDA": {
+      "branches": 5,
+      "records": 275,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 135
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 4
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 29
+        }
+      ]
+    },
+    "SWET - SHADAN WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), KHAIRTABAD": {
+      "branches": 6,
+      "records": 336,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 168
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 21
+        }
+      ]
+    },
+    "TCEK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEDDAPALLY": {
+      "branches": 5,
+      "records": 171,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 33
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 42
+        }
+      ]
+    },
+    "TCTK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY, KARIMNAGAR": {
+      "branches": 4,
+      "records": 77,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 31
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 30
+        }
+      ]
+    },
+    "TKEM - TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS), MIRPET": {
+      "branches": 6,
+      "records": 739,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 347
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 92
+        }
+      ]
+    },
+    "TKRC - T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MIRPET": {
+      "branches": 7,
+      "records": 970,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 208
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 161
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 93
+        }
+      ]
+    },
+    "TPCE - TALLA PADMAVATHI COLL OF ENGINEERING (AUTONOMOUS), KAZIPET": {
+      "branches": 3,
+      "records": 105,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 24
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 17
+        }
+      ]
+    },
+    "TRRM - TRR COLLEGE OF TECHNOLOGY, MEERPET": {
+      "branches": 2,
+      "records": 231,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 93
+        }
+      ]
+    },
+    "VAGE - VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS), WARANGAL": {
+      "branches": 7,
+      "records": 918,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 180
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 177
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 86
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 131
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 29
+        }
+      ]
+    },
+    "VASV - VASAVI COLLEGE OF ENGINEERING, HYDERABAD": {
+      "branches": 7,
+      "records": 601,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 47
+        }
+      ]
+    },
+    "VBIT - VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "branches": 10,
+      "records": 1016,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "VCET - VISWESWARAYA COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "branches": 8,
+      "records": 387,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 42
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 82
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 15
+        }
+      ]
+    },
+    "VGNT - VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), DESHMUKHI": {
+      "branches": 11,
+      "records": 901,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 47
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "records": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 186
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "VGSE - VAAGESHWARI COLL OF ENGINEERING (AUTONOMOUS), KARIMNAGAR": {
+      "branches": 6,
+      "records": 494,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 136
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 221
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 12
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 70
+        }
+      ]
+    },
+    "VGWL - VAGDEVI ENGINEERING COLLEGE (AUTONOMOUS), WARANGAL": {
+      "branches": 4,
+      "records": 456,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 87
+        }
+      ]
+    },
+    "VISA - VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY, BHONGIR": {
+      "branches": 6,
+      "records": 135,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 22
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 21
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 1
+        }
+      ]
+    },
+    "VITS - SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI, MAHABUBNAGAR": {
+      "branches": 3,
+      "records": 39,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 27
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "VJEC - V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH, BACHUPALLY": {
+      "branches": 17,
+      "records": 1548,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 46
+        },
+        {
+          "name": "AUTOMOBILE ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "BIO-TECHNOLOGY",
+          "records": 23
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "records": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "records": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "records": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 93
+        },
+        {
+          "name": "ROBOTICS AND ARTIFICIAL INTELLIGENCE",
+          "records": 47
+        }
+      ]
+    },
+    "VJIT - VIDYAJYOTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "branches": 8,
+      "records": 832,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 184
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "VJYA - VIJAYA ENGINEERING COLLEGE, KHAMMAM": {
+      "branches": 5,
+      "records": 89,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 29
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 6
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 40
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 13
+        }
+      ]
+    },
+    "VMEG - VARDHAMAN COLLEGE OF ENGINEERING (AUTONOMOUS), SHAMSHABAD": {
+      "branches": 8,
+      "records": 1063,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 23
+        }
+      ]
+    },
+    "VMRH - VMR PRADEEP KUMAR INST OF ENGG & TECH, HANUMAKONDA": {
+      "branches": 2,
+      "records": 25,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 7
+        }
+      ]
+    },
+    "VMTW - VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN (AUTONOMOUS), GHATKESAR": {
+      "branches": 5,
+      "records": 646,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 277
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "records": 46
+        }
+      ]
+    },
+    "VREC - VIJAYA RURAL ENGINEERING COLLEGE, NIZAMABAD": {
+      "branches": 6,
+      "records": 107,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 7
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 37
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 44
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 6
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 9
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "records": 4
+        }
+      ]
+    },
+    "VRKW - DR VRK WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "branches": 6,
+      "records": 144,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "records": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "records": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "records": 2
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 16
+        }
+      ]
+    },
+    "WESL - CSI WESLEY INST OF TECHNOLOGY AND SCIENCES, SECUNDERABAD": {
+      "branches": 1,
+      "records": 84,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 84
+        }
+      ]
+    },
+    "WITS - WARANGAL INST OF TECHNOLOGY SCIENCE, WARANGAL": {
+      "branches": 3,
+      "records": 64,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "records": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "records": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "records": 13
+        }
+      ]
+    }
+  }
+}

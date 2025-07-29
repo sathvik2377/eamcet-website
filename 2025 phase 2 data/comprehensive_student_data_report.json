@@ -1,0 +1,5941 @@
+{
+  "reportGenerated": "2025-07-29T15:09:57.027Z",
+  "summary": {
+    "totalColleges": 183,
+    "totalBranches": 1069,
+    "totalStudents": 84563,
+    "averageStudentsPerCollege": 462,
+    "averageStudentsPerBranch": 79
+  },
+  "demographics": {
+    "gender": {
+      "Male": 45895,
+      "Female": 38668,
+      "Other": 0
+    },
+    "caste": {
+      "SC_III": 5650,
+      "BC_D": 15461,
+      "BC_B": 18007,
+      "SC_II": 8668,
+      "BC_A": 6034,
+      "BC_E": 5760,
+      "ST": 8601,
+      "OC": 15620,
+      "SC_I": 403,
+      "BC_C": 359
+    },
+    "region": {
+      "OU": 84189,
+      "NL": 374
+    },
+    "seatCategory": {
+      "SC_III_GEN_OU": 2240,
+      "BC_A_GEN_OU": 3230,
+      "BC_B_GEN_OU": 7323,
+      "SC_I_GEN_OU": 358,
+      "BC_B_GIRLS_OU": 4880,
+      "SC_II_GIRLS_OU": 2501,
+      "BC_E_GIRLS_OU": 1089,
+      "ST_GEN_OU": 3988,
+      "SC_II_GEN_OU": 3686,
+      "OC_GIRLS_OU": 3717,
+      "OC_GEN_OU": 4878,
+      "EWS_GIRLS_OU": 2227,
+      "EWS_GIRLS_UR": 440,
+      "SC_III_GIRLS_OU": 1545,
+      "BC_D_GEN_OU": 5737,
+      "BC_D_GIRLS_UR": 562,
+      "EWS_GEN_OU": 3293,
+      "ST_GIRLS_OU": 2649,
+      "BC_A_GIRLS_OU": 2175,
+      "BC_B_GEN_UR": 1168,
+      "ST_GEN_UR": 709,
+      "OC_PHA_GIRLS_OU": 155,
+      "OC_CAP_GEN_UR(4)": 112,
+      "ST_PHM_GIRLS_OU": 25,
+      "BC_D_GIRLS_OU": 3839,
+      "BC_D_GEN_UR": 888,
+      "BC_A_PHM_GEN_OU": 33,
+      "OC_PHO_GEN_OU": 224,
+      "SC_II_GEN_UR": 636,
+      "BC_E_GEN_UR": 335,
+      "BC_E_GEN_OU": 1830,
+      "SC_II_GIRLS_UR": 439,
+      "BC_D_PHH_GIRLS_OU": 23,
+      "OC_GEN_UR": 1003,
+      "OC_SG_GIRLS_OU(0)": 53,
+      "EWS_GEN_UR": 577,
+      "OC_NCC_GEN_OU(57)": 124,
+      "BC_A_PHV_GIRLS_OU": 16,
+      "SC_III_GIRLS_UR": 260,
+      "BC_C_GEN_OU": 408,
+      "BC_D_CAP_GEN_UR(0)": 49,
+      "BC_B_GIRLS_UR": 801,
+      "OC_PHH_GEN_OU": 230,
+      "OC_GIRLS_UR": 723,
+      "BC_E_NCC_GEN_OU(0)": 16,
+      "SC_II_CAP_GEN_UR(0)": 68,
+      "ST_PHA_GEN_OU": 42,
+      "OC_PHO_GIRLS_OU": 138,
+      "SC_II_SG_GEN_OU(0)": 19,
+      "BC_B_PHV_GIRLS_OU": 30,
+      "BC_A_GEN_UR": 575,
+      "BC_B_PHM_GEN_OU": 44,
+      "OC_PHV_GEN_OU": 220,
+      "BC_E_GIRLS_UR": 203,
+      "OC_CAP_GEN_UR(0)": 287,
+      "BC_D_CAP_GIRLS_UR(0)": 39,
+      "BC_A_CAP_GIRLS_UR(0)": 32,
+      "BC_B_PHA_GEN_OU": 51,
+      "BC_C_GIRLS_OU": 270,
+      "SC_I_GIRLS_OU": 248,
+      "SC_III_GEN_UR": 402,
+      "ST_CAP_GEN_UR(0)": 91,
+      "SC_I_GEN_UR": 59,
+      "BC_A_PHO_GEN_OU": 31,
+      "BC_A_GIRLS_UR": 380,
+      "OC_PHH_GIRLS_OU": 129,
+      "OC_CAP_GIRLS_UR(4)": 91,
+      "ST_GIRLS_UR": 456,
+      "OC_PHM_GEN_OU": 198,
+      "BC_B_CAP_GEN_UR(0)": 75,
+      "OC_PHA_GEN_OU": 193,
+      "BC_D_PHV_GEN_OU": 35,
+      "BC_B_PHM_GIRLS_OU": 28,
+      "BC_C_GEN_UR": 71,
+      "SC_II_PHH_GEN_OU": 35,
+      "SC_III_PHM_GEN_OU": 28,
+      "SC_II_CAP_GIRLS_UR(0)": 51,
+      "SC_II_PHA_GEN_OU": 41,
+      "ST_NCC_GIRLS_OU(57)": 18,
+      "ST_PHH_GEN_OU": 39,
+      "OC_NCC_GIRLS_OU(57)": 93,
+      "SC_III_PHV_GIRLS_OU": 19,
+      "BC_E_CAP_GIRLS_UR(0)": 16,
+      "BC_C_SG_GEN_OU(0)": 7,
+      "SC_II_NCC_GEN_OU(57)": 22,
+      "OC_CAP_GIRLS_UR(0)": 212,
+      "SC_I_PHH_GEN_OU": 7,
+      "SC_III_CAP_GEN_UR(0)": 39,
+      "ST_PHH_GIRLS_OU": 24,
+      "BC_B_PHO_GIRLS_OU": 21,
+      "OC_NCC_GEN_OU(0)": 54,
+      "BC_A_PHH_GEN_OU": 29,
+      "BC_D_NCC_GEN_OU(0)": 8,
+      "ST_PHV_GEN_OU": 44,
+      "SC_II_PHM_GIRLS_OU": 25,
+      "SC_I_GIRLS_UR": 42,
+      "BC_E_PHM_GEN_OU": 23,
+      "SC_III_CAP_GIRLS_UR(0)": 28,
+      "ST_PHV_GIRLS_OU": 32,
+      "MUS_GEN_UR": 613,
+      "SC_III_SG_GEN_OU(0)": 16,
+      "SC_II_PHM_GEN_OU": 43,
+      "BC_C_GIRLS_UR": 47,
+      "BC_B_PHO_GEN_OU": 48,
+      "ST_NCC_GEN_OU(0)": 18,
+      "BC_A_PHV_GEN_OU": 33,
+      "BC_E_PHA_GIRLS_OU": 6,
+      "BC_B_SG_GEN_OU(0)": 15,
+      "SC_II_NCC_GEN_OU(0)": 15,
+      "BC_E_CAP_GEN_UR(0)": 32,
+      "BC_A_PHH_GIRLS_OU": 24,
+      "SC_II_PHV_GIRLS_OU": 23,
+      "BC_B_NCC_GEN_OU(0)": 9,
+      "OC_PHM_GIRLS_OU": 129,
+      "BC_D_SG_GEN_OU(0)": 7,
+      "SC_III_PHH_GEN_OU": 17,
+      "BC_A_NCC_GEN_OU(0)": 14,
+      "OC_PHV_GIRLS_OU": 116,
+      "BC_B_PHH_GEN_OU": 31,
+      "BC_D_NCC_GIRLS_OU(0)": 7,
+      "OC_SG_GEN_OU(0)": 67,
+      "BC_D_PHM_GEN_OU": 31,
+      "BC_A_CAP_GEN_UR(0)": 51,
+      "SC_I_CAP_GIRLS_UR(0)": 4,
+      "BC_C_CAP_GIRLS_UR(0)": 6,
+      "BC_E_PHH_GEN_OU": 16,
+      "SC_II_CAP_GEN_UR(4)": 6,
+      "SC_II_PHH_GIRLS_OU": 19,
+      "OC_NCC_GEN_OU(56)": 46,
+      "ST_PHO_GEN_OU": 35,
+      "BC_A_CAP_GEN_UR(4)": 10,
+      "OC_SG_GEN_OU(128)": 6,
+      "ST_NCC_GEN_OU(57)": 17,
+      "BC_D_NCC_GEN_OU(57)": 15,
+      "BC_B_PHH_GIRLS_OU": 16,
+      "BC_D_NCC_GIRLS_OU(57)": 15,
+      "BC_E_PHO_GIRLS_OU": 16,
+      "OC_SG_GIRLS_OU(171)": 2,
+      "SC_II_PHV_GEN_OU": 27,
+      "SC_III_PHH_GIRLS_OU": 13,
+      "BC_D_PHO_GEN_OU": 22,
+      "ST_CAP_GIRLS_UR(0)": 61,
+      "BC_C_PHA_GEN_OU": 4,
+      "SC_I_PHO_GEN_OU": 6,
+      "BC_E_SG_GEN_OU(0)": 6,
+      "BC_A_PHO_GIRLS_OU": 15,
+      "ST_PHM_GEN_OU": 42,
+      "BC_B_PHV_GEN_OU": 39,
+      "SC_II_PHA_GIRLS_OU": 28,
+      "BC_A_SG_GIRLS_OU(0)": 9,
+      "BC_E_PHV_GEN_OU": 20,
+      "BC_D_PHM_GIRLS_OU": 13,
+      "SC_III_PHO_GEN_OU": 19,
+      "OC_NCC_GIRLS_OU(0)": 34,
+      "SC_II_PHO_GIRLS_OU": 30,
+      "BC_B_PHA_GIRLS_OU": 31,
+      "BC_A_SG_GEN_OU(0)": 12,
+      "BC_A_PHA_GEN_OU": 24,
+      "BC_B_CAP_GIRLS_UR(0)": 58,
+      "ST_PHO_GIRLS_OU": 24,
+      "SC_II_PHO_GEN_OU": 41,
+      "BC_E_PHH_GIRLS_OU": 14,
+      "BC_A_PHA_GIRLS_OU": 27,
+      "ST_SG_GEN_OU(0)": 13,
+      "BC_D_PHA_GEN_OU": 24,
+      "ST_PHA_GIRLS_OU": 26,
+      "MUS_GEN_OU": 3278,
+      "BC_B_NCC_GIRLS_OU(0)": 2,
+      "BC_E_PHM_GIRLS_OU": 12,
+      "SC_I_PHM_GEN_OU": 4,
+      "BC_C_NCC_GEN_OU(0)": 2,
+      "SC_III_PHA_GIRLS_OU": 12,
+      "BC_D_PHH_GEN_OU": 39,
+      "SC_III_NCC_GEN_OU(0)": 3,
+      "BC_C_PHA_GIRLS_OU": 2,
+      "SC_I_NCC_GIRLS_OU(0)": 5,
+      "SC_III_NCC_GIRLS_OU(0)": 4,
+      "ST_SG_GIRLS_OU(0)": 17,
+      "BC_E_NCC_GIRLS_OU(0)": 7,
+      "BC_B_NCC_GIRLS_OU(57)": 21,
+      "BC_D_PHO_GIRLS_OU": 16,
+      "SC_II_NCC_GIRLS_OU(0)": 13,
+      "BC_E_PHV_GIRLS_OU": 17,
+      "BC_D_PHV_GIRLS_OU": 14,
+      "SC_III_PHO_GIRLS_OU": 15,
+      "BC_E_SG_GIRLS_OU(0)": 3,
+      "SC_III_PHV_GEN_OU": 18,
+      "OC_SG_GEN_OU(127)": 17,
+      "SC_II_NCC_GIRLS_OU(57)": 8,
+      "BC_D_CAP_GEN_UR(4)": 19,
+      "BC_E_PHA_GEN_OU": 13,
+      "OC_NCC_GIRLS_OU(56)": 20,
+      "BC_A_SG_GEN_OU(128)": 1,
+      "BC_B_CAP_GIRLS_UR(4)": 13,
+      "BC_B_CAP_GEN_UR(4)": 13,
+      "BC_E_PHO_GEN_OU": 7,
+      "BC_D_NCC_GIRLS_OU(56)": 3,
+      "SC_III_PHM_GIRLS_OU": 10,
+      "OC_SG_GIRLS_OU(127)": 12,
+      "BC_A_NCC_GIRLS_OU(57)": 7,
+      "OC_SG_GIRLS_OU(128)": 6,
+      "SC_II_NCC_GEN_OU(56)": 3,
+      "SC_III_SG_GIRLS_OU(127)": 1,
+      "BC_B_SG_GEN_OU(140)": 1,
+      "BC_D_PHA_GIRLS_OU": 20,
+      "BC_C_CAP_GIRLS_UR(4)": 2,
+      "SC_I_PHH_GIRLS_OU": 8,
+      "BC_A_NCC_GEN_OU(56)": 3,
+      "BC_D_SG_GEN_OU(127)": 1,
+      "BC_E_CAP_GIRLS_UR(4)": 1,
+      "SC_III_CAP_GEN_UR(4)": 7,
+      "BC_A_SG_GEN_OU(112)": 1,
+      "BC_E_NCC_GEN_OU(56)": 1,
+      "BC_B_SG_GIRLS_OU(0)": 7,
+      "BC_C_CAP_GEN_UR(0)": 6,
+      "ST_NCC_GIRLS_OU(0)": 12,
+      "CHR_GEN_OU": 935,
+      "CHR_GEN_UR": 184,
+      "BC_E_NCC_GEN_OU(57)": 4,
+      "BC_A_PHM_GIRLS_OU": 23,
+      "BC_C_PHH_GEN_OU": 2,
+      "ST_SG_GEN_OU(180)": 1,
+      "SC_III_CAP_GIRLS_UR(4)": 4,
+      "BC_D_CAP_GIRLS_UR(4)": 8,
+      "BC_B_SG_GEN_OU(171)": 1,
+      "BC_A_NCC_GEN_OU(57)": 7,
+      "BC_C_PHM_GIRLS_OU": 3,
+      "BC_B_NCC_GEN_OU(57)": 20,
+      "SC_III_PHA_GEN_OU": 15,
+      "OC_SG_GEN_OU(174)": 1,
+      "SC_I_PHA_GIRLS_OU": 2,
+      "BC_E_CAP_GEN_UR(4)": 2,
+      "BC_B_NCC_GEN_OU(56)": 6,
+      "SC_II_CAP_GIRLS_UR(4)": 4,
+      "ST_SG_GIRLS_OU(123)": 1,
+      "OC_SG_GEN_OU(171)": 1,
+      "BC_D_SG_GIRLS_OU(0)": 5,
+      "SC_III_NCC_GIRLS_OU(57)": 6,
+      "SC_I_NCC_GEN_OU(0)": 5,
+      "BC_C_PHO_GEN_OU": 6,
+      "BC_C_PHO_GIRLS_OU": 7,
+      "SC_II_SG_GIRLS_OU(182)": 1,
+      "SC_I_PHA_GEN_OU": 4,
+      "BC_B_NCC_GIRLS_OU(56)": 4,
+      "SC_I_PHV_GIRLS_OU": 2,
+      "BC_B_SG_GIRLS_OU(127)": 2,
+      "BC_E_SG_GIRLS_OU(127)": 1,
+      "BC_A_CAP_GIRLS_UR(4)": 3,
+      "SC_I_PHV_GEN_OU": 4,
+      "ST_CAP_GIRLS_UR(4)": 3,
+      "BC_A_NCC_GIRLS_OU(56)": 1,
+      "BC_B_SG_GEN_OU(127)": 2,
+      "OC_SG_GIRLS_OU(175)": 1,
+      "BC_C_PHM_GEN_OU": 7,
+      "SC_II_SG_GIRLS_OU(0)": 6,
+      "BC_A_NCC_GIRLS_OU(0)": 11,
+      "BC_E_NCC_GIRLS_OU(57)": 4,
+      "SC_III_NCC_GEN_OU(57)": 10,
+      "SC_II_SG_GEN_OU(172)": 1,
+      "SC_II_SG_GEN_OU(127)": 1,
+      "BC_C_PHH_GIRLS_OU": 2,
+      "OC_SG_GEN_OU(122)": 2,
+      "ST_CAP_GEN_UR(4)": 3,
+      "OC_SG_GEN_OU(15)": 1,
+      "BC_C_CAP_GEN_UR(4)": 1,
+      "BC_D_NCC_GEN_OU(20)": 1,
+      "OC_SG_GEN_OU(152)": 1,
+      "SC_I_PHO_GIRLS_OU": 2,
+      "OC_SG_GIRLS_OU(125)": 1,
+      "OC_SG_GEN_OU(172)": 1,
+      "BC_A_SG_GEN_OU(172)": 1,
+      "SC_III_NCC_GEN_OU(56)": 2,
+      "BC_B_SG_GIRLS_OU(128)": 1,
+      "SC_III_SG_GIRLS_OU(0)": 3,
+      "OC_SG_GIRLS_OU(174)": 2,
+      "OC_SG_GEN_OU(170)": 1,
+      "OC_SG_GEN_OU(176)": 2,
+      "OC_SG_GIRLS_OU(182)": 1,
+      "OC_SG_GEN_OU(111)": 2,
+      "BC_C_PHV_GIRLS_OU": 2,
+      "SC_II_SG_GIRLS_OU(127)": 1,
+      "OC_SG_GIRLS_OU(146)": 1,
+      "SC_II_SG_GIRLS_OU(176)": 2,
+      "SC_II_SG_GEN_OU(152)": 1,
+      "OC_SG_GIRLS_OU(143)": 1,
+      "BC_C_PHV_GEN_OU": 1,
+      "SC_I_CAP_GEN_UR(0)": 5,
+      "BC_D_SG_GEN_OU(112)": 1,
+      "ST_SG_GEN_OU(128)": 1,
+      "ST_NCC_GEN_OU(56)": 2,
+      "MUS_GIRLS_OU": 410,
+      "MUS_GIRLS_UR": 70,
+      "OC_SG_GEN_OU(180)": 1,
+      "SC_II_SG_GEN_OU(128)": 1,
+      "SC_III_NCC_GIRLS_OU(56)": 1,
+      "BC_C_SG_GIRLS_OU(0)": 1,
+      "SC_III_SG_GEN_OU(127)": 1,
+      "OC_SG_GIRLS_OU(112)": 1,
+      "OC_SG_GEN_OU(112)": 1,
+      "BC_B_SG_GEN_OU(128)": 1
+    }
+  },
+  "branchStatistics": {
+    "CIVIL ENGINEERING": {
+      "colleges": 95,
+      "students": 2846
+    },
+    "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)": {
+      "colleges": 132,
+      "students": 14602
+    },
+    "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)": {
+      "colleges": 100,
+      "students": 7826
+    },
+    "COMPUTER SCIENCE AND ENGINEERING (IOT)": {
+      "colleges": 8,
+      "students": 345
+    },
+    "COMPUTER SCIENCE AND ENGINEERING": {
+      "colleges": 171,
+      "students": 29442
+    },
+    "ELECTRICAL AND ELECTRONICS ENGINEERING": {
+      "colleges": 111,
+      "students": 3658
+    },
+    "ELECTRONICS AND COMMUNICATION ENGINEERING": {
+      "colleges": 148,
+      "students": 10859
+    },
+    "INFORMATION TECHNOLOGY": {
+      "colleges": 50,
+      "students": 3877
+    },
+    "MECHANICAL ENGINEERING": {
+      "colleges": 84,
+      "students": 2361
+    },
+    "CIVIL_ENGINEERING": {
+      "colleges": 2,
+      "students": 77
+    },
+    "COMPUTER_SCIENCE_AND_ENGINEERING": {
+      "colleges": 3,
+      "students": 464
+    },
+    "COMPUTER_SCIENCE_AND_ENGINEERING_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING": {
+      "colleges": 2,
+      "students": 185
+    },
+    "COMPUTER_SCIENCE_AND_ENGINEERING_DATA_SCIENCE": {
+      "colleges": 2,
+      "students": 184
+    },
+    "COMPUTER_SCIENCE_AND_ENGINEERING_IOT": {
+      "colleges": 1,
+      "students": 46
+    },
+    "ELECTRICAL_AND_ELECTRONICS_ENGINEERING": {
+      "colleges": 2,
+      "students": 46
+    },
+    "ELECTRONICS_AND_COMMUNICATION_ENGINEERING": {
+      "colleges": 2,
+      "students": 138
+    },
+    "INFORMATION_TECHNOLOGY": {
+      "colleges": 1,
+      "students": 46
+    },
+    "MECHANICAL_ENGINEERING": {
+      "colleges": 2,
+      "students": 39
+    },
+    "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING": {
+      "colleges": 20,
+      "students": 1148
+    },
+    "MINING ENGINEERING": {
+      "colleges": 6,
+      "students": 207
+    },
+    "ARTIFICIAL INTELLIGENCE": {
+      "colleges": 1,
+      "students": 46
+    },
+    "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)": {
+      "colleges": 29,
+      "students": 1825
+    },
+    "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE": {
+      "colleges": 24,
+      "students": 1369
+    },
+    "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)": {
+      "colleges": 3,
+      "students": 115
+    },
+    "COMPUTER SCIENCE AND BUSINESS SYSTEM": {
+      "colleges": 7,
+      "students": 323
+    },
+    "BIO-MEDICAL ENGINEERING": {
+      "colleges": 2,
+      "students": 65
+    },
+    "CHEMICAL ENGINEERING": {
+      "colleges": 4,
+      "students": 191
+    },
+    "PHARMACEUTICAL ENGINEERING": {
+      "colleges": 1,
+      "students": 23
+    },
+    "AGRICULTURAL ENGINEERING": {
+      "colleges": 1,
+      "students": 31
+    },
+    "BIO-TECHNOLOGY": {
+      "colleges": 4,
+      "students": 103
+    },
+    "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)": {
+      "colleges": 4,
+      "students": 151
+    },
+    "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)": {
+      "colleges": 4,
+      "students": 185
+    },
+    "DAIRYING": {
+      "colleges": 1,
+      "students": 31
+    },
+    "FOOD TECHNOLOGY": {
+      "colleges": 2,
+      "students": 80
+    },
+    "COMPUTER SCIENCE & DESIGN": {
+      "colleges": 2,
+      "students": 40
+    },
+    "ELECTRONICS AND INSTRUMENTATION ENGINEERING": {
+      "colleges": 3,
+      "students": 162
+    },
+    "COMPUTER ENGINEERING": {
+      "colleges": 2,
+      "students": 88
+    },
+    "ELECTRONICS AND TELECOMMUNICATION ENGG": {
+      "colleges": 1,
+      "students": 5
+    },
+    "ELECTRONICS AND TELEMATICS": {
+      "colleges": 1,
+      "students": 46
+    },
+    "AERONAUTICAL ENGINEERING": {
+      "colleges": 4,
+      "students": 186
+    },
+    "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY": {
+      "colleges": 8,
+      "students": 270
+    },
+    "ELECTRONICS AND COMPUTER ENGINEERING": {
+      "colleges": 1,
+      "students": 46
+    },
+    "B.PLANNING": {
+      "colleges": 1,
+      "students": 18
+    },
+    "BUILDING SERVICES ENGG": {
+      "colleges": 1,
+      "students": 8
+    },
+    "DIGITAL TECHNIQUES FOR DESIGN AND PLANNING": {
+      "colleges": 1,
+      "students": 56
+    },
+    "GEO INFORMATICS": {
+      "colleges": 1,
+      "students": 33
+    },
+    "METALLURGICAL ENGINEERING": {
+      "colleges": 1,
+      "students": 66
+    },
+    "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS": {
+      "colleges": 1,
+      "students": 33
+    },
+    "BTECH MECHANICAL WITH MTECH THERMAL ENGG": {
+      "colleges": 1,
+      "students": 33
+    },
+    "TEXTILE TECHNOLOGY _ TEXTILE ENGINEERING": {
+      "colleges": 2,
+      "students": 69
+    },
+    "COMPUTER SCIENCE & ENGINEERING (NETWORKS)": {
+      "colleges": 1,
+      "students": 46
+    },
+    "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING": {
+      "colleges": 1,
+      "students": 46
+    },
+    "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)": {
+      "colleges": 3,
+      "students": 193
+    },
+    "MECHANICAL (MECHTRONICS) ENGINEERING": {
+      "colleges": 1,
+      "students": 46
+    },
+    "METALLURGY AND MATERIAL ENGINEERING": {
+      "colleges": 1,
+      "students": 46
+    },
+    "AUTOMOBILE ENGINEERING": {
+      "colleges": 1,
+      "students": 46
+    },
+    "ROBOTICS AND ARTIFICIAL INTELLIGENCE": {
+      "colleges": 1,
+      "students": 47
+    }
+  },
+  "collegeStatistics": {
+    "ACEG - A C E ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR": {
+      "students": 924,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 370
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 24
+        }
+      ]
+    },
+    "ACEG_A_C_E_ENGINEERING_COLLEGE_AUTONOMOUS_GHATKESAR": {
+      "students": 924,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "CIVIL_ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "students": 370
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_DATA_SCIENCE",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_IOT",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS_AND_COMMUNICATION_ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION_TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL_ENGINEERING",
+          "students": 24
+        }
+      ]
+    },
+    "AITH - ANNAMACHARYA INST OF TECHNOLOGY AND SCI (AUTONOMOUS), HAYATHNAGAR": {
+      "students": 300,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 31
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 15
+        }
+      ]
+    },
+    "AITH_ANNAMACHARYA_INST_OF_TECHNOLOGY_AND_SCI_AUTONOMOUS_HAYATHNAGAR": {
+      "students": 300,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL_ENGINEERING",
+          "students": 31
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING_DATA_SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS_AND_COMMUNICATION_ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL_ENGINEERING",
+          "students": 15
+        }
+      ]
+    },
+    "AIZA - AIZZA COLLEGE OF ENGG AND TECHNOLOGY, MANCHERIAL": {
+      "students": 1,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "AIZA_AIZZA_COLLEGE_OF_ENGG_AND_TECHNOLOGY_MANCHERIAL": {
+      "students": 1,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER_SCIENCE_AND_ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "AKIT - ABDULKALAM INST OF TECHNOLOGY AND SCI, KOTHAGUDEM": {
+      "students": 303,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 44
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 19
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 22
+        }
+      ]
+    },
+    "ANRK - ANURAG ENGINEERING COLLEGE (AUTONOMOUS), KODAD": {
+      "students": 387,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 13
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 10
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 87
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        }
+      ]
+    },
+    "ANUG - ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG), GHATKESAR": {
+      "students": 832,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 184
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 186
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "ARJN - ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), BATASINGARAM": {
+      "students": 139,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "ASRA - AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY, HAYATHNAGAR": {
+      "students": 219,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 5
+        }
+      ]
+    },
+    "AURC - AURORA SCIENTIFIC AND TECH RESEARCH ACADEMY, HYDERABAD": {
+      "students": 52,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 6
+        }
+      ]
+    },
+    "AURG - AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE, GHATKESAR": {
+      "students": 410,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 41
+        }
+      ]
+    },
+    "AURH - RAMAPPA ENGINEERING COLLEGE, SHAYAMPET": {
+      "students": 13,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 13
+        }
+      ]
+    },
+    "AURK - AURORA S TECHNOLOGICAL AND MANAGEMENT ACADEMY, PARVATHAPUR": {
+      "students": 46,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        }
+      ]
+    },
+    "AVIH - AVANTHI INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR": {
+      "students": 608,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 44
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 14
+        }
+      ]
+    },
+    "AVNI - AVN INST OF ENGG &TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM": {
+      "students": 692,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 184
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "AZAD - AZAD COLLEGE OF ENGINEERING AND TECHNOLOGY, MOINABAD": {
+      "students": 58,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 38
+        }
+      ]
+    },
+    "BIET - BHARAT INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM": {
+      "students": 807,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 278
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 22
+        }
+      ]
+    },
+    "BITN - BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), NARSAMPET": {
+      "students": 595,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 174
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 86
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 173
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 20
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 109
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "BOMA - BOMMA INST OF TECHNOLOGY AND SCI, KHAMMAM": {
+      "students": 118,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 41
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 53
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 5
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 16
+        }
+      ]
+    },
+    "BOSE - ANU BOSE INSTT OF TECHNOLOGY FOR WOMENS (AUTONOMOUS), PALONCHA": {
+      "students": 394,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 30
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 86
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 85
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 70
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 84
+        }
+      ]
+    },
+    "BREW - BHOJREDDY ENGINEERING COLLEGE FOR WOMEN, SAIDABAD": {
+      "students": 370,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        }
+      ]
+    },
+    "BRIG - BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS (AUTONOMOUS), HAYATHNAGAR": {
+      "students": 422,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 10
+        }
+      ]
+    },
+    "BRIL - BRILLIANT INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR": {
+      "students": 489,
+      "branches": 10,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 9
+        }
+      ]
+    },
+    "BSKR - BHASKAR ENGINEERING COLLEGE, YENKAPALLY": {
+      "students": 231,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 24
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 23
+        }
+      ]
+    },
+    "BVRI - B V RAJU INSTITUTE OF TECHNOLOGY, NARSAPUR": {
+      "students": 1210,
+      "branches": 12,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 92
+        },
+        {
+          "name": "BIO-MEDICAL ENGINEERING",
+          "students": 32
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 184
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "PHARMACEUTICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "BVRW - BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS), BACHUPALLY": {
+      "students": 508,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "CASR - COLLEGE OF AGRICULTURAL ENGG, SANGAREDDY": {
+      "students": 31,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "AGRICULTURAL ENGINEERING",
+          "students": 31
+        }
+      ]
+    },
+    "CBIT - CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, GANDIPET": {
+      "students": 1155,
+      "branches": 12,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 92
+        },
+        {
+          "name": "BIO-TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "students": 47
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "students": 47
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 93
+        }
+      ]
+    },
+    "CDTK - COLLEGE OF DAIRY TECHNOLOGY, KAMAREDDY": {
+      "students": 31,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "DAIRYING",
+          "students": 31
+        }
+      ]
+    },
+    "CFSR - COLLEGE OF FOOD SCIENCE AND TECHNOLOGY, RUDRUR": {
+      "students": 14,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "FOOD TECHNOLOGY",
+          "students": 14
+        }
+      ]
+    },
+    "CHET - SRI CHAITANYA TECHNICAL CAMPUS, IBRAHIMPATAN": {
+      "students": 254,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "CHTN - SREE CHAITANYA COLLEGE OF ENGINEERING, KARIMNAGAR": {
+      "students": 312,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "COMPUTER SCIENCE & DESIGN",
+          "students": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 151
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 14
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 84
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 13
+        }
+      ]
+    },
+    "CHTS - SREE CHAITANYA INST OF TECHNOLOGY SCIENCES, KARIMNAGAR": {
+      "students": 254,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 87
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 100
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 44
+        }
+      ]
+    },
+    "CJIT - CHRISTU JYOTHI INSTITUTE OF TECHNOLOGY AND SCI, JANGAON": {
+      "students": 111,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 20
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 82
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 7
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "CMRG - CMR TECHNICAL CAMPUS (AUTONOMOUS), KANDLAKOYA": {
+      "students": 739,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "CMRK - C M R COLLEGE OF ENGG AND TECHNOLOGY , KANDLAKOYA": {
+      "students": 901,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 278
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "CMRM - CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS), KANDLAKOYA": {
+      "students": 785,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "CMRN - CMR ENGG COLLEGE (AUTONOMOUS), KANDLAKOYA": {
+      "students": 693,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        }
+      ]
+    },
+    "CVRH - CVR COLLEGE OF ENGINEERING, IBRAHIMPATAN": {
+      "students": 1478,
+      "branches": 12,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 186
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 508
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "DARE - DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH, KHAMMAM": {
+      "students": 22,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 16
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 6
+        }
+      ]
+    },
+    "DCET - DECCAN COLLEGE OF ENGINEERING AND TECHNOLOGY, DARUSSALAM": {
+      "students": 411,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 41
+        },
+        {
+          "name": "COMPUTER ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 210
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "ELECTRONICS AND TELECOMMUNICATION ENGG",
+          "students": 5
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 42
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 32
+        }
+      ]
+    },
+    "DRKI - D R K INSTITUTE OF SCI AND TECHNOLOGY, BOWRAMPET": {
+      "students": 598,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 20
+        }
+      ]
+    },
+    "ELEN - ELLENKI COLLGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PATANCHERU": {
+      "students": 603,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 12
+        }
+      ]
+    },
+    "ESUT - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM), KOTHAGUDEM": {
+      "students": 111,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 44
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 27
+        }
+      ]
+    },
+    "ESUTSF - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM)- SELF FINANCE, KOTHAGUDEM": {
+      "students": 44,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 14
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 5
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 1
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 24
+        }
+      ]
+    },
+    "GATE - GATE INSTITUTE OF TECHNOLOGYAND SCIENCES, KODAD": {
+      "students": 81,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 11
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 2
+        },
+        {
+          "name": "COMPUTER SCIENCE & DESIGN",
+          "students": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 58
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 5
+        }
+      ]
+    },
+    "GCTC - GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), KEESARA": {
+      "students": 1108,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "GKEM - G K INSTITUTE OF ENGG AND TECH, MAHABUBNAGAR": {
+      "students": 3,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 2
+        }
+      ]
+    },
+    "GLOB - GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), CHILKUR": {
+      "students": 449,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 208
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 11
+        }
+      ]
+    },
+    "GLWC - GOKARAJU LAILAVATHI ENGINEERING COLLEGE, BACHUPALLY": {
+      "students": 370,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        }
+      ]
+    },
+    "GNIT - GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 739,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "GNTW - G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI, SHAIKPET": {
+      "students": 785,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRONICS AND TELEMATICS",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 93
+        }
+      ]
+    },
+    "GRRR - GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH (AUTONOMOUS), BACHUPALLY": {
+      "students": 1016,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 162
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 462
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "GURU - GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 1202,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 232
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "HITM - HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS), MEDCHAL": {
+      "students": 646,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 69
+        }
+      ]
+    },
+    "HOLY - HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS), KEESARA": {
+      "students": 730,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 69
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 16
+        }
+      ]
+    },
+    "IARE - INSTITUTE OF AERONAUTICAL ENGINEERING, DUNDIGAL": {
+      "students": 855,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "IITT - INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY, SIDDIPET": {
+      "students": 152,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 89
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 2
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 14
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "INDI - SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 693,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 24
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "INDU - SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 1155,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 300
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "ISLC - ISL ENGINEERING COLLEGE (AUTONOMOUS), BANDLAGUDA": {
+      "students": 329,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 84
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 41
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 3
+        }
+      ]
+    },
+    "JAYA - JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS (AUTONOMOUS), NARSAMPET": {
+      "students": 170,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 31
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 4
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 16
+        }
+      ]
+    },
+    "JBIT - J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), YENKAPALLY": {
+      "students": 924,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 93
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 115
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 24
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMPUTER ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "JMTS - JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), KARIMNAGAR": {
+      "students": 372,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 2
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 113
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 25
+        }
+      ]
+    },
+    "JNKR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING JAGITIAL (AUTONOMOUS), JAGITIAL": {
+      "students": 326,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 62
+        }
+      ]
+    },
+    "JNMB - JNTUH UNIVERSITY COLLEGE OF ENGINEERING MAHABUBABAD, MAHABUBABAD": {
+      "students": 160,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 65
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 60
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 29
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 3
+        }
+      ]
+    },
+    "JNPASF - JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE, MASABTANK": {
+      "students": 82,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "B.PLANNING",
+          "students": 18
+        },
+        {
+          "name": "BUILDING SERVICES ENGG",
+          "students": 8
+        },
+        {
+          "name": "DIGITAL TECHNIQUES FOR DESIGN AND PLANNING",
+          "students": 56
+        }
+      ]
+    },
+    "JNPL - JNTUH UNIVERSITY COLLEGE OF ENGINEERING PALAIR, PALAIR": {
+      "students": 163,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 60
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 64
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 13
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "JNTH - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD, HYDERABAD": {
+      "students": 627,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "BIO-TECHNOLOGY",
+          "students": 33
+        },
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "students": 33
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "GEO INFORMATICS",
+          "students": 33
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "METALLURGICAL ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "JNTHMT - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH -5 YEAR INTEGRATED MTECH SELF FINANCE, KUKATPALLY": {
+      "students": 66,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+          "students": 33
+        },
+        {
+          "name": "BTECH MECHANICAL WITH MTECH THERMAL ENGG",
+          "students": 33
+        }
+      ]
+    },
+    "JNTM - JNTUH UNIVERSITY COLLEGE OF ENGG MANTHANI, MANTHANI": {
+      "students": 358,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 62
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 62
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 51
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 51
+        }
+      ]
+    },
+    "JNTR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA, AGRAHARAM RAJANNA SIRCILLA": {
+      "students": 201,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 63
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 6
+        },
+        {
+          "name": "TEXTILE TECHNOLOGY _ TEXTILE ENGINEERING",
+          "students": 3
+        }
+      ]
+    },
+    "JNTS - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR, SULTANPUR": {
+      "students": 462,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "JNTSSF - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR - SELF FINANCE, SULTANPUR": {
+      "students": 66,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "JNWN - JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY, NARSINGAYAPALLY VILLAGE": {
+      "students": 176,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 7
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 38
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 3
+        }
+      ]
+    },
+    "JOGI - JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS), YENKAPALLY": {
+      "students": 612,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 18
+        }
+      ]
+    },
+    "JPNE - JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING (AUTONOMOUS), MAHABUBNAGAR": {
+      "students": 291,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 91
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 9
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 10
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 39
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "JPNH - JAYAPRAKASH NARAYAN ENGINEERING COLLEGE, BANDLAGUDA": {
+      "students": 336,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 126
+        }
+      ]
+    },
+    "KCEA - KSHATRIYA COLLEGE OF ENGINEERING, ARMOOR": {
+      "students": 77,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 63
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 4
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "KDDW - KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN, KODADA": {
+      "students": 342,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 171
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 87
+        }
+      ]
+    },
+    "KGRH - KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "students": 599,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 22
+        }
+      ]
+    },
+    "KITS - KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI, WARANGAL": {
+      "students": 1016,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "KITW - KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN, NIZAMABAD": {
+      "students": 207,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 90
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 67
+        }
+      ]
+    },
+    "KLRT - KLR COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PALONCHA": {
+      "students": 282,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 44
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 80
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 35
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 12
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 17
+        }
+      ]
+    },
+    "KMCE - KESHAV MEMORIAL COLLEGE OF ENGINEERING, IBRAHIMPATAN": {
+      "students": 369,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "KMEC - KESHAV MEMORIAL ENGINEERING COLLEGE, KACHWANISINGARAM": {
+      "students": 323,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        }
+      ]
+    },
+    "KMIT - KESHAV MEMORIAL INST OF TECHNOLOGY (AUTONOMOUS), NARAYANAGUDA": {
+      "students": 647,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 232
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 415
+        }
+      ]
+    },
+    "KNRR - KASIREDDY NARAYANAREDDY COLL ENGG RES (AUTONOMOUS), HAYATHNAGAR": {
+      "students": 439,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 43
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 30
+        }
+      ]
+    },
+    "KPRC - KPRIT COLLEGE OF ENGINEERING (AUTONOMOUS), GHATKESAR": {
+      "students": 277,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 184
+        }
+      ]
+    },
+    "KPRT - KOMMURI PRATAP REDDY INST OF TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "students": 575,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 323
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "KSGI - GOVERNMENT ENGINEERING COLLEGE KOSGI, KOSGI": {
+      "students": 41,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 6
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 30
+        }
+      ]
+    },
+    "KTKM - KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), HUZURABAD": {
+      "students": 484,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 93
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 9
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 8
+        }
+      ]
+    },
+    "KUEWSF - UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS, WARANGAL": {
+      "students": 350,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 29
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 63
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 62
+        }
+      ]
+    },
+    "KUWL - KU COLLEGE OF ENGINEERING AND TECHNOLOGY, WARANGAL": {
+      "students": 454,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 63
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 61
+        }
+      ]
+    },
+    "LRDS - LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), HIMAYATSAGAR": {
+      "students": 924,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 126
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 378
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 126
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 21
+        }
+      ]
+    },
+    "MDRK - MADHIRA INSTITUTE OF TECHNOLOGY AND SCI, KODAD": {
+      "students": 114,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 4
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 25
+        }
+      ]
+    },
+    "MECS - MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS), HYDERABAD": {
+      "students": 600,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "METH - METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), ABIDS": {
+      "students": 600,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 22
+        }
+      ]
+    },
+    "MGHA - MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), GHATKESAR": {
+      "students": 445,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 92
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 92
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "MGIT - MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GANDIPET": {
+      "students": 785,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL (MECHTRONICS) ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "METALLURGY AND MATERIAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "MGUNSF - MGU COLLEGE OF ENGINEERING AND TECHNOLOGY , NALGONDA": {
+      "students": 221,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 132
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 28
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 61
+        }
+      ]
+    },
+    "MHVR - MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), BANDLAGUDA": {
+      "students": 392,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 22
+        }
+      ]
+    },
+    "MINA - MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN, MIRYALAGUDA": {
+      "students": 120,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 73
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 16
+        }
+      ]
+    },
+    "MJCT - M J COLLEGE OF ENGINEERING AND TECHNOLOGY, BANJARA HILLS": {
+      "students": 588,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 336
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 42
+        }
+      ]
+    },
+    "MLID - M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS), DUNDIGAL": {
+      "students": 785,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "MLRD - MALLA REDDY COLLEGE OF ENGG TECHNOLOGY (AUTONOMOUS), MYSAMMAGUDA": {
+      "students": 1016,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "AERONAUTICAL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "MLRS - MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS), DUNDIGAL": {
+      "students": 624,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 208
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 69
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "MMTZ - MUMTAZ COLL OF ENGG TECHNOLOGY, HYDERABAD": {
+      "students": 103,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "students": 16
+        }
+      ]
+    },
+    "MOTK - MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), SATHUPALLY": {
+      "students": 129,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 9
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 38
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 1
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 19
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 5
+        }
+      ]
+    },
+    "MRCE - MALLA REDDY COLLEGE OF ENGINEERING, MYSAMMAGUDA": {
+      "students": 693,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 278
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        }
+      ]
+    },
+    "MRCW - MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS), MAISAMMAGUDA": {
+      "students": 1201,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 231
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 508
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        }
+      ]
+    },
+    "MREM - MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES (AUTONOMOUS), MEDCHAL": {
+      "students": 643,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 44
+        }
+      ]
+    },
+    "MRTN - ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS), DHULAPALLY": {
+      "students": 531,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 184
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 185
+        }
+      ]
+    },
+    "MTEC - MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY, PEDDAPALLY": {
+      "students": 164,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "BIO-TECHNOLOGY",
+          "students": 1
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 32
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 33
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 34
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 12
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 19
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 33
+        }
+      ]
+    },
+    "MVSR - M V S R ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL": {
+      "students": 831,
+      "branches": 10,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "NAWB - NAWAB SHAH ALAM KHAN COLL OF ENGG AND TECH (AUTONOMOUS), NEW MALAKPET": {
+      "students": 396,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        },
+        {
+          "name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+          "students": 42
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 51
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 9
+        }
+      ]
+    },
+    "NGIT - NEIL GOGTE INST OF TECHNOLOGY, KACHIVANI SINGARAM": {
+      "students": 323,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        }
+      ]
+    },
+    "NGMA - NIGAMA ENGINEERING COLLEGE, KARIMNAGAR": {
+      "students": 2,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 2
+        }
+      ]
+    },
+    "NIET - NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY, CHOUTUPPAL": {
+      "students": 61,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 43
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 3
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 15
+        }
+      ]
+    },
+    "NNRG - NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS), GHATKESAR": {
+      "students": 716,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        }
+      ]
+    },
+    "NRCM - NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS), MAISAMMAGUDA": {
+      "students": 877,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 162
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 323
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "NREC - NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR": {
+      "students": 507,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 45
+        }
+      ]
+    },
+    "OUCE - O U COLLEGE OF ENGG HYDERABAD, HYDERABAD": {
+      "students": 495,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 66
+        },
+        {
+          "name": "BIO-MEDICAL ENGINEERING",
+          "students": 33
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "MINING ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "OUCT - O U COLLEGE OF TECH HYDERABAD, HYDERABAD": {
+      "students": 198,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "CHEMICAL ENGINEERING",
+          "students": 66
+        },
+        {
+          "name": "FOOD TECHNOLOGY",
+          "students": 66
+        },
+        {
+          "name": "TEXTILE TECHNOLOGY _ TEXTILE ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "PALV - PALLAVI ENGINEERING COLLEGE (AUTONOMOUS), KUNTLOOR": {
+      "students": 450,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 36
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 45
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "PETW - PRINCETON INST OF ENGG TECH FOR WOMEN, GHATKESAR": {
+      "students": 361,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 69
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "PRIW - PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN, KHAMMAM": {
+      "students": 205,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 21
+        }
+      ]
+    },
+    "PUCE - UNIVERSITY COLLEGE OF ENGINEERING PALAMURU UNIVERSITY, MAHABUBNAGAR": {
+      "students": 191,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 63
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 62
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 66
+        }
+      ]
+    },
+    "RITW - RISHI MS INST OF ENGG AND TECH FOR WOMEN, KUKATPALLY": {
+      "students": 231,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 47
+        }
+      ]
+    },
+    "SAIS - SAI SPURTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), SATHUPALLY": {
+      "students": 183,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 55
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 28
+        }
+      ]
+    },
+    "SANA - SANA ENGINEERING COLLGE, KODAD": {
+      "students": 292,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 126
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 5
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 35
+        }
+      ]
+    },
+    "SBIT - SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), KHAMMAM": {
+      "students": 401,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 31
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        }
+      ]
+    },
+    "SCET - SHADAN COLL OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEERANCHERU": {
+      "students": 449,
+      "branches": 10,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 42
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 42
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 17
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 6
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 23
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "SCIT - SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH (AUTONOMOUS), KHAMMAM": {
+      "students": 343,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 90
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 136
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 32
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 13
+        }
+      ]
+    },
+    "SDES - SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 846,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 26
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 69
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 43
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 15
+        }
+      ]
+    },
+    "SDEW - SRIDEVI WOMENS ENGINEERING COLLEGE (AUTONOMOUS), GANDIPET": {
+      "students": 854,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 184
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 69
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        }
+      ]
+    },
+    "SDGI - SREE DATTHA GRP OF INSTNS (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 531,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        }
+      ]
+    },
+    "SIEI - SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 717,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 45
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 26
+        }
+      ]
+    },
+    "SISG - SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS), GHATKESAR": {
+      "students": 740,
+      "branches": 10,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 186
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "SKEC - SREE KAVITHA ENGINEERING COLLEGE, KAREPALLY": {
+      "students": 3,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 3
+        }
+      ]
+    },
+    "SMCD - ST MARYS ENGINEERING COLLEGE (AUTONOMOUS), DESHMUKHI": {
+      "students": 420,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        }
+      ]
+    },
+    "SMED - ST MARYS GROUP OF INSTITUTIONS AUTONOMOUS, DESHMUKHI": {
+      "students": 504,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 126
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 210
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        }
+      ]
+    },
+    "SMSK - SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "students": 600,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "SNIS - SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY, GHATKESAR": {
+      "students": 1524,
+      "branches": 9,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 254
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 439
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 323
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 185
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "SNTI - SCIENT INSTITUTE OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 414,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 254
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "SPEC - ST PETERS ENGINEERING COLLEGE (AUTONOMOUS), MEDCHAL": {
+      "students": 855,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 277
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "SPHN - SPHOORTHY ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL": {
+      "students": 669,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 115
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "SRHP - SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE) , HASANPARTHY": {
+      "students": 548,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 91
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 87
+        }
+      ]
+    },
+    "SRIW - SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN (AUTONOMOUS), HASANPARTHY": {
+      "students": 554,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        }
+      ]
+    },
+    "SRYS - SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), NAGOLE": {
+      "students": 739,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 484
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 24
+        }
+      ]
+    },
+    "STLW - STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), ABIDS": {
+      "students": 693,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 70
+        },
+        {
+          "name": "COMPUTER ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        }
+      ]
+    },
+    "SUCE - UNIVERSITY COLLEGE OF ENGINEERING, HUSNABAD, SATAVAHANA UNIVERSITY, HUSNABAD": {
+      "students": 115,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGG (ARTIFICIAL INTELLIGENCE)",
+          "students": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 26
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 13
+        }
+      ]
+    },
+    "SVES - SRI VENKATESWARA ENGINEERING COLLEGE, SURYAPETA": {
+      "students": 137,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 10
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 35
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 72
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 7
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 13
+        }
+      ]
+    },
+    "SVIT - SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS), SECUNDERABAD": {
+      "students": 370,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 46
+        }
+      ]
+    },
+    "SVSE - SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS), HANAMKONDA": {
+      "students": 275,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 64
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 135
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 4
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 29
+        }
+      ]
+    },
+    "SWET - SHADAN WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), KHAIRTABAD": {
+      "students": 336,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 168
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 21
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 21
+        }
+      ]
+    },
+    "TCEK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEDDAPALLY": {
+      "students": 171,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 33
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 11
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 42
+        }
+      ]
+    },
+    "TCTK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY, KARIMNAGAR": {
+      "students": 77,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 15
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 31
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 30
+        }
+      ]
+    },
+    "TKEM - TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS), MIRPET": {
+      "students": 739,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 347
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 92
+        }
+      ]
+    },
+    "TKRC - T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MIRPET": {
+      "students": 970,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 208
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 161
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 324
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 93
+        }
+      ]
+    },
+    "TPCE - TALLA PADMAVATHI COLL OF ENGINEERING (AUTONOMOUS), KAZIPET": {
+      "students": 105,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 24
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 64
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 17
+        }
+      ]
+    },
+    "TRRM - TRR COLLEGE OF TECHNOLOGY, MEERPET": {
+      "students": 231,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 93
+        }
+      ]
+    },
+    "VAGE - VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS), WARANGAL": {
+      "students": 918,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 84
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 180
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 177
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 231
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 86
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 131
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 29
+        }
+      ]
+    },
+    "VASV - VASAVI COLLEGE OF ENGINEERING, HYDERABAD": {
+      "students": 601,
+      "branches": 7,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 47
+        }
+      ]
+    },
+    "VBIT - VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GHATKESAR": {
+      "students": 1016,
+      "branches": 10,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 139
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 93
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "VCET - VISWESWARAYA COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN": {
+      "students": 387,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 42
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 82
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 15
+        }
+      ]
+    },
+    "VGNT - VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), DESHMUKHI": {
+      "students": 901,
+      "branches": 11,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 47
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+          "students": 46
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 230
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 186
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "VGSE - VAAGESHWARI COLL OF ENGINEERING (AUTONOMOUS), KARIMNAGAR": {
+      "students": 494,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 12
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 136
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 43
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 221
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 12
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 70
+        }
+      ]
+    },
+    "VGWL - VAGDEVI ENGINEERING COLLEGE (AUTONOMOUS), WARANGAL": {
+      "students": 456,
+      "branches": 4,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 87
+        }
+      ]
+    },
+    "VISA - VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY, BHONGIR": {
+      "students": 135,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 22
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 22
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 21
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 1
+        }
+      ]
+    },
+    "VITS - SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI, MAHABUBNAGAR": {
+      "students": 39,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 8
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 27
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "VJEC - V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH, BACHUPALLY": {
+      "students": 1548,
+      "branches": 17,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 46
+        },
+        {
+          "name": "AUTOMOBILE ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "BIO-TECHNOLOGY",
+          "students": 23
+        },
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+          "students": 47
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+          "students": 92
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 138
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+          "students": 46
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 93
+        },
+        {
+          "name": "ROBOTICS AND ARTIFICIAL INTELLIGENCE",
+          "students": 47
+        }
+      ]
+    },
+    "VJIT - VIDYAJYOTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "students": 832,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 93
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 185
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 47
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 184
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 138
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "VJYA - VIJAYA ENGINEERING COLLEGE, KHAMMAM": {
+      "students": 89,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 29
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 6
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 40
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 1
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 13
+        }
+      ]
+    },
+    "VMEG - VARDHAMAN COLLEGE OF ENGINEERING (AUTONOMOUS), SHAMSHABAD": {
+      "students": 1063,
+      "branches": 8,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 23
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 139
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 416
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 138
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 139
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 23
+        }
+      ]
+    },
+    "VMRH - VMR PRADEEP KUMAR INST OF ENGG & TECH, HANUMAKONDA": {
+      "students": 25,
+      "branches": 2,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 18
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 7
+        }
+      ]
+    },
+    "VMTW - VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN (AUTONOMOUS), GHATKESAR": {
+      "students": 646,
+      "branches": 5,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 185
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 46
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 277
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 92
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "students": 46
+        }
+      ]
+    },
+    "VREC - VIJAYA RURAL ENGINEERING COLLEGE, NIZAMABAD": {
+      "students": 107,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 7
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 37
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 44
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 6
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 9
+        },
+        {
+          "name": "MECHANICAL ENGINEERING",
+          "students": 4
+        }
+      ]
+    },
+    "VRKW - DR VRK WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD": {
+      "students": 144,
+      "branches": 6,
+      "branchDetails": [
+        {
+          "name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+          "students": 21
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+          "students": 42
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 42
+        },
+        {
+          "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+          "students": 2
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 16
+        }
+      ]
+    },
+    "WESL - CSI WESLEY INST OF TECHNOLOGY AND SCIENCES, SECUNDERABAD": {
+      "students": 84,
+      "branches": 1,
+      "branchDetails": [
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 84
+        }
+      ]
+    },
+    "WITS - WARANGAL INST OF TECHNOLOGY SCIENCE, WARANGAL": {
+      "students": 64,
+      "branches": 3,
+      "branchDetails": [
+        {
+          "name": "CIVIL ENGINEERING",
+          "students": 5
+        },
+        {
+          "name": "COMPUTER SCIENCE AND ENGINEERING",
+          "students": 46
+        },
+        {
+          "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+          "students": 13
+        }
+      ]
+    }
+  }
+}

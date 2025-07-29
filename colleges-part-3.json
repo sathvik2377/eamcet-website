@@ -1,0 +1,154 @@
+{
+  "partNumber": 3,
+  "colleges": [
+    {
+      "name": "JNWN - JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY, NARSINGAYAPALLY VILLAGE",
+      "value": "JNWN"
+    },
+    {
+      "name": "JOGI - JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS), YENKAPALLY",
+      "value": "JOGI"
+    },
+    {
+      "name": "JPNE - JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING (AUTONOMOUS), MAHABUBNAGAR",
+      "value": "JPNE"
+    },
+    {
+      "name": "JPNH - JAYAPRAKASH NARAYAN ENGINEERING COLLEGE, BANDLAGUDA",
+      "value": "JPNH"
+    },
+    {
+      "name": "KCEA - KSHATRIYA COLLEGE OF ENGINEERING, ARMOOR",
+      "value": "KCEA"
+    },
+    {
+      "name": "KDDW - KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN, KODADA",
+      "value": "KDDW"
+    },
+    {
+      "name": "KGRH - KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD",
+      "value": "KGRH"
+    },
+    {
+      "name": "KITS - KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI, WARANGAL",
+      "value": "KITS"
+    },
+    {
+      "name": "KITW - KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN, NIZAMABAD",
+      "value": "KITW"
+    },
+    {
+      "name": "KLRT - KLR COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PALONCHA",
+      "value": "KLRT"
+    },
+    {
+      "name": "KMCE - KESHAV MEMORIAL COLLEGE OF ENGINEERING, IBRAHIMPATAN",
+      "value": "KMCE"
+    },
+    {
+      "name": "KMEC - KESHAV MEMORIAL ENGINEERING COLLEGE, KACHWANISINGARAM",
+      "value": "KMEC"
+    },
+    {
+      "name": "KMIT - KESHAV MEMORIAL INST OF TECHNOLOGY (AUTONOMOUS), NARAYANAGUDA",
+      "value": "KMIT"
+    },
+    {
+      "name": "KNRR - KASIREDDY NARAYANAREDDY COLL ENGG RES (AUTONOMOUS), HAYATHNAGAR",
+      "value": "KNRR"
+    },
+    {
+      "name": "KPRC - KPRIT COLLEGE OF ENGINEERING (AUTONOMOUS), GHATKESAR",
+      "value": "KPRC"
+    },
+    {
+      "name": "KPRT - KOMMURI PRATAP REDDY INST OF TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+      "value": "KPRT"
+    },
+    {
+      "name": "KSGI - GOVERNMENT ENGINEERING COLLEGE KOSGI, KOSGI",
+      "value": "KSGI"
+    },
+    {
+      "name": "KTKM - KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), HUZURABAD",
+      "value": "KTKM"
+    },
+    {
+      "name": "KUEWSF - UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS, WARANGAL",
+      "value": "KUEWSF"
+    },
+    {
+      "name": "KUWL - KU COLLEGE OF ENGINEERING AND TECHNOLOGY, WARANGAL",
+      "value": "KUWL"
+    },
+    {
+      "name": "LRDS - LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), HIMAYATSAGAR",
+      "value": "LRDS"
+    },
+    {
+      "name": "MDRK - MADHIRA INSTITUTE OF TECHNOLOGY AND SCI, KODAD",
+      "value": "MDRK"
+    },
+    {
+      "name": "MECS - MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS), HYDERABAD",
+      "value": "MECS"
+    },
+    {
+      "name": "METH - METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), ABIDS",
+      "value": "METH"
+    },
+    {
+      "name": "MGHA - MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), GHATKESAR",
+      "value": "MGHA"
+    },
+    {
+      "name": "MGIT - MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GANDIPET",
+      "value": "MGIT"
+    },
+    {
+      "name": "MGUNSF - MGU COLLEGE OF ENGINEERING AND TECHNOLOGY , NALGONDA",
+      "value": "MGUNSF"
+    },
+    {
+      "name": "MHVR - MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), BANDLAGUDA",
+      "value": "MHVR"
+    },
+    {
+      "name": "MINA - MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN, MIRYALAGUDA",
+      "value": "MINA"
+    },
+    {
+      "name": "MJCT - M J COLLEGE OF ENGINEERING AND TECHNOLOGY, BANJARA HILLS",
+      "value": "MJCT"
+    },
+    {
+      "name": "MLID - M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS), DUNDIGAL",
+      "value": "MLID"
+    },
+    {
+      "name": "MLRD - MALLA REDDY COLLEGE OF ENGG TECHNOLOGY (AUTONOMOUS), MYSAMMAGUDA",
+      "value": "MLRD"
+    },
+    {
+      "name": "MLRS - MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS), DUNDIGAL",
+      "value": "MLRS"
+    },
+    {
+      "name": "MMTZ - MUMTAZ COLL OF ENGG TECHNOLOGY, HYDERABAD",
+      "value": "MMTZ"
+    },
+    {
+      "name": "MOTK - MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), SATHUPALLY",
+      "value": "MOTK"
+    },
+    {
+      "name": "MRCE - MALLA REDDY COLLEGE OF ENGINEERING, MYSAMMAGUDA",
+      "value": "MRCE"
+    },
+    {
+      "name": "MRCW - MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS), MAISAMMAGUDA",
+      "value": "MRCW"
+    }
+  ],
+  "count": 37
+}

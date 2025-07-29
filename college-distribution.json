@@ -1,0 +1,762 @@
+{
+  "totalColleges": 181,
+  "partsCount": 5,
+  "collegesPerPart": 37,
+  "createdAt": "2025-07-29T14:28:31.758Z",
+  "parts": [
+    {
+      "partNumber": 1,
+      "colleges": [
+        {
+          "name": "AARM - AAR MAHAVEER ENGINEERING COLLEGE, BANDLAGUDA",
+          "value": "AARM"
+        },
+        {
+          "name": "ACEG - A C E ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR",
+          "value": "ACEG"
+        },
+        {
+          "name": "AITH - ANNAMACHARYA INST OF TECHNOLOGY AND SCI (AUTONOMOUS), HAYATHNAGAR",
+          "value": "AITH"
+        },
+        {
+          "name": "AIZA - AIZZA COLLEGE OF ENGG AND TECHNOLOGY, MANCHERIAL",
+          "value": "AIZA"
+        },
+        {
+          "name": "AKIT - ABDULKALAM INST OF TECHNOLOGY AND SCI, KOTHAGUDEM",
+          "value": "AKIT"
+        },
+        {
+          "name": "ANRK - ANURAG ENGINEERING COLLEGE (AUTONOMOUS), KODAD",
+          "value": "ANRK"
+        },
+        {
+          "name": "ANUG - ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG), GHATKESAR",
+          "value": "ANUG"
+        },
+        {
+          "name": "ARJN - ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), BATASINGARAM",
+          "value": "ARJN"
+        },
+        {
+          "name": "ASRA - AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY, HAYATHNAGAR",
+          "value": "ASRA"
+        },
+        {
+          "name": "AURC - AURORA SCIENTIFIC AND TECH RESEARCH ACADEMY, HYDERABAD",
+          "value": "AURC"
+        },
+        {
+          "name": "AURG - AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE, GHATKESAR",
+          "value": "AURG"
+        },
+        {
+          "name": "AURH - RAMAPPA ENGINEERING COLLEGE, SHAYAMPET",
+          "value": "AURH"
+        },
+        {
+          "name": "AURK - AURORA S TECHNOLOGICAL AND MANAGEMENT ACADEMY, PARVATHAPUR",
+          "value": "AURK"
+        },
+        {
+          "name": "AVIH - AVANTHI INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR",
+          "value": "AVIH"
+        },
+        {
+          "name": "AVNI - AVN INST OF ENGG &TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM",
+          "value": "AVNI"
+        },
+        {
+          "name": "AZAD - AZAD COLLEGE OF ENGINEERING AND TECHNOLOGY, MOINABAD",
+          "value": "AZAD"
+        },
+        {
+          "name": "BIET - BHARAT INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM",
+          "value": "BIET"
+        },
+        {
+          "name": "BITN - BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), NARSAMPET",
+          "value": "BITN"
+        },
+        {
+          "name": "BOMA - BOMMA INST OF TECHNOLOGY AND SCI, KHAMMAM",
+          "value": "BOMA"
+        },
+        {
+          "name": "BOSE - ANU BOSE INSTT OF TECHNOLOGY FOR WOMENS (AUTONOMOUS), PALONCHA",
+          "value": "BOSE"
+        },
+        {
+          "name": "BREW - BHOJREDDY ENGINEERING COLLEGE FOR WOMEN, SAIDABAD",
+          "value": "BREW"
+        },
+        {
+          "name": "BRIG - BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS (AUTONOMOUS), HAYATHNAGAR",
+          "value": "BRIG"
+        },
+        {
+          "name": "BRIL - BRILLIANT INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR",
+          "value": "BRIL"
+        },
+        {
+          "name": "BSKR - BHASKAR ENGINEERING COLLEGE, YENKAPALLY",
+          "value": "BSKR"
+        },
+        {
+          "name": "BVRI - B V RAJU INSTITUTE OF TECHNOLOGY, NARSAPUR",
+          "value": "BVRI"
+        },
+        {
+          "name": "BVRW - BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS), BACHUPALLY",
+          "value": "BVRW"
+        },
+        {
+          "name": "CASR - COLLEGE OF AGRICULTURAL ENGG, SANGAREDDY",
+          "value": "CASR"
+        },
+        {
+          "name": "CBIT - CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, GANDIPET",
+          "value": "CBIT"
+        },
+        {
+          "name": "CDTK - COLLEGE OF DAIRY TECHNOLOGY, KAMAREDDY",
+          "value": "CDTK"
+        },
+        {
+          "name": "CFSR - COLLEGE OF FOOD SCIENCE AND TECHNOLOGY, RUDRUR",
+          "value": "CFSR"
+        },
+        {
+          "name": "CHET - SRI CHAITANYA TECHNICAL CAMPUS, IBRAHIMPATAN",
+          "value": "CHET"
+        },
+        {
+          "name": "CHTN - SREE CHAITANYA COLLEGE OF ENGINEERING, KARIMNAGAR",
+          "value": "CHTN"
+        },
+        {
+          "name": "CHTS - SREE CHAITANYA INST OF TECHNOLOGY SCIENCES, KARIMNAGAR",
+          "value": "CHTS"
+        },
+        {
+          "name": "CJIT - CHRISTU JYOTHI INSTITUTE OF TECHNOLOGY AND SCI, JANGAON",
+          "value": "CJIT"
+        },
+        {
+          "name": "CMRG - CMR TECHNICAL CAMPUS (AUTONOMOUS), KANDLAKOYA",
+          "value": "CMRG"
+        },
+        {
+          "name": "CMRK - C M R COLLEGE OF ENGG AND TECHNOLOGY , KANDLAKOYA",
+          "value": "CMRK"
+        },
+        {
+          "name": "CMRM - CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS), KANDLAKOYA",
+          "value": "CMRM"
+        }
+      ],
+      "count": 37
+    },
+    {
+      "partNumber": 2,
+      "colleges": [
+        {
+          "name": "CMRN - CMR ENGG COLLEGE (AUTONOMOUS), KANDLAKOYA",
+          "value": "CMRN"
+        },
+        {
+          "name": "CVRH - CVR COLLEGE OF ENGINEERING, IBRAHIMPATAN",
+          "value": "CVRH"
+        },
+        {
+          "name": "DARE - DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH, KHAMMAM",
+          "value": "DARE"
+        },
+        {
+          "name": "DCET - DECCAN COLLEGE OF ENGINEERING AND TECHNOLOGY, DARUSSALAM",
+          "value": "DCET"
+        },
+        {
+          "name": "DRKI - D R K INSTITUTE OF SCI AND TECHNOLOGY, BOWRAMPET",
+          "value": "DRKI"
+        },
+        {
+          "name": "ELEN - ELLENKI COLLGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PATANCHERU",
+          "value": "ELEN"
+        },
+        {
+          "name": "ESUT - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM), KOTHAGUDEM",
+          "value": "ESUT"
+        },
+        {
+          "name": "ESUTSF - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM)- SELF FINANCE, KOTHAGUDEM",
+          "value": "ESUTSF"
+        },
+        {
+          "name": "GATE - GATE INSTITUTE OF TECHNOLOGYAND SCIENCES, KODAD",
+          "value": "GATE"
+        },
+        {
+          "name": "GCTC - GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), KEESARA",
+          "value": "GCTC"
+        },
+        {
+          "name": "GKEM - G K INSTITUTE OF ENGG AND TECH, MAHABUBNAGAR",
+          "value": "GKEM"
+        },
+        {
+          "name": "GLOB - GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), CHILKUR",
+          "value": "GLOB"
+        },
+        {
+          "name": "GLWC - GOKARAJU LAILAVATHI ENGINEERING COLLEGE, BACHUPALLY",
+          "value": "GLWC"
+        },
+        {
+          "name": "GNIT - GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "GNIT"
+        },
+        {
+          "name": "GNTW - G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI, SHAIKPET",
+          "value": "GNTW"
+        },
+        {
+          "name": "GRRR - GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH (AUTONOMOUS), BACHUPALLY",
+          "value": "GRRR"
+        },
+        {
+          "name": "GURU - GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "GURU"
+        },
+        {
+          "name": "HITM - HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS), MEDCHAL",
+          "value": "HITM"
+        },
+        {
+          "name": "HOLY - HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS), KEESARA",
+          "value": "HOLY"
+        },
+        {
+          "name": "IARE - INSTITUTE OF AERONAUTICAL ENGINEERING, DUNDIGAL",
+          "value": "IARE"
+        },
+        {
+          "name": "IITT - INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY, SIDDIPET",
+          "value": "IITT"
+        },
+        {
+          "name": "INDI - SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "INDI"
+        },
+        {
+          "name": "INDU - SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "INDU"
+        },
+        {
+          "name": "ISLC - ISL ENGINEERING COLLEGE (AUTONOMOUS), BANDLAGUDA",
+          "value": "ISLC"
+        },
+        {
+          "name": "JAYA - JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS (AUTONOMOUS), NARSAMPET",
+          "value": "JAYA"
+        },
+        {
+          "name": "JBIT - J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), YENKAPALLY",
+          "value": "JBIT"
+        },
+        {
+          "name": "JMTS - JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), KARIMNAGAR",
+          "value": "JMTS"
+        },
+        {
+          "name": "JNKR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING JAGITIAL (AUTONOMOUS), JAGITIAL",
+          "value": "JNKR"
+        },
+        {
+          "name": "JNMB - JNTUH UNIVERSITY COLLEGE OF ENGINEERING MAHABUBABAD, MAHABUBABAD",
+          "value": "JNMB"
+        },
+        {
+          "name": "JNPASF - JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE, MASABTANK",
+          "value": "JNPASF"
+        },
+        {
+          "name": "JNPL - JNTUH UNIVERSITY COLLEGE OF ENGINEERING PALAIR, PALAIR",
+          "value": "JNPL"
+        },
+        {
+          "name": "JNTH - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD, HYDERABAD",
+          "value": "JNTH"
+        },
+        {
+          "name": "JNTHMT - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH -5 YEAR INTEGRATED MTECH SELF FINANCE, KUKATPALLY",
+          "value": "JNTHMT"
+        },
+        {
+          "name": "JNTM - JNTUH UNIVERSITY COLLEGE OF ENGG MANTHANI, MANTHANI",
+          "value": "JNTM"
+        },
+        {
+          "name": "JNTR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA, AGRAHARAM RAJANNA SIRCILLA",
+          "value": "JNTR"
+        },
+        {
+          "name": "JNTS - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR, SULTANPUR",
+          "value": "JNTS"
+        },
+        {
+          "name": "JNTSSF - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR - SELF FINANCE, SULTANPUR",
+          "value": "JNTSSF"
+        }
+      ],
+      "count": 37
+    },
+    {
+      "partNumber": 3,
+      "colleges": [
+        {
+          "name": "JNWN - JNTUH UNIVERSITY COLLEGE OF ENGINEERING WANAPARTHY, NARSINGAYAPALLY VILLAGE",
+          "value": "JNWN"
+        },
+        {
+          "name": "JOGI - JOGINPALLY B R ENGINEERING COLLEGE (AUTONOMOUS), YENKAPALLY",
+          "value": "JOGI"
+        },
+        {
+          "name": "JPNE - JAYA PRAKASH NARAYAN COLLEGE OF ENGINEERING (AUTONOMOUS), MAHABUBNAGAR",
+          "value": "JPNE"
+        },
+        {
+          "name": "JPNH - JAYAPRAKASH NARAYAN ENGINEERING COLLEGE, BANDLAGUDA",
+          "value": "JPNH"
+        },
+        {
+          "name": "KCEA - KSHATRIYA COLLEGE OF ENGINEERING, ARMOOR",
+          "value": "KCEA"
+        },
+        {
+          "name": "KDDW - KODADA INST OF TECHNOLOGY AND SCIENCE FOR WOMEN, KODADA",
+          "value": "KDDW"
+        },
+        {
+          "name": "KGRH - KG REDDY COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD",
+          "value": "KGRH"
+        },
+        {
+          "name": "KITS - KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI, WARANGAL",
+          "value": "KITS"
+        },
+        {
+          "name": "KITW - KAKATIYA INST OF TECHNOLOGY SCI FOR WOMEN, NIZAMABAD",
+          "value": "KITW"
+        },
+        {
+          "name": "KLRT - KLR COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PALONCHA",
+          "value": "KLRT"
+        },
+        {
+          "name": "KMCE - KESHAV MEMORIAL COLLEGE OF ENGINEERING, IBRAHIMPATAN",
+          "value": "KMCE"
+        },
+        {
+          "name": "KMEC - KESHAV MEMORIAL ENGINEERING COLLEGE, KACHWANISINGARAM",
+          "value": "KMEC"
+        },
+        {
+          "name": "KMIT - KESHAV MEMORIAL INST OF TECHNOLOGY (AUTONOMOUS), NARAYANAGUDA",
+          "value": "KMIT"
+        },
+        {
+          "name": "KNRR - KASIREDDY NARAYANAREDDY COLL ENGG RES (AUTONOMOUS), HAYATHNAGAR",
+          "value": "KNRR"
+        },
+        {
+          "name": "KPRC - KPRIT COLLEGE OF ENGINEERING (AUTONOMOUS), GHATKESAR",
+          "value": "KPRC"
+        },
+        {
+          "name": "KPRT - KOMMURI PRATAP REDDY INST OF TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+          "value": "KPRT"
+        },
+        {
+          "name": "KSGI - GOVERNMENT ENGINEERING COLLEGE KOSGI, KOSGI",
+          "value": "KSGI"
+        },
+        {
+          "name": "KTKM - KAMALA INSTITUTE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), HUZURABAD",
+          "value": "KTKM"
+        },
+        {
+          "name": "KUEWSF - UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS, WARANGAL",
+          "value": "KUEWSF"
+        },
+        {
+          "name": "KUWL - KU COLLEGE OF ENGINEERING AND TECHNOLOGY, WARANGAL",
+          "value": "KUWL"
+        },
+        {
+          "name": "LRDS - LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), HIMAYATSAGAR",
+          "value": "LRDS"
+        },
+        {
+          "name": "MDRK - MADHIRA INSTITUTE OF TECHNOLOGY AND SCI, KODAD",
+          "value": "MDRK"
+        },
+        {
+          "name": "MECS - MATRUSRI ENGINEERING COLLEGE ( AUTONOMOUS), HYDERABAD",
+          "value": "MECS"
+        },
+        {
+          "name": "METH - METHODIST COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), ABIDS",
+          "value": "METH"
+        },
+        {
+          "name": "MGHA - MEGHA INST OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), GHATKESAR",
+          "value": "MGHA"
+        },
+        {
+          "name": "MGIT - MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GANDIPET",
+          "value": "MGIT"
+        },
+        {
+          "name": "MGUNSF - MGU COLLEGE OF ENGINEERING AND TECHNOLOGY , NALGONDA",
+          "value": "MGUNSF"
+        },
+        {
+          "name": "MHVR - MAHAVEER INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), BANDLAGUDA",
+          "value": "MHVR"
+        },
+        {
+          "name": "MINA - MINA INST OF ENGG AND TECHNOLOGY FOR WOMEN, MIRYALAGUDA",
+          "value": "MINA"
+        },
+        {
+          "name": "MJCT - M J COLLEGE OF ENGINEERING AND TECHNOLOGY, BANJARA HILLS",
+          "value": "MJCT"
+        },
+        {
+          "name": "MLID - M L R INSTITUTE OF TECHNOLOGY (AUTONOMOUS), DUNDIGAL",
+          "value": "MLID"
+        },
+        {
+          "name": "MLRD - MALLA REDDY COLLEGE OF ENGG TECHNOLOGY (AUTONOMOUS), MYSAMMAGUDA",
+          "value": "MLRD"
+        },
+        {
+          "name": "MLRS - MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS), DUNDIGAL",
+          "value": "MLRS"
+        },
+        {
+          "name": "MMTZ - MUMTAZ COLL OF ENGG TECHNOLOGY, HYDERABAD",
+          "value": "MMTZ"
+        },
+        {
+          "name": "MOTK - MOTHER TERESA INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), SATHUPALLY",
+          "value": "MOTK"
+        },
+        {
+          "name": "MRCE - MALLA REDDY COLLEGE OF ENGINEERING, MYSAMMAGUDA",
+          "value": "MRCE"
+        },
+        {
+          "name": "MRCW - MALLA REDDY ENGG COLLEGE FOR WOMEN (AUTONOMOUS), MAISAMMAGUDA",
+          "value": "MRCW"
+        }
+      ],
+      "count": 37
+    },
+    {
+      "partNumber": 4,
+      "colleges": [
+        {
+          "name": "MREM - MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES (AUTONOMOUS), MEDCHAL",
+          "value": "MREM"
+        },
+        {
+          "name": "MRTN - ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS), DHULAPALLY",
+          "value": "MRTN"
+        },
+        {
+          "name": "MTEC - MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY, PEDDAPALLY",
+          "value": "MTEC"
+        },
+        {
+          "name": "MVSR - M V S R ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL",
+          "value": "MVSR"
+        },
+        {
+          "name": "NAWB - NAWAB SHAH ALAM KHAN COLL OF ENGG AND TECH (AUTONOMOUS), NEW MALAKPET",
+          "value": "NAWB"
+        },
+        {
+          "name": "NGIT - NEIL GOGTE INST OF TECHNOLOGY, KACHIVANI SINGARAM",
+          "value": "NGIT"
+        },
+        {
+          "name": "NGMA - NIGAMA ENGINEERING COLLEGE, KARIMNAGAR",
+          "value": "NGMA"
+        },
+        {
+          "name": "NIET - NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY, CHOUTUPPAL",
+          "value": "NIET"
+        },
+        {
+          "name": "NNRG - NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS), GHATKESAR",
+          "value": "NNRG"
+        },
+        {
+          "name": "NRCM - NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS), MAISAMMAGUDA",
+          "value": "NRCM"
+        },
+        {
+          "name": "NREC - NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR",
+          "value": "NREC"
+        },
+        {
+          "name": "OUCE - O U COLLEGE OF ENGG HYDERABAD, HYDERABAD",
+          "value": "OUCE"
+        },
+        {
+          "name": "OUCT - O U COLLEGE OF TECH HYDERABAD, HYDERABAD",
+          "value": "OUCT"
+        },
+        {
+          "name": "PALV - PALLAVI ENGINEERING COLLEGE (AUTONOMOUS), KUNTLOOR",
+          "value": "PALV"
+        },
+        {
+          "name": "PETW - PRINCETON INST OF ENGG TECH FOR WOMEN, GHATKESAR",
+          "value": "PETW"
+        },
+        {
+          "name": "PRIW - PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN, KHAMMAM",
+          "value": "PRIW"
+        },
+        {
+          "name": "PUCE - UNIVERSITY COLLEGE OF ENGINEERING PALAMURU UNIVERSITY, MAHABUBNAGAR",
+          "value": "PUCE"
+        },
+        {
+          "name": "RITW - RISHI MS INST OF ENGG AND TECH FOR WOMEN, KUKATPALLY",
+          "value": "RITW"
+        },
+        {
+          "name": "SAIS - SAI SPURTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), SATHUPALLY",
+          "value": "SAIS"
+        },
+        {
+          "name": "SANA - SANA ENGINEERING COLLGE, KODAD",
+          "value": "SANA"
+        },
+        {
+          "name": "SBIT - SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), KHAMMAM",
+          "value": "SBIT"
+        },
+        {
+          "name": "SCET - SHADAN COLL OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEERANCHERU",
+          "value": "SCET"
+        },
+        {
+          "name": "SCIT - SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH (AUTONOMOUS), KHAMMAM",
+          "value": "SCIT"
+        },
+        {
+          "name": "SDES - SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "SDES"
+        },
+        {
+          "name": "SDEW - SRIDEVI WOMENS ENGINEERING COLLEGE (AUTONOMOUS), GANDIPET",
+          "value": "SDEW"
+        },
+        {
+          "name": "SDGI - SREE DATTHA GRP OF INSTNS (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "SDGI"
+        },
+        {
+          "name": "SIEI - SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "SIEI"
+        },
+        {
+          "name": "SISG - SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS), GHATKESAR",
+          "value": "SISG"
+        },
+        {
+          "name": "SKEC - SREE KAVITHA ENGINEERING COLLEGE, KAREPALLY",
+          "value": "SKEC"
+        },
+        {
+          "name": "SMCD - ST MARYS ENGINEERING COLLEGE (AUTONOMOUS), DESHMUKHI",
+          "value": "SMCD"
+        },
+        {
+          "name": "SMED - ST MARYS GROUP OF INSTITUTIONS AUTONOMOUS, DESHMUKHI",
+          "value": "SMED"
+        },
+        {
+          "name": "SMSK - SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+          "value": "SMSK"
+        },
+        {
+          "name": "SNIS - SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY, GHATKESAR",
+          "value": "SNIS"
+        },
+        {
+          "name": "SNTI - SCIENT INSTITUTE OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "SNTI"
+        },
+        {
+          "name": "SPEC - ST PETERS ENGINEERING COLLEGE (AUTONOMOUS), MEDCHAL",
+          "value": "SPEC"
+        },
+        {
+          "name": "SPHN - SPHOORTHY ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL",
+          "value": "SPHN"
+        },
+        {
+          "name": "SRHP - SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE) , HASANPARTHY",
+          "value": "SRHP"
+        }
+      ],
+      "count": 37
+    },
+    {
+      "partNumber": 5,
+      "colleges": [
+        {
+          "name": "SRIW - SUMATHI REDDY INST OF TECHNOLOGY FOR WOMEN (AUTONOMOUS), HASANPARTHY",
+          "value": "SRIW"
+        },
+        {
+          "name": "SRYS - SREYAS INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), NAGOLE",
+          "value": "SRYS"
+        },
+        {
+          "name": "STLW - STANLEY COLLEGE OF ENGG AND TECHNOLOGY FOR WOMEN (AUTONOMOUS), ABIDS",
+          "value": "STLW"
+        },
+        {
+          "name": "SUCE - UNIVERSITY COLLEGE OF ENGINEERING, HUSNABAD, SATAVAHANA UNIVERSITY, HUSNABAD",
+          "value": "SUCE"
+        },
+        {
+          "name": "SVES - SRI VENKATESWARA ENGINEERING COLLEGE, SURYAPETA",
+          "value": "SVES"
+        },
+        {
+          "name": "SVIT - SWAMI VIVEKANANDA INST OF TECHNOLOGY (AUTONOMOUS), SECUNDERABAD",
+          "value": "SVIT"
+        },
+        {
+          "name": "SVSE - SVS GRP OF INSTNS - SVS INST OF TECH (AUTONOMOUS), HANAMKONDA",
+          "value": "SVSE"
+        },
+        {
+          "name": "SWET - SHADAN WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), KHAIRTABAD",
+          "value": "SWET"
+        },
+        {
+          "name": "TCEK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEDDAPALLY",
+          "value": "TCEK"
+        },
+        {
+          "name": "TCTK - TRINITY COLLEGE OF ENGINEERING AND TECHNOLOGY, KARIMNAGAR",
+          "value": "TCTK"
+        },
+        {
+          "name": "TKEM - TEEGALA KRISHNA REDDY ENGINEERING COLLEGE (AUTONOMOUS), MIRPET",
+          "value": "TKEM"
+        },
+        {
+          "name": "TKRC - T K R COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), MIRPET",
+          "value": "TKRC"
+        },
+        {
+          "name": "TPCE - TALLA PADMAVATHI COLL OF ENGINEERING (AUTONOMOUS), KAZIPET",
+          "value": "TPCE"
+        },
+        {
+          "name": "TRRM - TRR COLLEGE OF TECHNOLOGY, MEERPET",
+          "value": "TRRM"
+        },
+        {
+          "name": "VAGE - VAAGDEVI COLLEGE OF ENGINEERING (AUTONOMOUS), WARANGAL",
+          "value": "VAGE"
+        },
+        {
+          "name": "VASV - VASAVI COLLEGE OF ENGINEERING, HYDERABAD",
+          "value": "VASV"
+        },
+        {
+          "name": "VBIT - VIGNAN BHARATI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+          "value": "VBIT"
+        },
+        {
+          "name": "VCET - VISWESWARAYA COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+          "value": "VCET"
+        },
+        {
+          "name": "VGNT - VIGNAN INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), DESHMUKHI",
+          "value": "VGNT"
+        },
+        {
+          "name": "VGSE - VAAGESHWARI COLL OF ENGINEERING (AUTONOMOUS), KARIMNAGAR",
+          "value": "VGSE"
+        },
+        {
+          "name": "VGWL - VAGDEVI ENGINEERING COLLEGE (AUTONOMOUS), WARANGAL",
+          "value": "VGWL"
+        },
+        {
+          "name": "VISA - VATHSALYA INSTITUTE OF SCI AND TECHNOLOGY, BHONGIR",
+          "value": "VISA"
+        },
+        {
+          "name": "VITS - SRI VISHWESWARAYA INST OF TECHNOLOGY AND SCI, MAHABUBNAGAR",
+          "value": "VITS"
+        },
+        {
+          "name": "VJEC - V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH, BACHUPALLY",
+          "value": "VJEC"
+        },
+        {
+          "name": "VJIT - VIDYAJYOTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), MOINABAD",
+          "value": "VJIT"
+        },
+        {
+          "name": "VJYA - VIJAYA ENGINEERING COLLEGE, KHAMMAM",
+          "value": "VJYA"
+        },
+        {
+          "name": "VMEG - VARDHAMAN COLLEGE OF ENGINEERING (AUTONOMOUS), SHAMSHABAD",
+          "value": "VMEG"
+        },
+        {
+          "name": "VMRH - VMR PRADEEP KUMAR INST OF ENGG & TECH, HANUMAKONDA",
+          "value": "VMRH"
+        },
+        {
+          "name": "VMTW - VIGNANS INST OF MANAGEMENT AND TECH FOR WOMEN (AUTONOMOUS), GHATKESAR",
+          "value": "VMTW"
+        },
+        {
+          "name": "VREC - VIJAYA RURAL ENGINEERING COLLEGE, NIZAMABAD",
+          "value": "VREC"
+        },
+        {
+          "name": "VRKW - DR VRK WOMENS COLL OF ENGG AND TECHNOLOGY (AUTONOMOUS), MOINABAD",
+          "value": "VRKW"
+        },
+        {
+          "name": "WESL - CSI WESLEY INST OF TECHNOLOGY AND SCIENCES, SECUNDERABAD",
+          "value": "WESL"
+        },
+        {
+          "name": "WITS - WARANGAL INST OF TECHNOLOGY SCIENCE, WARANGAL",
+          "value": "WITS"
+        }
+      ],
+      "count": 33
+    }
+  ]
+}

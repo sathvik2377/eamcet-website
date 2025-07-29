@@ -1,0 +1,154 @@
+{
+  "partNumber": 4,
+  "colleges": [
+    {
+      "name": "MREM - MALLA REDDY ENGINEERING COLLEGE AND MANAGEMENT SCIENCES (AUTONOMOUS), MEDCHAL",
+      "value": "MREM"
+    },
+    {
+      "name": "MRTN - ST MARTINS ENGINEERING COLLEGE (AUTONOMOUS), DHULAPALLY",
+      "value": "MRTN"
+    },
+    {
+      "name": "MTEC - MOTHER THERESA COLLEGE OF ENGG AND TECHNOLOGY, PEDDAPALLY",
+      "value": "MTEC"
+    },
+    {
+      "name": "MVSR - M V S R ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL",
+      "value": "MVSR"
+    },
+    {
+      "name": "NAWB - NAWAB SHAH ALAM KHAN COLL OF ENGG AND TECH (AUTONOMOUS), NEW MALAKPET",
+      "value": "NAWB"
+    },
+    {
+      "name": "NGIT - NEIL GOGTE INST OF TECHNOLOGY, KACHIVANI SINGARAM",
+      "value": "NGIT"
+    },
+    {
+      "name": "NGMA - NIGAMA ENGINEERING COLLEGE, KARIMNAGAR",
+      "value": "NGMA"
+    },
+    {
+      "name": "NIET - NETAJI INSTITUTE OF ENGINEERING AND TECHNOLOGY, CHOUTUPPAL",
+      "value": "NIET"
+    },
+    {
+      "name": "NNRG - NALLA NARASIMHA REDDY EDNL SOC GRP OF INSTNS (AUTONOMOUS), GHATKESAR",
+      "value": "NNRG"
+    },
+    {
+      "name": "NRCM - NARSIMHAREDDY ENGINEERING COLLEGE (AUTONOMOUS), MAISAMMAGUDA",
+      "value": "NRCM"
+    },
+    {
+      "name": "NREC - NALLAMALLA REDDY ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR",
+      "value": "NREC"
+    },
+    {
+      "name": "OUCE - O U COLLEGE OF ENGG HYDERABAD, HYDERABAD",
+      "value": "OUCE"
+    },
+    {
+      "name": "OUCT - O U COLLEGE OF TECH HYDERABAD, HYDERABAD",
+      "value": "OUCT"
+    },
+    {
+      "name": "PALV - PALLAVI ENGINEERING COLLEGE (AUTONOMOUS), KUNTLOOR",
+      "value": "PALV"
+    },
+    {
+      "name": "PETW - PRINCETON INST OF ENGG TECH FOR WOMEN, GHATKESAR",
+      "value": "PETW"
+    },
+    {
+      "name": "PRIW - PRIYADARSHINI INSTITUTE OF SCIENCE & TECHNOLOGY FOR WOMEN, KHAMMAM",
+      "value": "PRIW"
+    },
+    {
+      "name": "PUCE - UNIVERSITY COLLEGE OF ENGINEERING PALAMURU UNIVERSITY, MAHABUBNAGAR",
+      "value": "PUCE"
+    },
+    {
+      "name": "RITW - RISHI MS INST OF ENGG AND TECH FOR WOMEN, KUKATPALLY",
+      "value": "RITW"
+    },
+    {
+      "name": "SAIS - SAI SPURTHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), SATHUPALLY",
+      "value": "SAIS"
+    },
+    {
+      "name": "SANA - SANA ENGINEERING COLLGE, KODAD",
+      "value": "SANA"
+    },
+    {
+      "name": "SBIT - SWARNA BHARATHI INSTITUTE OF SCI AND TECHNOLOGY (AUTONOMOUS), KHAMMAM",
+      "value": "SBIT"
+    },
+    {
+      "name": "SCET - SHADAN COLL OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), PEERANCHERU",
+      "value": "SCET"
+    },
+    {
+      "name": "SCIT - SRI CHAITANYA INSTITUTE OF TECHNOLOGY AND RESEARCH (AUTONOMOUS), KHAMMAM",
+      "value": "SCIT"
+    },
+    {
+      "name": "SDES - SREE DATTHA INSTITUTE OF ENGINEERING AND SCIENCE (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "SDES"
+    },
+    {
+      "name": "SDEW - SRIDEVI WOMENS ENGINEERING COLLEGE (AUTONOMOUS), GANDIPET",
+      "value": "SDEW"
+    },
+    {
+      "name": "SDGI - SREE DATTHA GRP OF INSTNS (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "SDGI"
+    },
+    {
+      "name": "SIEI - SIDDHARTHA INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "SIEI"
+    },
+    {
+      "name": "SISG - SIDDHARTHA INSTT OF TECHNOLOGY AND SCIENCES (AUTONOMOUS), GHATKESAR",
+      "value": "SISG"
+    },
+    {
+      "name": "SKEC - SREE KAVITHA ENGINEERING COLLEGE, KAREPALLY",
+      "value": "SKEC"
+    },
+    {
+      "name": "SMCD - ST MARYS ENGINEERING COLLEGE (AUTONOMOUS), DESHMUKHI",
+      "value": "SMCD"
+    },
+    {
+      "name": "SMED - ST MARYS GROUP OF INSTITUTIONS AUTONOMOUS, DESHMUKHI",
+      "value": "SMED"
+    },
+    {
+      "name": "SMSK - SAMSKRUTHI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), GHATKESAR",
+      "value": "SMSK"
+    },
+    {
+      "name": "SNIS - SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY, GHATKESAR",
+      "value": "SNIS"
+    },
+    {
+      "name": "SNTI - SCIENT INSTITUTE OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "SNTI"
+    },
+    {
+      "name": "SPEC - ST PETERS ENGINEERING COLLEGE (AUTONOMOUS), MEDCHAL",
+      "value": "SPEC"
+    },
+    {
+      "name": "SPHN - SPHOORTHY ENGINEERING COLLEGE (AUTONOMOUS), NADERGUL",
+      "value": "SPHN"
+    },
+    {
+      "name": "SRHP - SR UNIVERSITY ( FORMERLY S R ENGINEERING COLLEGE) , HASANPARTHY",
+      "value": "SRHP"
+    }
+  ],
+  "count": 37
+}

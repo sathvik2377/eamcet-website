@@ -1,0 +1,154 @@
+{
+  "partNumber": 2,
+  "colleges": [
+    {
+      "name": "CMRN - CMR ENGG COLLEGE (AUTONOMOUS), KANDLAKOYA",
+      "value": "CMRN"
+    },
+    {
+      "name": "CVRH - CVR COLLEGE OF ENGINEERING, IBRAHIMPATAN",
+      "value": "CVRH"
+    },
+    {
+      "name": "DARE - DARIPALLY ANANTHA RAMULU COLLOF ENGGAND TECH, KHAMMAM",
+      "value": "DARE"
+    },
+    {
+      "name": "DCET - DECCAN COLLEGE OF ENGINEERING AND TECHNOLOGY, DARUSSALAM",
+      "value": "DCET"
+    },
+    {
+      "name": "DRKI - D R K INSTITUTE OF SCI AND TECHNOLOGY, BOWRAMPET",
+      "value": "DRKI"
+    },
+    {
+      "name": "ELEN - ELLENKI COLLGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), PATANCHERU",
+      "value": "ELEN"
+    },
+    {
+      "name": "ESUT - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM), KOTHAGUDEM",
+      "value": "ESUT"
+    },
+    {
+      "name": "ESUTSF - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM)- SELF FINANCE, KOTHAGUDEM",
+      "value": "ESUTSF"
+    },
+    {
+      "name": "GATE - GATE INSTITUTE OF TECHNOLOGYAND SCIENCES, KODAD",
+      "value": "GATE"
+    },
+    {
+      "name": "GCTC - GEETANJALI COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), KEESARA",
+      "value": "GCTC"
+    },
+    {
+      "name": "GKEM - G K INSTITUTE OF ENGG AND TECH, MAHABUBNAGAR",
+      "value": "GKEM"
+    },
+    {
+      "name": "GLOB - GLOBAL INST OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), CHILKUR",
+      "value": "GLOB"
+    },
+    {
+      "name": "GLWC - GOKARAJU LAILAVATHI ENGINEERING COLLEGE, BACHUPALLY",
+      "value": "GLWC"
+    },
+    {
+      "name": "GNIT - GURUNANAK INST OF TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "GNIT"
+    },
+    {
+      "name": "GNTW - G NARAYNAMMA INSTITUTE OF TECHNOLOGY AND SCI, SHAIKPET",
+      "value": "GNTW"
+    },
+    {
+      "name": "GRRR - GOKARAJU RANGARAJU INSTITUTE OF ENGG AND TECH (AUTONOMOUS), BACHUPALLY",
+      "value": "GRRR"
+    },
+    {
+      "name": "GURU - GURU NANAK INSTITUTIONS TECHNICAL CAMPUS (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "GURU"
+    },
+    {
+      "name": "HITM - HYDERABAD INST OF TECHNOLOGY AND MGMT (AUTONOMOUS), MEDCHAL",
+      "value": "HITM"
+    },
+    {
+      "name": "HOLY - HOLY MARY INSTITUTE OF TECH SCIENCE (AUTONOMOUS), KEESARA",
+      "value": "HOLY"
+    },
+    {
+      "name": "IARE - INSTITUTE OF AERONAUTICAL ENGINEERING, DUNDIGAL",
+      "value": "IARE"
+    },
+    {
+      "name": "IITT - INDUR INSTITUTE OF ENGINEERING AND TECHNOLOGY, SIDDIPET",
+      "value": "IITT"
+    },
+    {
+      "name": "INDI - SRI INDU INSTITUTE OF ENGINEERING AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "INDI"
+    },
+    {
+      "name": "INDU - SRI INDU COLLEGE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATAN",
+      "value": "INDU"
+    },
+    {
+      "name": "ISLC - ISL ENGINEERING COLLEGE (AUTONOMOUS), BANDLAGUDA",
+      "value": "ISLC"
+    },
+    {
+      "name": "JAYA - JAYAMUKHI INSTITUTE OF TECHNOLOGY AND SCIS (AUTONOMOUS), NARSAMPET",
+      "value": "JAYA"
+    },
+    {
+      "name": "JBIT - J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), YENKAPALLY",
+      "value": "JBIT"
+    },
+    {
+      "name": "JMTS - JYOTHISHMATHI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), KARIMNAGAR",
+      "value": "JMTS"
+    },
+    {
+      "name": "JNKR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING JAGITIAL (AUTONOMOUS), JAGITIAL",
+      "value": "JNKR"
+    },
+    {
+      "name": "JNMB - JNTUH UNIVERSITY COLLEGE OF ENGINEERING MAHABUBABAD, MAHABUBABAD",
+      "value": "JNMB"
+    },
+    {
+      "name": "JNPASF - JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE, MASABTANK",
+      "value": "JNPASF"
+    },
+    {
+      "name": "JNPL - JNTUH UNIVERSITY COLLEGE OF ENGINEERING PALAIR, PALAIR",
+      "value": "JNPL"
+    },
+    {
+      "name": "JNTH - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH HYDERABAD, HYDERABAD",
+      "value": "JNTH"
+    },
+    {
+      "name": "JNTHMT - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH -5 YEAR INTEGRATED MTECH SELF FINANCE, KUKATPALLY",
+      "value": "JNTHMT"
+    },
+    {
+      "name": "JNTM - JNTUH UNIVERSITY COLLEGE OF ENGG MANTHANI, MANTHANI",
+      "value": "JNTM"
+    },
+    {
+      "name": "JNTR - JNTUH UNIVERSITY COLLEGE OF ENGINEERING RAJANNA SIRCILLA, AGRAHARAM RAJANNA SIRCILLA",
+      "value": "JNTR"
+    },
+    {
+      "name": "JNTS - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR, SULTANPUR",
+      "value": "JNTS"
+    },
+    {
+      "name": "JNTSSF - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR - SELF FINANCE, SULTANPUR",
+      "value": "JNTSSF"
+    }
+  ],
+  "count": 37
+}

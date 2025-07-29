@@ -1,0 +1,28 @@
+{
+  "comparisonDate": "2025-07-29T15:20:14.234Z",
+  "phase1": {
+    "totalColleges": 174,
+    "totalBranches": 1030,
+    "totalRecords": 77352
+  },
+  "phase2": {
+    "totalColleges": 183,
+    "totalBranches": 1069,
+    "totalRecords": 84563
+  },
+  "missingBranches": 2,
+  "branchesAdded": 2,
+  "filesCreated": 2,
+  "missingBranchDetails": [
+    {
+      "college": "AIZA_AIZZA_COLLEGE_OF_ENGG_AND_TECHNOLOGY_MANCHERIAL",
+      "branch": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+      "phase1Records": 1
+    },
+    {
+      "college": "AIZA_AIZZA_COLLEGE_OF_ENGG_AND_TECHNOLOGY_MANCHERIAL",
+      "branch": "MINING_ENGINEERING",
+      "phase1Records": 1
+    }
+  ]
+}

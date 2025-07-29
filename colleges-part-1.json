@@ -1,0 +1,154 @@
+{
+  "partNumber": 1,
+  "colleges": [
+    {
+      "name": "AARM - AAR MAHAVEER ENGINEERING COLLEGE, BANDLAGUDA",
+      "value": "AARM"
+    },
+    {
+      "name": "ACEG - A C E ENGINEERING COLLEGE (AUTONOMOUS), GHATKESAR",
+      "value": "ACEG"
+    },
+    {
+      "name": "AITH - ANNAMACHARYA INST OF TECHNOLOGY AND SCI (AUTONOMOUS), HAYATHNAGAR",
+      "value": "AITH"
+    },
+    {
+      "name": "AIZA - AIZZA COLLEGE OF ENGG AND TECHNOLOGY, MANCHERIAL",
+      "value": "AIZA"
+    },
+    {
+      "name": "AKIT - ABDULKALAM INST OF TECHNOLOGY AND SCI, KOTHAGUDEM",
+      "value": "AKIT"
+    },
+    {
+      "name": "ANRK - ANURAG ENGINEERING COLLEGE (AUTONOMOUS), KODAD",
+      "value": "ANRK"
+    },
+    {
+      "name": "ANUG - ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG), GHATKESAR",
+      "value": "ANUG"
+    },
+    {
+      "name": "ARJN - ARJUN COLLEGE OF TECHNOLOGY AND SCIENCE (AUTONOMOUS), BATASINGARAM",
+      "value": "ARJN"
+    },
+    {
+      "name": "ASRA - AVANTHIS SCIENTIFIC TECH AND RESEARCH ACADEMY, HAYATHNAGAR",
+      "value": "ASRA"
+    },
+    {
+      "name": "AURC - AURORA SCIENTIFIC AND TECH RESEARCH ACADEMY, HYDERABAD",
+      "value": "AURC"
+    },
+    {
+      "name": "AURG - AURORAS SCIENTIFIC AND TECHNOLOGICAL INSTITUTE, GHATKESAR",
+      "value": "AURG"
+    },
+    {
+      "name": "AURH - RAMAPPA ENGINEERING COLLEGE, SHAYAMPET",
+      "value": "AURH"
+    },
+    {
+      "name": "AURK - AURORA S TECHNOLOGICAL AND MANAGEMENT ACADEMY, PARVATHAPUR",
+      "value": "AURK"
+    },
+    {
+      "name": "AVIH - AVANTHI INST OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR",
+      "value": "AVIH"
+    },
+    {
+      "name": "AVNI - AVN INST OF ENGG &TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM",
+      "value": "AVNI"
+    },
+    {
+      "name": "AZAD - AZAD COLLEGE OF ENGINEERING AND TECHNOLOGY, MOINABAD",
+      "value": "AZAD"
+    },
+    {
+      "name": "BIET - BHARAT INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS), IBRAHIMPATNAM",
+      "value": "BIET"
+    },
+    {
+      "name": "BITN - BALAJI INSTITUTE OF TECHNOLOGY AND SCI (AUTONOMOUS), NARSAMPET",
+      "value": "BITN"
+    },
+    {
+      "name": "BOMA - BOMMA INST OF TECHNOLOGY AND SCI, KHAMMAM",
+      "value": "BOMA"
+    },
+    {
+      "name": "BOSE - ANU BOSE INSTT OF TECHNOLOGY FOR WOMENS (AUTONOMOUS), PALONCHA",
+      "value": "BOSE"
+    },
+    {
+      "name": "BREW - BHOJREDDY ENGINEERING COLLEGE FOR WOMEN, SAIDABAD",
+      "value": "BREW"
+    },
+    {
+      "name": "BRIG - BRILLIANT GRAMMER SCHOOL EDNL SOC GRP OF INSTNS (AUTONOMOUS), HAYATHNAGAR",
+      "value": "BRIG"
+    },
+    {
+      "name": "BRIL - BRILLIANT INSTT OF ENGG AND TECHNOLOGY (AUTONOMOUS), HAYATHNAGAR",
+      "value": "BRIL"
+    },
+    {
+      "name": "BSKR - BHASKAR ENGINEERING COLLEGE, YENKAPALLY",
+      "value": "BSKR"
+    },
+    {
+      "name": "BVRI - B V RAJU INSTITUTE OF TECHNOLOGY, NARSAPUR",
+      "value": "BVRI"
+    },
+    {
+      "name": "BVRW - BVRIT COLLEGE OF ENGINEERING FOR WOMEN (AUTONOMOUS), BACHUPALLY",
+      "value": "BVRW"
+    },
+    {
+      "name": "CASR - COLLEGE OF AGRICULTURAL ENGG, SANGAREDDY",
+      "value": "CASR"
+    },
+    {
+      "name": "CBIT - CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, GANDIPET",
+      "value": "CBIT"
+    },
+    {
+      "name": "CDTK - COLLEGE OF DAIRY TECHNOLOGY, KAMAREDDY",
+      "value": "CDTK"
+    },
+    {
+      "name": "CFSR - COLLEGE OF FOOD SCIENCE AND TECHNOLOGY, RUDRUR",
+      "value": "CFSR"
+    },
+    {
+      "name": "CHET - SRI CHAITANYA TECHNICAL CAMPUS, IBRAHIMPATAN",
+      "value": "CHET"
+    },
+    {
+      "name": "CHTN - SREE CHAITANYA COLLEGE OF ENGINEERING, KARIMNAGAR",
+      "value": "CHTN"
+    },
+    {
+      "name": "CHTS - SREE CHAITANYA INST OF TECHNOLOGY SCIENCES, KARIMNAGAR",
+      "value": "CHTS"
+    },
+    {
+      "name": "CJIT - CHRISTU JYOTHI INSTITUTE OF TECHNOLOGY AND SCI, JANGAON",
+      "value": "CJIT"
+    },
+    {
+      "name": "CMRG - CMR TECHNICAL CAMPUS (AUTONOMOUS), KANDLAKOYA",
+      "value": "CMRG"
+    },
+    {
+      "name": "CMRK - C M R COLLEGE OF ENGG AND TECHNOLOGY , KANDLAKOYA",
+      "value": "CMRK"
+    },
+    {
+      "name": "CMRM - CMR INSTITUTE OF TECHNOLOGY (AUTONOMOUS), KANDLAKOYA",
+      "value": "CMRM"
+    }
+  ],
+  "count": 37
+}
