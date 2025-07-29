@@ -1,0 +1,909 @@
+{
+  "conversionDate": "2025-07-29T15:22:46.993Z",
+  "totalColleges": 180,
+  "totalBranches": 1052,
+  "totalRecords": 83338,
+  "dataFile": "2025-phase2-allotment-data.json",
+  "colleges": [
+    {
+      "code": "ACEG",
+      "branches": 9,
+      "students": 924
+    },
+    {
+      "code": "AITH",
+      "branches": 7,
+      "students": 300
+    },
+    {
+      "code": "AIZA",
+      "branches": 1,
+      "students": 1
+    },
+    {
+      "code": "AKIT",
+      "branches": 8,
+      "students": 303
+    },
+    {
+      "code": "ANRK",
+      "branches": 6,
+      "students": 387
+    },
+    {
+      "code": "ANUG",
+      "branches": 7,
+      "students": 832
+    },
+    {
+      "code": "ARJN",
+      "branches": 3,
+      "students": 139
+    },
+    {
+      "code": "ASRA",
+      "branches": 7,
+      "students": 219
+    },
+    {
+      "code": "AURC",
+      "branches": 2,
+      "students": 52
+    },
+    {
+      "code": "AURG",
+      "branches": 4,
+      "students": 410
+    },
+    {
+      "code": "AURH",
+      "branches": 1,
+      "students": 13
+    },
+    {
+      "code": "AURK",
+      "branches": 1,
+      "students": 46
+    },
+    {
+      "code": "AVIH",
+      "branches": 7,
+      "students": 608
+    },
+    {
+      "code": "AVNI",
+      "branches": 8,
+      "students": 692
+    },
+    {
+      "code": "AZAD",
+      "branches": 2,
+      "students": 58
+    },
+    {
+      "code": "BIET",
+      "branches": 9,
+      "students": 807
+    },
+    {
+      "code": "BITN",
+      "branches": 8,
+      "students": 595
+    },
+    {
+      "code": "BOMA",
+      "branches": 5,
+      "students": 118
+    },
+    {
+      "code": "BOSE",
+      "branches": 6,
+      "students": 394
+    },
+    {
+      "code": "BREW",
+      "branches": 5,
+      "students": 370
+    },
+    {
+      "code": "BRIG",
+      "branches": 9,
+      "students": 422
+    },
+    {
+      "code": "BRIL",
+      "branches": 10,
+      "students": 489
+    },
+    {
+      "code": "BSKR",
+      "branches": 5,
+      "students": 231
+    },
+    {
+      "code": "BVRI",
+      "branches": 12,
+      "students": 1210
+    },
+    {
+      "code": "BVRW",
+      "branches": 4,
+      "students": 508
+    },
+    {
+      "code": "CASR",
+      "branches": 1,
+      "students": 31
+    },
+    {
+      "code": "CBIT",
+      "branches": 12,
+      "students": 1155
+    },
+    {
+      "code": "CDTK",
+      "branches": 1,
+      "students": 31
+    },
+    {
+      "code": "CFSR",
+      "branches": 1,
+      "students": 14
+    },
+    {
+      "code": "CHET",
+      "branches": 7,
+      "students": 254
+    },
+    {
+      "code": "CHTN",
+      "branches": 6,
+      "students": 312
+    },
+    {
+      "code": "CHTS",
+      "branches": 4,
+      "students": 254
+    },
+    {
+      "code": "CJIT",
+      "branches": 5,
+      "students": 111
+    },
+    {
+      "code": "CMRG",
+      "branches": 4,
+      "students": 739
+    },
+    {
+      "code": "CMRK",
+      "branches": 7,
+      "students": 901
+    },
+    {
+      "code": "CMRM",
+      "branches": 4,
+      "students": 785
+    },
+    {
+      "code": "CMRN",
+      "branches": 4,
+      "students": 693
+    },
+    {
+      "code": "CVRH",
+      "branches": 12,
+      "students": 1478
+    },
+    {
+      "code": "DARE",
+      "branches": 2,
+      "students": 22
+    },
+    {
+      "code": "DCET",
+      "branches": 8,
+      "students": 411
+    },
+    {
+      "code": "DRKI",
+      "branches": 7,
+      "students": 598
+    },
+    {
+      "code": "ELEN",
+      "branches": 8,
+      "students": 603
+    },
+    {
+      "code": "ESUT",
+      "branches": 3,
+      "students": 111
+    },
+    {
+      "code": "ESUTSF - EARTH SCIENCES UNIV OF TELANGANA (FORMERLY K U COLLEGE OF ENGG KOTHAGUDEM)- SELF FINANCE, KOTHAGUDEM",
+      "branches": 4,
+      "students": 44
+    },
+    {
+      "code": "GATE",
+      "branches": 6,
+      "students": 81
+    },
+    {
+      "code": "GCTC",
+      "branches": 8,
+      "students": 1108
+    },
+    {
+      "code": "GKEM",
+      "branches": 2,
+      "students": 3
+    },
+    {
+      "code": "GLOB",
+      "branches": 6,
+      "students": 449
+    },
+    {
+      "code": "GLWC",
+      "branches": 2,
+      "students": 370
+    },
+    {
+      "code": "GNIT",
+      "branches": 8,
+      "students": 739
+    },
+    {
+      "code": "GNTW",
+      "branches": 7,
+      "students": 785
+    },
+    {
+      "code": "GRRR",
+      "branches": 8,
+      "students": 1016
+    },
+    {
+      "code": "GURU",
+      "branches": 11,
+      "students": 1202
+    },
+    {
+      "code": "HITM",
+      "branches": 6,
+      "students": 646
+    },
+    {
+      "code": "HOLY",
+      "branches": 8,
+      "students": 730
+    },
+    {
+      "code": "IARE",
+      "branches": 9,
+      "students": 855
+    },
+    {
+      "code": "IITT",
+      "branches": 6,
+      "students": 152
+    },
+    {
+      "code": "INDI",
+      "branches": 8,
+      "students": 693
+    },
+    {
+      "code": "INDU",
+      "branches": 11,
+      "students": 1155
+    },
+    {
+      "code": "ISLC",
+      "branches": 6,
+      "students": 329
+    },
+    {
+      "code": "JAYA",
+      "branches": 7,
+      "students": 170
+    },
+    {
+      "code": "JBIT",
+      "branches": 11,
+      "students": 924
+    },
+    {
+      "code": "JMTS",
+      "branches": 5,
+      "students": 372
+    },
+    {
+      "code": "JNKR",
+      "branches": 5,
+      "students": 326
+    },
+    {
+      "code": "JNMB",
+      "branches": 5,
+      "students": 160
+    },
+    {
+      "code": "JNPASF - JNAFAU SCHOOL OF PLANNING AND ARCH - SELF FINANCE, MASABTANK",
+      "branches": 3,
+      "students": 82
+    },
+    {
+      "code": "JNPL",
+      "branches": 5,
+      "students": 163
+    },
+    {
+      "code": "JNTH",
+      "branches": 11,
+      "students": 627
+    },
+    {
+      "code": "JNTHMT - JNTUH UNIVERSITY COLLEGE OF ENGG SCI AND TECH -5 YEAR INTEGRATED MTECH SELF FINANCE, KUKATPALLY",
+      "branches": 2,
+      "students": 66
+    },
+    {
+      "code": "JNTM",
+      "branches": 6,
+      "students": 358
+    },
+    {
+      "code": "JNTR",
+      "branches": 6,
+      "students": 201
+    },
+    {
+      "code": "JNTS",
+      "branches": 7,
+      "students": 462
+    },
+    {
+      "code": "JNTSSF - JNTUH UNIVERSITY COLLEGE OF ENGINEERING SULTANPUR - SELF FINANCE, SULTANPUR",
+      "branches": 1,
+      "students": 66
+    },
+    {
+      "code": "JNWN",
+      "branches": 5,
+      "students": 176
+    },
+    {
+      "code": "JOGI",
+      "branches": 7,
+      "students": 612
+    },
+    {
+      "code": "JPNE",
+      "branches": 8,
+      "students": 291
+    },
+    {
+      "code": "JPNH",
+      "branches": 4,
+      "students": 336
+    },
+    {
+      "code": "KCEA",
+      "branches": 5,
+      "students": 77
+    },
+    {
+      "code": "KDDW",
+      "branches": 4,
+      "students": 342
+    },
+    {
+      "code": "KGRH",
+      "branches": 6,
+      "students": 599
+    },
+    {
+      "code": "KITS",
+      "branches": 11,
+      "students": 1016
+    },
+    {
+      "code": "KITW",
+      "branches": 4,
+      "students": 207
+    },
+    {
+      "code": "KLRT",
+      "branches": 8,
+      "students": 282
+    },
+    {
+      "code": "KMCE",
+      "branches": 3,
+      "students": 369
+    },
+    {
+      "code": "KMEC",
+      "branches": 2,
+      "students": 323
+    },
+    {
+      "code": "KMIT",
+      "branches": 2,
+      "students": 647
+    },
+    {
+      "code": "KNRR",
+      "branches": 8,
+      "students": 439
+    },
+    {
+      "code": "KPRC",
+      "branches": 2,
+      "students": 277
+    },
+    {
+      "code": "KPRT",
+      "branches": 4,
+      "students": 575
+    },
+    {
+      "code": "KSGI",
+      "branches": 3,
+      "students": 41
+    },
+    {
+      "code": "KTKM",
+      "branches": 8,
+      "students": 484
+    },
+    {
+      "code": "KUEWSF - UNIVERSITY COLLEGE OF ENGG AND TECH FOR WOMEN KU CAMPUS, WARANGAL",
+      "branches": 6,
+      "students": 350
+    },
+    {
+      "code": "KUWL",
+      "branches": 7,
+      "students": 454
+    },
+    {
+      "code": "LRDS",
+      "branches": 8,
+      "students": 924
+    },
+    {
+      "code": "MDRK",
+      "branches": 5,
+      "students": 114
+    },
+    {
+      "code": "MECS",
+      "branches": 8,
+      "students": 600
+    },
+    {
+      "code": "METH",
+      "branches": 7,
+      "students": 600
+    },
+    {
+      "code": "MGHA",
+      "branches": 7,
+      "students": 445
+    },
+    {
+      "code": "MGIT",
+      "branches": 11,
+      "students": 785
+    },
+    {
+      "code": "MGUNSF - MGU COLLEGE OF ENGINEERING AND TECHNOLOGY , NALGONDA",
+      "branches": 3,
+      "students": 221
+    },
+    {
+      "code": "MHVR",
+      "branches": 8,
+      "students": 392
+    },
+    {
+      "code": "MINA",
+      "branches": 4,
+      "students": 120
+    },
+    {
+      "code": "MJCT",
+      "branches": 7,
+      "students": 588
+    },
+    {
+      "code": "MLID",
+      "branches": 7,
+      "students": 785
+    },
+    {
+      "code": "MLRD",
+      "branches": 9,
+      "students": 1016
+    },
+    {
+      "code": "MLRS",
+      "branches": 7,
+      "students": 624
+    },
+    {
+      "code": "MMTZ",
+      "branches": 4,
+      "students": 103
+    },
+    {
+      "code": "MOTK",
+      "branches": 8,
+      "students": 129
+    },
+    {
+      "code": "MRCE",
+      "branches": 4,
+      "students": 693
+    },
+    {
+      "code": "MRCW",
+      "branches": 7,
+      "students": 1201
+    },
+    {
+      "code": "MREM",
+      "branches": 8,
+      "students": 643
+    },
+    {
+      "code": "MRTN",
+      "branches": 4,
+      "students": 531
+    },
+    {
+      "code": "MTEC",
+      "branches": 7,
+      "students": 164
+    },
+    {
+      "code": "MVSR",
+      "branches": 10,
+      "students": 831
+    },
+    {
+      "code": "NAWB",
+      "branches": 7,
+      "students": 396
+    },
+    {
+      "code": "NGIT",
+      "branches": 2,
+      "students": 323
+    },
+    {
+      "code": "NGMA",
+      "branches": 1,
+      "students": 2
+    },
+    {
+      "code": "NIET",
+      "branches": 3,
+      "students": 61
+    },
+    {
+      "code": "NNRG",
+      "branches": 5,
+      "students": 716
+    },
+    {
+      "code": "NRCM",
+      "branches": 8,
+      "students": 877
+    },
+    {
+      "code": "NREC",
+      "branches": 6,
+      "students": 507
+    },
+    {
+      "code": "OUCE",
+      "branches": 8,
+      "students": 495
+    },
+    {
+      "code": "OUCT",
+      "branches": 3,
+      "students": 198
+    },
+    {
+      "code": "PALV",
+      "branches": 7,
+      "students": 450
+    },
+    {
+      "code": "PETW",
+      "branches": 5,
+      "students": 361
+    },
+    {
+      "code": "PRIW",
+      "branches": 4,
+      "students": 205
+    },
+    {
+      "code": "PUCE",
+      "branches": 3,
+      "students": 191
+    },
+    {
+      "code": "RITW",
+      "branches": 3,
+      "students": 231
+    },
+    {
+      "code": "SAIS",
+      "branches": 5,
+      "students": 183
+    },
+    {
+      "code": "SANA",
+      "branches": 6,
+      "students": 292
+    },
+    {
+      "code": "SBIT",
+      "branches": 5,
+      "students": 401
+    },
+    {
+      "code": "SCET",
+      "branches": 10,
+      "students": 449
+    },
+    {
+      "code": "SCIT",
+      "branches": 7,
+      "students": 343
+    },
+    {
+      "code": "SDES",
+      "branches": 8,
+      "students": 846
+    },
+    {
+      "code": "SDEW",
+      "branches": 5,
+      "students": 854
+    },
+    {
+      "code": "SDGI",
+      "branches": 5,
+      "students": 531
+    },
+    {
+      "code": "SIEI",
+      "branches": 7,
+      "students": 717
+    },
+    {
+      "code": "SISG",
+      "branches": 10,
+      "students": 740
+    },
+    {
+      "code": "SKEC",
+      "branches": 1,
+      "students": 3
+    },
+    {
+      "code": "SMCD",
+      "branches": 3,
+      "students": 420
+    },
+    {
+      "code": "SMED",
+      "branches": 3,
+      "students": 504
+    },
+    {
+      "code": "SMSK",
+      "branches": 6,
+      "students": 600
+    },
+    {
+      "code": "SNIS",
+      "branches": 9,
+      "students": 1524
+    },
+    {
+      "code": "SNTI",
+      "branches": 5,
+      "students": 414
+    },
+    {
+      "code": "SPEC",
+      "branches": 7,
+      "students": 855
+    },
+    {
+      "code": "SPHN",
+      "branches": 6,
+      "students": 669
+    },
+    {
+      "code": "SRHP",
+      "branches": 5,
+      "students": 548
+    },
+    {
+      "code": "SRIW",
+      "branches": 5,
+      "students": 554
+    },
+    {
+      "code": "SRYS",
+      "branches": 4,
+      "students": 739
+    },
+    {
+      "code": "STLW",
+      "branches": 7,
+      "students": 693
+    },
+    {
+      "code": "SUCE",
+      "branches": 4,
+      "students": 115
+    },
+    {
+      "code": "SVES",
+      "branches": 5,
+      "students": 137
+    },
+    {
+      "code": "SVIT",
+      "branches": 6,
+      "students": 370
+    },
+    {
+      "code": "SVSE",
+      "branches": 5,
+      "students": 275
+    },
+    {
+      "code": "SWET",
+      "branches": 6,
+      "students": 336
+    },
+    {
+      "code": "TCEK",
+      "branches": 5,
+      "students": 171
+    },
+    {
+      "code": "TCTK",
+      "branches": 4,
+      "students": 77
+    },
+    {
+      "code": "TKEM",
+      "branches": 6,
+      "students": 739
+    },
+    {
+      "code": "TKRC",
+      "branches": 7,
+      "students": 970
+    },
+    {
+      "code": "TPCE",
+      "branches": 3,
+      "students": 105
+    },
+    {
+      "code": "TRRM",
+      "branches": 2,
+      "students": 231
+    },
+    {
+      "code": "VAGE",
+      "branches": 7,
+      "students": 918
+    },
+    {
+      "code": "VASV",
+      "branches": 7,
+      "students": 601
+    },
+    {
+      "code": "VBIT",
+      "branches": 10,
+      "students": 1016
+    },
+    {
+      "code": "VCET",
+      "branches": 8,
+      "students": 387
+    },
+    {
+      "code": "VGNT",
+      "branches": 11,
+      "students": 901
+    },
+    {
+      "code": "VGSE",
+      "branches": 6,
+      "students": 494
+    },
+    {
+      "code": "VGWL",
+      "branches": 4,
+      "students": 456
+    },
+    {
+      "code": "VISA",
+      "branches": 6,
+      "students": 135
+    },
+    {
+      "code": "VITS",
+      "branches": 3,
+      "students": 39
+    },
+    {
+      "code": "VJEC",
+      "branches": 17,
+      "students": 1548
+    },
+    {
+      "code": "VJIT",
+      "branches": 8,
+      "students": 832
+    },
+    {
+      "code": "VJYA",
+      "branches": 5,
+      "students": 89
+    },
+    {
+      "code": "VMEG",
+      "branches": 8,
+      "students": 1063
+    },
+    {
+      "code": "VMRH",
+      "branches": 2,
+      "students": 25
+    },
+    {
+      "code": "VMTW",
+      "branches": 5,
+      "students": 646
+    },
+    {
+      "code": "VREC",
+      "branches": 6,
+      "students": 107
+    },
+    {
+      "code": "VRKW",
+      "branches": 6,
+      "students": 144
+    },
+    {
+      "code": "WESL",
+      "branches": 1,
+      "students": 84
+    },
+    {
+      "code": "WITS",
+      "branches": 3,
+      "students": 64
+    }
+  ]
+}

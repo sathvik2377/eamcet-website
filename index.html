@@ -300,6 +300,92 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
+        /* Phase selection dropdown */
+        #phaseSelector {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        #phaseSelector:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        #phaseSelector:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(102, 126, 234, 0.5);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        #phaseSelector option {
+            background: rgba(15, 15, 25, 0.95);
+            color: #ffffff;
+            padding: 12px;
+        }
+
+        /* College name styling */
+        .college-name-primary {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffffff;
+            line-height: 1.4;
+            margin-bottom: 4px;
+        }
+
+        .college-code-secondary {
+            font-size: 0.75rem;
+            font-weight: 400;
+            color: #9ca3af;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Enhanced student card styling */
+        .student-list-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .student-list-item:hover {
+            transform: translateY(-2px);
+            border-color: rgba(102, 126, 234, 0.3);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Branch styling */
+        .branch-name {
+            color: #60a5fa;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        /* Responsive improvements */
+        @media (max-width: 1024px) {
+            .college-name-primary {
+                font-size: 0.875rem;
+            }
+
+            .branch-name {
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Phase selector improvements */
+        .phase-instruction-box {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+            padding: 12px;
+            margin-bottom: 16px;
+        }
+
         /* Compact list view */
         .student-list-item {
             background: rgba(255, 255, 255, 0.03);
@@ -600,6 +686,42 @@
         </div>
 
         <div class="main-container">
+        <!-- Phase Selection Section -->
+        <div class="card p-6 mb-6 max-w-4xl mx-auto">
+            <div class="text-center mb-6">
+                <h2 class="text-xl font-semibold mb-3 gradient-text">📋 Select Allotment Phase</h2>
+                <p class="text-gray-400 mb-4">
+                    <strong>Use the dropdown below to switch between Phase 1 and Phase 2 allotment data</strong>
+                </p>
+                <div class="bg-blue-500/10 border border-blue-500/20 rounded-lg p-3 mb-4">
+                    <p class="text-blue-300 text-sm">
+                        💡 <strong>How to change phase:</strong> Click the dropdown menu below and select either "Phase 1 Data" or "Phase 2 Data" to switch between different allotment phases
+                    </p>
+                </div>
+            </div>
+
+            <div class="max-w-lg mx-auto mb-4">
+                <label class="block text-sm font-medium text-gray-300 mb-2">Choose Allotment Phase:</label>
+                <div class="relative">
+                    <select id="phaseSelector" class="w-full px-6 py-4 text-lg search-input rounded-2xl text-white focus:outline-none transition-all duration-300 appearance-none cursor-pointer">
+                        <option value="phase1">📊 Phase 1 Data - 176 Colleges • 1,069 Branches</option>
+                        <option value="phase2" selected>📊 Phase 2 Data - 180 Colleges • 1,052 Branches</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">
+                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <p id="phaseDescription" class="text-sm text-gray-400">
+                    Currently viewing Phase 2 allotment data with comprehensive student records
+                </p>
+            </div>
+        </div>
+
         <!-- Search and Filters Section -->
         <div class="card p-8 mb-8 max-w-4xl mx-auto search-section">
             <div class="text-center mb-8">
@@ -873,11 +995,18 @@
         let categories = new Set();
         let studentNames = new Set();
         let hallTickets = new Set();
+        let collegeMap = new Map(); // Map college codes to full names
         let currentSuggestionIndex = -1;
         let searchHistory = JSON.parse(localStorage.getItem('eamcetSearchHistory') || '[]');
 
         let currentPage = 1;
         let itemsPerPage = 150;
+
+        // Phase management
+        let currentPhase = 'phase2'; // 'phase1' or 'phase2' - Default to Phase 2
+        let phase1Data = [];
+        let phase2Data = [];
+        let isDataLoaded = { phase1: false, phase2: false };
 
         // DOM elements
         const searchInput = document.getElementById('searchInput');
@@ -888,6 +1017,10 @@
         const branchFilter = document.getElementById('branchFilter');
         const categoryFilter = document.getElementById('categoryFilter');
         const genderFilter = document.getElementById('genderFilter');
+
+        // Phase selection elements
+        const phaseSelector = document.getElementById('phaseSelector');
+        const phaseDescription = document.getElementById('phaseDescription');
         const loadingIndicator = document.getElementById('loadingIndicator');
         const searchResultsList = document.getElementById('searchResultsList');
         const resultsList = document.getElementById('resultsList');
@@ -916,8 +1049,9 @@
         // Initialize the application
         async function init() {
             try {
-                await loadAllData();
+                await loadPhaseData('phase2'); // Load Phase 2 by default
                 setupEventListeners();
+                setupPhaseEventListeners();
                 populateFilters();
                 updateStats();
                 hideLoading();
@@ -927,27 +1061,59 @@
             }
         }
 
-        // Load all CSV data (works for both server and static hosting)
-        async function loadAllData() {
+        // Load phase-specific data
+        async function loadPhaseData(phase) {
             try {
                 let response;
+                const fileName = phase === 'phase1' ? 'all-data.json' : '2025-phase2-allotment-data.json';
 
                 // Try server API first (for Vercel/Node.js hosting)
                 try {
-                    response = await fetch('/api/all-data');
+                    const apiEndpoint = phase === 'phase1' ? '/api/all-data' : '/api/phase2-data';
+                    response = await fetch(apiEndpoint);
                     if (!response.ok) throw new Error('Server API not available');
-                    console.log('✅ Loading data from server API');
+                    console.log(`✅ Loading ${phase} data from server API`);
                 } catch (serverError) {
                     // Fallback to static JSON file (for GitHub Pages)
-                    console.log('🔄 Server API not available, trying static file...');
-                    response = await fetch('./data/all-data.json');
+                    console.log(`🔄 Server API not available, trying static file for ${phase}...`);
+                    const filePath = `./data/${fileName}`;
+                    response = await fetch(filePath);
                     if (!response.ok) {
                         throw new Error(`Static file not found! status: ${response.status}`);
                     }
-                    console.log('✅ Loading data from static file');
+                    console.log(`✅ Loading ${phase} data from static file`);
                 }
 
-                allData = await response.json();
+                const data = await response.json();
+
+                if (phase === 'phase1') {
+                    phase1Data = data;
+                    isDataLoaded.phase1 = true;
+                } else {
+                    // Convert Phase 2 data structure to match Phase 1 format
+                    phase2Data = convertPhase2DataFormat(data);
+                    isDataLoaded.phase2 = true;
+                }
+
+                // Set current data and process college names
+                allData = phase === 'phase1' ? phase1Data : phase2Data;
+
+                // For Phase 1, extract college codes and add collegeName field
+                if (phase === 'phase1') {
+                    allData = allData.map(record => ({
+                        ...record,
+                        collegeName: record.college, // Full name is in college field
+                        college: extractCollegeCode(record.college) // Extract code
+                    }));
+                }
+
+                // Clear and rebuild filter sets
+                colleges.clear();
+                branches.clear();
+                categories.clear();
+                studentNames.clear();
+                hallTickets.clear();
+                collegeMap.clear();
 
                 // Extract unique values for filters and autocomplete
                 allData.forEach(record => {
@@ -956,14 +1122,86 @@
                     categories.add(record.seatcategory);
                     studentNames.add(record.name.toLowerCase());
                     hallTickets.add(record.hallticketno.toLowerCase());
+
+                    // Map college code to full name
+                    if (record.collegeName) {
+                        collegeMap.set(record.college, record.collegeName);
+                    }
                 });
 
                 filteredData = [...allData];
-                console.log(`📊 Loaded ${allData.length} records from ${colleges.size} colleges`);
+                console.log(`📊 Loaded ${allData.length} records from ${colleges.size} colleges for ${phase}`);
             } catch (error) {
-                console.error('❌ Error loading data:', error);
+                console.error(`❌ Error loading ${phase} data:`, error);
                 throw error;
             }
+        }
+
+        // Extract college code from full college name
+        function extractCollegeCode(fullName) {
+            // Try to extract code from names like "ACEG A C E ENGINEERING COLLEGE AUTONOMOUS GHATKESAR"
+            const words = fullName.split(' ');
+            const firstWord = words[0];
+
+            // If first word looks like a code (3-5 uppercase letters), use it
+            if (firstWord && /^[A-Z]{3,5}$/.test(firstWord)) {
+                return firstWord;
+            }
+
+            // Otherwise, try to find a pattern like "ACEG - " or similar
+            const match = fullName.match(/^([A-Z]{3,5})\s*[-_\s]/);
+            if (match) {
+                return match[1];
+            }
+
+            // Fallback: use first 4 characters
+            return fullName.substring(0, 4).toUpperCase();
+        }
+
+        // Convert Phase 2 data structure to match Phase 1 format
+        function convertPhase2DataFormat(phase2Data) {
+            console.log(`🔄 Converting Phase 2 data...`);
+            const convertedData = [];
+            let totalStudents = 0;
+
+            for (const collegeCode in phase2Data) {
+                const collegeData = phase2Data[collegeCode];
+                let collegeStudents = 0;
+
+                for (const branchName in collegeData) {
+                    const students = collegeData[branchName];
+
+                    students.forEach(student => {
+                        convertedData.push({
+                            sno: student.sno,
+                            hallticketno: student.hallticketno,
+                            rank: student.rank,
+                            name: student.name,
+                            sex: student.sex,
+                            caste: student.caste,
+                            region: student.region,
+                            seatcategory: student.seatcategory,
+                            college: collegeCode,
+                            collegeName: student.collegeName || student.college, // Preserve full college name
+                            branch: branchName
+                        });
+                        collegeStudents++;
+                        totalStudents++;
+                    });
+                }
+
+                if (collegeStudents > 0) {
+                    console.log(`  ${collegeCode}: ${collegeStudents} students`);
+                }
+            }
+
+            console.log(`✅ Conversion complete: ${totalStudents} total students from ${Object.keys(phase2Data).length} colleges`);
+            return convertedData;
+        }
+
+        // Legacy function for backward compatibility
+        async function loadAllData() {
+            return await loadPhaseData('phase1');
         }
 
         // Get college directories from server
@@ -1091,6 +1329,81 @@
                     hideStudentPopup();
                 }
             });
+        }
+
+        // Setup phase selection event listeners
+        function setupPhaseEventListeners() {
+            phaseSelector.addEventListener('change', (e) => {
+                const selectedPhase = e.target.value;
+                console.log(`🔄 Phase selector changed to: ${selectedPhase}`);
+                switchPhase(selectedPhase);
+            });
+            console.log('✅ Phase event listeners setup complete');
+        }
+
+        // Switch between Phase 1 and Phase 2 data
+        async function switchPhase(phase) {
+            console.log(`🔄 switchPhase called with: ${phase}, current: ${currentPhase}`);
+            if (currentPhase === phase) {
+                console.log('⚠️ Already on this phase, skipping');
+                return; // Already on this phase
+            }
+
+            console.log(`🔄 Switching from ${currentPhase} to ${phase}`);
+            // Show loading
+            showLoading();
+            clearResults();
+
+            try {
+                // Load data if not already loaded
+                if (!isDataLoaded[phase]) {
+                    await loadPhaseData(phase);
+                }
+
+                // Switch to the new phase
+                currentPhase = phase;
+                allData = phase === 'phase1' ? phase1Data : phase2Data;
+                filteredData = [...allData];
+
+                // Update UI
+                updatePhaseSelector();
+                updatePhaseDescription();
+                populateFilters();
+                updateStats();
+
+                // Clear search
+                searchInput.value = '';
+                resetFilters();
+
+                console.log(`✅ Switched to ${phase} with ${allData.length} records`);
+            } catch (error) {
+                console.error(`❌ Error switching to ${phase}:`, error);
+                showError(`Failed to load ${phase} data. Please try again.`);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Update phase selector state
+        function updatePhaseSelector() {
+            phaseSelector.value = currentPhase;
+        }
+
+        // Update phase description
+        function updatePhaseDescription() {
+            const descriptions = {
+                phase1: 'Currently viewing Phase 1 allotment data with comprehensive student records',
+                phase2: 'Currently viewing Phase 2 allotment data with comprehensive student records'
+            };
+            phaseDescription.textContent = descriptions[currentPhase];
+        }
+
+        // Reset all filters
+        function resetFilters() {
+            collegeFilter.value = '';
+            branchFilter.value = '';
+            categoryFilter.value = '';
+            genderFilter.value = '';
         }
 
         // Debounce function to limit search frequency
@@ -1241,7 +1554,8 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
                                 <div class="info-label">College Name</div>
-                                <div class="info-value text-sm leading-relaxed">${student.college}</div>
+                                <div class="info-value text-base leading-relaxed mb-1">${student.collegeName || student.college}</div>
+                                <div class="text-gray-400 text-sm font-mono">Code: ${student.college}</div>
                             </div>
                             <div>
                                 <div class="info-label">Branch/Department</div>
@@ -1344,12 +1658,29 @@
 
         // Populate filter dropdowns
         function populateFilters() {
-            populateSelect(collegeFilter, Array.from(colleges).sort());
+            populateCollegeSelect(collegeFilter, Array.from(colleges).sort());
             populateSelect(branchFilter, Array.from(branches).sort());
 
             // Custom sorting for categories - general categories first, special ones last
             const sortedCategories = sortCategories(Array.from(categories));
             populateSelect(categoryFilter, sortedCategories);
+        }
+
+        // Populate college select with full names
+        function populateCollegeSelect(selectElement, collegeList) {
+            selectElement.innerHTML = '<option value="">All Colleges</option>';
+
+            collegeList.forEach(collegeCode => {
+                const option = document.createElement('option');
+                option.value = collegeCode;
+                const collegeName = collegeMap.get(collegeCode);
+                if (collegeName) {
+                    option.textContent = `${collegeName} (${collegeCode})`;
+                } else {
+                    option.textContent = collegeCode;
+                }
+                selectElement.appendChild(option);
+            });
         }
 
         // Custom category sorting function
@@ -1804,15 +2135,16 @@
                             </div>
                         </div>
 
-                        <div class="border-t border-white/10 pt-2 mb-2">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+                        <div class="border-t border-white/10 pt-3 mb-3">
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                 <div>
-                                    <div class="text-gray-400 mb-1">College:</div>
-                                    <div class="text-white font-medium text-sm leading-tight">${record.college}</div>
+                                    <div class="text-gray-400 mb-2 text-xs">College:</div>
+                                    <div class="college-name-primary">${record.collegeName || record.college}</div>
+                                    <div class="college-code-secondary">Code: ${record.college}</div>
                                 </div>
                                 <div>
-                                    <div class="text-gray-400 mb-1">Branch:</div>
-                                    <div class="text-white text-sm leading-tight">${record.branch}</div>
+                                    <div class="text-gray-400 mb-2 text-xs">Branch:</div>
+                                    <div class="branch-name">${record.branch}</div>
                                 </div>
                             </div>
                         </div>
@@ -1848,8 +2180,7 @@
                             <th class="text-left py-3 px-4 text-gray-300">Name</th>
                             <th class="text-left py-3 px-4 text-gray-300">Hall Ticket</th>
                             <th class="text-right py-3 px-4 text-gray-300">Rank</th>
-                            <th class="text-left py-3 px-4 text-gray-300">College</th>
-                            <th class="text-left py-3 px-4 text-gray-300">Branch</th>
+                            <th class="text-left py-3 px-4 text-gray-300 w-1/4">College & Branch</th>
                             <th class="text-center py-3 px-4 text-gray-300">Gender</th>
                             <th class="text-center py-3 px-4 text-gray-300">Category</th>
                         </tr>
@@ -1869,8 +2200,11 @@
                                 #${record.rank}
                             </span>
                         </td>
-                        <td class="py-3 px-4 text-gray-300 max-w-xs truncate">${record.college}</td>
-                        <td class="py-3 px-4 text-gray-300 max-w-xs truncate">${record.branch}</td>
+                        <td class="py-3 px-4 max-w-xs">
+                            <div class="text-white font-medium text-sm truncate mb-1">${record.collegeName || record.college}</div>
+                            <div class="text-gray-400 text-xs font-mono mb-1">${record.college}</div>
+                            <div class="text-blue-300 text-xs truncate">${record.branch}</div>
+                        </td>
                         <td class="py-3 px-4 text-center text-gray-300">${record.sex === 'M' ? 'M' : 'F'}</td>
                         <td class="py-3 px-4 text-center text-gray-300">${record.seatcategory}</td>
                     </tr>
