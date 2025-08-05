@@ -700,20 +700,12 @@
                 </div>
             </div>
 
-            <div class="max-w-lg mx-auto mb-4">
-                <label class="block text-sm font-medium text-gray-300 mb-2">Choose Allotment Phase:</label>
-                <div class="relative">
-                    <select id="phaseSelector" class="w-full px-6 py-4 text-lg search-input rounded-2xl text-white focus:outline-none transition-all duration-300 appearance-none cursor-pointer">
-                        <option value="phase1">📊 Phase 1 Data - 176 Colleges • 1,069 Branches</option>
-                        <option value="phase2" selected>📊 Phase 2 Data - 180 Colleges • 1,052 Branches</option>
-                    </select>
-                    <div class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">
-                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
+<div class="flex justify-center gap-4 mb-6">
+    <button onclick="location.href='?phase=phase1'" class="btn-primary px-6 py-3 rounded-xl transition-all duration-300"
+        id="btnPhase1">📊 Phase 1</button>
+    <button onclick="location.href='?phase=phase2'" class="btn-primary px-6 py-3 rounded-xl transition-all duration-300"
+        id="btnPhase2">🎯 Phase 2</button>
+</div>
 
             <div class="text-center">
                 <p id="phaseDescription" class="text-sm text-gray-400">
@@ -1049,7 +1041,12 @@
         // Initialize the application
         async function init() {
             try {
-                await loadPhaseData('phase2'); // Load Phase 2 by default
+                const urlParams = new URLSearchParams(window.location.search);
+                const phaseParam = urlParams.get('phase');
+                currentPhase = (phaseParam === 'phase1' || phaseParam === 'phase2') ? phaseParam : 'phase2';
+                updatePhaseDescription();
+
+                await loadPhaseData(currentPhase);
                 setupEventListeners();
                 setupPhaseEventListeners();
                 populateFilters();
@@ -1333,11 +1330,7 @@
 
         // Setup phase selection event listeners
         function setupPhaseEventListeners() {
-            phaseSelector.addEventListener('change', (e) => {
-                const selectedPhase = e.target.value;
-                console.log(`🔄 Phase selector changed to: ${selectedPhase}`);
-                switchPhase(selectedPhase);
-            });
+ console.log('✅ Phase buttons initialized with deep linking');
             console.log('✅ Phase event listeners setup complete');
         }
 
@@ -1385,9 +1378,10 @@
         }
 
         // Update phase selector state
-        function updatePhaseSelector() {
-            phaseSelector.value = currentPhase;
-        }
+    function updatePhaseSelector() {
+        document.getElementById('btnPhase1')?.classList.toggle('bg-green-600', currentPhase === 'phase1');
+        document.getElementById('btnPhase2')?.classList.toggle('bg-green-600', currentPhase === 'phase2');
+    }
 
         // Update phase description
         function updatePhaseDescription() {
