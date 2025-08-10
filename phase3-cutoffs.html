@@ -571,6 +571,8 @@
         document.addEventListener('DOMContentLoaded', function () {
             loadData();
             setupEventListeners();
+            setupSorting();
+            setupPagination();
             checkMobileDevice();
         });
 
@@ -594,7 +596,7 @@
         async function loadData() {
             try {
                 showSpinner();
-                const response = await fetch('data/2025-phase3-cutoffs.json');
+                const response = await fetch('data/2025-phase3-cutoffs-general.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -605,7 +607,7 @@
                 displayData();
                 updateRecordCount();
                 hideSpinner();
-                console.log(`📊 Loaded ${allData.length} Phase 3 cutoffs records`);
+                console.log(`📊 Loaded ${allData.length} Phase 3 cutoffs (general only) records`);
             } catch (error) {
                 console.error('❌ Error loading data:', error);
                 document.getElementById('recordCount').textContent = 'Error loading data';
@@ -720,6 +722,61 @@
         function updateRecordCount() {
             document.getElementById('recordCount').textContent =
                 `Showing ${filteredData.length} of ${allData.length} records`;
+        }
+
+        function setupSorting() {
+            const sortableHeaders = document.querySelectorAll('.sortable');
+            sortableHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const column = header.getAttribute('data-column');
+                    sortData(column);
+                });
+            });
+        }
+
+        function sortData(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            filteredData.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                // Handle numeric values
+                const toNum = (v) => {
+                    if (v === 'NA' || v === '-' || v === '' || v == null) return null;
+                    const n = Number(v);
+                    return Number.isFinite(n) ? n : null;
+                };
+                const aNum = toNum(aVal);
+                const bNum = toNum(bVal);
+                if (aNum != null && bNum != null) {
+                    return currentSort.direction === 'asc' ? aNum - bNum : bNum - aNum;
+                }
+
+                // Fallback string compare
+                aVal = (aVal || '').toString().toLowerCase();
+                bVal = (bVal || '').toString().toLowerCase();
+                if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            // Update sort indicators
+            document.querySelectorAll('.sort-indicator').forEach(indicator => {
+                indicator.textContent = '↕️';
+            });
+
+            const currentHeader = document.querySelector(`[data-column="${column}"] .sort-indicator`);
+            if (currentHeader) {
+                currentHeader.textContent = currentSort.direction === 'asc' ? '↑' : '↓';
+            }
+
+            displayData();
         }
 
         function updatePagination() {
