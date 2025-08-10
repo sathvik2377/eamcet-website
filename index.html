@@ -1007,6 +1007,13 @@
         let phase1ByHT = new Map();
         let phase2ByHT = new Map();
         let phase3ByHT = new Map();
+        // Branch code mapping
+        let branchCodeMap = new Map();
+        function getBranchCode(branchName) {
+            if (!branchName) return '';
+            const key = branchName.toUpperCase().replace(/\s+/g, ' ').trim();
+            return branchCodeMap.get(key) || branchName; // fallback to name if no code found
+        }
 
         // DOM elements
         const searchInput = document.getElementById('searchInput');
@@ -1053,6 +1060,15 @@
                 const phaseParam = urlParams.get('phase');
                 currentPhase = (phaseParam === 'phase1' || phaseParam === 'phase2' || phaseParam === 'phase3') ? phaseParam : 'phase3';
                 updatePhaseDescription();
+
+                // Load branch mapping
+                try {
+                    const resp = await fetch('data/branch-code-mapping.json');
+                    if (resp.ok) {
+                        const mapping = await resp.json();
+                        Object.keys(mapping).forEach(k => branchCodeMap.set(k.toUpperCase(), mapping[k]));
+                    }
+                } catch (e) { console.warn('Branch code mapping load failed', e); }
 
                 // Load all phases for comprehensive search
                 await loadAllPhases();
@@ -2162,29 +2178,36 @@
             const fmt = (phaseKey, r) => {
                 const code = r?.college || '';
                 const name = r?.collegeName || collegeMap.get(code) || code;
-                const branch = r?.branch || '';
+                const branch = getBranchCode(r?.branch || '');
                 const phaseTitle = phaseKey === 'phase1' ? 'Phase 1' : (phaseKey === 'phase2' ? 'Phase 2' : 'Phase 3');
-                return `<div class=\"text-xs text-gray-400 mt-0.5\">${phaseTitle}: <span class=\"text-white/90\">${name} (${code})</span> • <span class=\"text-white/80\">${branch}</span></div>`;
+                return `<span class=\"inline-flex items-center gap-1 px-2 py-0.5 rounded bg-white/5 border border-white/10 max-w-full overflow-hidden whitespace-nowrap\"><span class=\"text-[11px] text-white/80\">${phaseTitle}:\u00A0</span><span class=\"text-[11px] text-white/95 truncate\">${name} (${code})</span><span class=\"text-[11px] text-blue-300\">\u00A0•\u00A0${branch}</span></span>`;
             };
 
+            let pills = [];
             if (currentPhase === 'phase1') {
                 const p2 = phase2ByHT.get(ht);
                 const p3 = phase3ByHT.get(ht);
-                if (p2) lines.push(fmt('phase2', p2));
-                if (p3) lines.push(fmt('phase3', p3));
+                if (p2) pills.push(fmt('phase2', p2));
+                if (p3) pills.push(fmt('phase3', p3));
             } else if (currentPhase === 'phase2') {
                 const p1 = phase1ByHT.get(ht);
                 const p3 = phase3ByHT.get(ht);
-                if (p1) lines.push(fmt('phase1', p1));
-                if (p3) lines.push(fmt('phase3', p3));
+                if (p1) pills.push(fmt('phase1', p1));
+                if (p3) pills.push(fmt('phase3', p3));
             } else if (currentPhase === 'phase3') {
                 const p1 = phase1ByHT.get(ht);
                 const p2 = phase2ByHT.get(ht);
-                if (p1) lines.push(fmt('phase1', p1));
-                if (p2) lines.push(fmt('phase2', p2));
+                if (p1) pills.push(fmt('phase1', p1));
+                if (p2) pills.push(fmt('phase2', p2));
             }
 
-            return lines.join('');
+            if (!pills.length) return '';
+            if (pills.length === 1) {
+                return `<div class=\"mt-2\">${pills[0]}<\/div>`;
+            }
+            // Stack vertically (second below first) to avoid overlap
+            const stack = pills.map(p => `<div class=\"w-full\">${p}<\/div>`).join('');
+            return `<div class=\"mt-2 flex flex-col gap-1\">${stack}<\/div>`;
         }
 
         function displayCardResults(displayData) {
@@ -2292,7 +2315,8 @@
                         <td class="py-3 px-4 max-w-xs">
                             <div class="text-white font-medium text-sm truncate mb-1">${record.collegeName || record.college}</div>
                             <div class="text-gray-400 text-xs font-mono mb-1">${record.college}</div>
-                            <div class="text-blue-300 text-xs truncate">${record.branch}</div>
+                            <div class="text-blue-300 text-xs truncate">${getBranchCode(record.branch)}</div>
+                            ${renderPhaseComparisons(record)}
                         </td>
                         <td class="py-3 px-4 text-center text-gray-300">${record.sex === 'M' ? 'M' : 'F'}</td>
                         <td class="py-3 px-4 text-center text-gray-300">${record.seatcategory}</td>
