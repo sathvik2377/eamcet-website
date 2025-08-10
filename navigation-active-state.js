@@ -65,9 +65,7 @@
             case 'previous-year-cutoffs.html':
                 targetSelector = 'a[href="previous-year-cutoffs.html"], a[href="./previous-year-cutoffs.html"], a[href="/previous-year-cutoffs.html"]';
                 break;
-            case 'college-predictor.html':
-                targetSelector = 'a[href="college-predictor.html"], a[href="./college-predictor.html"], a[href="/college-predictor.html"]';
-                break;
+
             default:
                 // Default to index if page not recognized
                 targetSelector = 'a[href="index.html"], a[href="./index.html"], a[href="/index.html"]';

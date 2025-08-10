@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS EAMCET 2025 - Phase 2 Cutoffs</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEX3M5R4MZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BEX3M5R4MZ');
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Mobile Warning Popup Styles */
+        .mobile-warning-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .mobile-warning-popup {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 2px solid #00d4ff;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 90%;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.3);
+            animation: popupSlideIn 0.5s ease-out;
+        }
+
+        @keyframes popupSlideIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8) translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .warning-icon {
+            font-size: 4rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        .popup-title {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .popup-text {
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .popup-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .popup-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .btn-continue {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+        }
+
+        .btn-continue:hover {
+            background: linear-gradient(135deg, #ff5252, #ff7979);
+            transform: translateY(-2px);
+        }
+
+        .btn-desktop {
+            background: linear-gradient(135deg, #00d4ff, #00b4d8);
+            color: white;
+        }
+
+        .btn-desktop:hover {
+            background: linear-gradient(135deg, #00b4d8, #0096c7);
+            transform: translateY(-2px);
+        }
+
+        /* Main Styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .nav-container {
+            background: rgba(11, 11, 20, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-btn-compact {
+            background: rgba(255, 255, 255, 0.1);
+            color: #E8F4FD;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-btn-compact:hover {
+            background: rgba(0, 212, 255, 0.2);
+            border-color: rgba(0, 212, 255, 0.4);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+        }
+
+        .nav-btn-special {
+            background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%);
+            color: #0B0B14;
+            font-weight: 600;
+        }
+
+        .nav-btn-special:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glow-text {
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .input-field {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #F1F0FF;
+            backdrop-filter: blur(10px);
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #00D4FF;
+            box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%);
+            color: #0B0B14;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #E8F4FD;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-1px);
+        }
+
+        .table-container {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-height: 80vh;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+        .table-header {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(0, 255, 199, 0.2) 100%);
+            backdrop-filter: blur(20px);
+        }
+
+        .table-header th {
+            color: #E8F4FD;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 12px;
+            border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .table-row {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.2s ease;
+        }
+
+        .table-row:hover {
+            background: rgba(0, 212, 255, 0.1);
+        }
+
+        .table-row td {
+            color: #F1F0FF;
+            font-size: 13px;
+            padding: 12px 8px;
+        }
+
+        .spinner {
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 2px solid #00D4FF;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .top-scroll-container {
+            height: 20px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .top-scroll-content {
+            height: 1px;
+            width: 1800px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #B8C5D1;
+        }
+
+        .no-results h3 {
+            color: #00D4FF;
+            margin-bottom: 16px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-btn-compact {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+            
+            .table-container {
+                font-size: 11px;
+            }
+            
+            .table-header th,
+            .table-row td {
+                padding: 8px 4px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background: linear-gradient(135deg, #0D0A1A 0%, #1E1B3C 25%, #2A1B47 50%, #1E1B3C 75%, #0D0A1A 100%); background-attachment: fixed; color: #F1F0FF; overflow-x: hidden;">
+    <!-- Mobile Warning Popup -->
+    <div id="mobileWarningOverlay" class="mobile-warning-overlay" style="display: none;">
+        <div class="mobile-warning-popup">
+            <div class="warning-icon">📱</div>
+            <div class="popup-title">Mobile Device Detected</div>
+            <div class="popup-text">
+                This Phase 2 cutoffs table contains detailed data that is optimized for desktop viewing. The cutoff information may be difficult to navigate on mobile devices.
+                <br><br>
+                <strong>For the best experience:</strong><br>
+                <strong>• Use a desktop or laptop computer</strong><br>
+                <strong>• Rotate your device to landscape mode</strong>
+            </div>
+            <div class="popup-buttons">
+                <button class="popup-btn btn-continue" onclick="closeMobileWarning()">
+                    Continue Anyway
+                </button>
+                <button class="popup-btn btn-desktop" onclick="window.location.href='index.html'">
+                    Go to Home
+                </button>
+            </div>
+        </div>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="no-results hidden">
+            <h3>No Results Found</h3>
+            <p>Try adjusting your search criteria or filters.</p>
+        </div>
+
+        <!-- Pagination -->
+        <div id="pagination" class="flex justify-center items-center space-x-4 mt-8">
+            <button id="prevPage" class="btn-secondary px-4 py-2" disabled>Previous</button>
+            <span id="pageInfo" class="text-gray-400">Page 1 of 1</span>
+            <button id="nextPage" class="btn-secondary px-4 py-2" disabled>Next</button>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentSort = { column: null, direction: 'asc' };
+        let currentPage = 1;
+        const itemsPerPage = 100;
+
+        // Quick search function for example buttons
+        function quickSearch(term) {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = term;
+            searchInput.focus();
+            // Trigger search
+            filterData();
+        }
+
+        // Make quickSearch globally accessible
+        window.quickSearch = quickSearch;
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            loadData();
+            setupEventListeners();
+            setupSorting();
+            setupPagination();
+            checkMobileDevice();
+        });
+
+        function setupEventListeners() {
+            const searchInput = document.getElementById('searchInput');
+            const collegeFilter = document.getElementById('collegeFilter');
+            const branchFilter = document.getElementById('branchFilter');
+
+            // Debounced search
+            let searchTimeout;
+            searchInput.addEventListener('input', function () {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    filterData();
+                }, 300);
+            });
+
+            collegeFilter.addEventListener('change', filterData);
+            branchFilter.addEventListener('change', filterData);
+        }
+
+        function populateDropdowns() {
+            const colleges = new Set();
+            const branches = new Set();
+
+            allData.forEach(item => {
+                if (item["College Name"]) colleges.add(item["College Name"]);
+                if (item["Branch Name"]) branches.add(item["Branch Name"]);
+            });
+
+            // Populate college dropdown
+            const collegeFilter = document.getElementById('collegeFilter');
+            collegeFilter.innerHTML = '<option value="">All Colleges</option>';
+            Array.from(colleges).sort().forEach(college => {
+                const option = document.createElement('option');
+                option.value = college;
+                option.textContent = college;
+                collegeFilter.appendChild(option);
+            });
+
+            // Populate branch dropdown
+            const branchFilter = document.getElementById('branchFilter');
+            branchFilter.innerHTML = '<option value="">All Branches</option>';
+            Array.from(branches).sort().forEach(branch => {
+                const option = document.createElement('option');
+                option.value = branch;
+                option.textContent = branch;
+                branchFilter.appendChild(option);
+            });
+        }
+
+        async function loadData() {
+            try {
+                showSpinner();
+                const response = await fetch('data/2025-phase2-cutoffs.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                allData = await response.json();
+                filteredData = [...allData];
+                populateDropdowns();
+                displayData();
+                updateRecordCount();
+                hideSpinner();
+                console.log(`📊 Loaded ${allData.length} Phase 2 cutoffs records`);
+            } catch (error) {
+                console.error('❌ Error loading data:', error);
+                document.getElementById('recordCount').textContent = 'Error loading data';
+                hideSpinner();
+            }
+        }
+
+        function filterData() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const collegeFilter = document.getElementById('collegeFilter').value;
+            const branchFilter = document.getElementById('branchFilter').value;
+
+            filteredData = allData.filter(item => {
+                const matchesSearch = !searchTerm ||
+                    (item["College Name"] && item["College Name"].toLowerCase().includes(searchTerm)) ||
+                    (item["Branch Name"] && item["Branch Name"].toLowerCase().includes(searchTerm)) ||
+                    (item["College Code"] && item["College Code"].toLowerCase().includes(searchTerm));
+
+                const matchesCollege = !collegeFilter || item["College Name"] === collegeFilter;
+                const matchesBranch = !branchFilter || item["Branch Name"] === branchFilter;
+
+                return matchesSearch && matchesCollege && matchesBranch;
+            });
+
+            currentPage = 1; // Reset to first page when filtering
+            displayData();
+            updateRecordCount();
+        }
+
+        function displayData() {
+            const tableBody = document.getElementById('tableBody');
+            const noResults = document.getElementById('noResults');
+
+            if (filteredData.length === 0) {
+                tableBody.innerHTML = '';
+                noResults.classList.remove('hidden');
+                updatePagination();
+                return;
+            }
+
+            noResults.classList.add('hidden');
+
+            // Display paginated rows for better performance
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const displayRows = filteredData.slice(startIndex, endIndex);
+
+            tableBody.innerHTML = displayRows.map(row => {
+                const getRank = (field) => {
+                    const rank = row[field];
+                    return (rank && rank !== "NA" && rank !== "-" && rank !== "") ? `<span class="font-medium text-white">${rank}</span>` : '<span class="text-gray-500">-</span>';
+                };
+
+                return `
+                    <tr class="table-row">
+                        <td class="px-3 py-3 text-sm font-medium text-blue-300">${row["College Code"] || '-'}</td>
+                        <td class="px-3 py-3 text-sm font-medium text-white">${row["College Name"] || '-'}</td>
+                        <td class="px-3 py-3 text-sm text-center text-gray-300">${row["Branch Code"] || '-'}</td>
+                        <td class="px-3 py-3 text-sm text-gray-300">${row["Branch Name"] || '-'}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("OC Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("OC Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("EWS GEN OU")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("EWS GIRLS")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("SC Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("SC Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("ST Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("ST Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_A Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_A Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_B Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_B Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_C Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_C Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_D Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_D Girls")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_E Boys")}</td>
+                        <td class="px-3 py-3 text-sm text-center">${getRank("BC_E Girls")}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            updatePagination();
+        }
+
+        function setupSorting() {
+            const sortableHeaders = document.querySelectorAll('.sortable');
+            sortableHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const column = header.getAttribute('data-column');
+                    sortData(column);
+                });
+            });
+        }
+
+        function sortData(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            filteredData.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                // Handle numeric values
+                if (!isNaN(aVal) && !isNaN(bVal)) {
+                    aVal = parseFloat(aVal) || 0;
+                    bVal = parseFloat(bVal) || 0;
+                } else {
+                    // Handle string values
+                    aVal = (aVal || '').toString().toLowerCase();
+                    bVal = (bVal || '').toString().toLowerCase();
+                }
+
+                if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            // Update sort indicators
+            document.querySelectorAll('.sort-indicator').forEach(indicator => {
+                indicator.textContent = '↕️';
+            });
+
+            const currentHeader = document.querySelector(`[data-column="${column}"] .sort-indicator`);
+            if (currentHeader) {
+                currentHeader.textContent = currentSort.direction === 'asc' ? '↑' : '↓';
+            }
+
+            displayData();
+        }
+
+        function setupPagination() {
+            const prevBtn = document.getElementById('prevPage');
+            const nextBtn = document.getElementById('nextPage');
+
+            prevBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displayData();
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    displayData();
+                }
+            });
+        }
+
+        function updatePagination() {
+            const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+            const prevBtn = document.getElementById('prevPage');
+            const nextBtn = document.getElementById('nextPage');
+            const pageInfo = document.getElementById('pageInfo');
+
+            prevBtn.disabled = currentPage === 1;
+            nextBtn.disabled = currentPage === totalPages || totalPages === 0;
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+
+            // Update button styles
+            prevBtn.classList.toggle('opacity-50', prevBtn.disabled);
+            nextBtn.classList.toggle('opacity-50', nextBtn.disabled);
+        }
+
+        function updateRecordCount() {
+            const recordCount = document.getElementById('recordCount');
+            recordCount.textContent = `Showing ${filteredData.length} of ${allData.length} records`;
+        }
+
+        function showSpinner() {
+            document.getElementById('loadingSpinner').style.display = 'block';
+        }
+
+        function hideSpinner() {
+            document.getElementById('loadingSpinner').style.display = 'none';
+        }
+
+        function checkMobileDevice() {
+            const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            if (isMobile) {
+                document.getElementById('mobileWarningOverlay').style.display = 'flex';
+            }
+        }
+
+        function closeMobileWarning() {
+            document.getElementById('mobileWarningOverlay').style.display = 'none';
+        }
+
+        function exportToCSV() {
+            const headers = [
+                'College Code', 'College Name', 'Branch Name',
+                'OC Boys', 'OC Girls', 'EWS Boys', 'EWS Girls',
+                'SC Boys', 'SC Girls', 'ST Boys', 'ST Girls',
+                'BC-A Boys', 'BC-A Girls', 'BC-B Boys', 'BC-B Girls',
+                'BC-C Boys', 'BC-C Girls', 'BC-D Boys', 'BC-D Girls',
+                'BC-E Boys', 'BC-E Girls'
+            ];
+
+            const csvContent = [
+                headers.join(','),
+                ...filteredData.map(row => [
+                    `"${row["College Code"] || ''}"`,
+                    `"${row["College Name"] || ''}"`,
+                    `"${row["Branch Name"] || ''}"`,
+                    row["OC Boys"] || '',
+                    row["OC Girls"] || '',
+                    row["EWS GEN OU"] || '',
+                    row["EWS GIRLS"] || '',
+                    row["SC Boys"] || '',
+                    row["SC Girls"] || '',
+                    row["ST Boys"] || '',
+                    row["ST Girls"] || '',
+                    row["BC_A Boys"] || '',
+                    row["BC_A Girls"] || '',
+                    row["BC_B Boys"] || '',
+                    row["BC_B Girls"] || '',
+                    row["BC_C Boys"] || '',
+                    row["BC_C Girls"] || '',
+                    row["BC_D Boys"] || '',
+                    row["BC_D Girls"] || '',
+                    row["BC_E Boys"] || '',
+                    row["BC_E Girls"] || ''
+                ].join(','))
+            ].join('\n');
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'ts-eamcet-2025-phase2-cutoffs.csv');
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function showAllPhasesComparison() {
+            window.open('previous-year-cutoffs.html', '_blank');
+        }
+
+        // Sync top scroll bar with main table
+        document.addEventListener('DOMContentLoaded', function() {
+            const topScrollContainer = document.querySelector('.top-scroll-container');
+            const mainTableContainer = document.getElementById('mainTableContainer');
+
+            if (topScrollContainer && mainTableContainer) {
+                topScrollContainer.addEventListener('scroll', function() {
+                    mainTableContainer.scrollLeft = this.scrollLeft;
+                });
+
+                mainTableContainer.addEventListener('scroll', function() {
+                    topScrollContainer.scrollLeft = this.scrollLeft;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
+    <!-- Compact Navigation Header -->
+    <header class="nav-container sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg" style="background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%);">
+                        <span class="text-lg font-bold" style="color: #0B0B14;">TS</span>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold gradient-text glow-text">TS EAMCET 2025</h1>
+                        <p class="text-xs text-gray-400">Phase 2 Cutoffs Finder</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="index.html" class="nav-btn-compact">🔍 Search Results</a>
+                    <a href="closing-ranks.html" class="nav-btn-compact">📊 Phase 1 Cutoffs</a>
+                    <a href="phase2-cutoffs-official.html" class="nav-btn-compact">📈 Phase 2 Cutoffs</a>
+                    <a href="previous-year-cutoffs.html" class="nav-btn-compact">📚 Previous Year Cutoffs</a>
+                    <a href="college-details.html" class="nav-btn-compact">🏛️ College Info</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="max-w-full mx-auto px-6 py-8">
+        <!-- Page Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="font-family: 'Poppins', sans-serif; color: #E8F4FD; text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);">
+                Phase 2 <span style="background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Cutoffs</span>
+            </h1>
+            <p class="text-lg mb-6 max-w-3xl mx-auto" style="color: #B8C5D1;">
+                Official cutoff ranks for all colleges and branches in <span style="background: linear-gradient(135deg, #00D4FF 0%, #00FFC7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Phase 2 counseling</span>.
+            </p>
+
+            <!-- Quick Navigation -->
+            <div class="flex justify-center mb-6">
+                <a href="college-info.html" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-sm">
+                    🏫 College Info & Details
+                </a>
+            </div>
+        </div>
+
+        <!-- Search and Filter Controls -->
+        <div class="card p-6 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-300 mb-2">Search</label>
+                    <input type="text" id="searchInput" placeholder="Type to search colleges, branches..."
+                           class="input-field w-full px-4 py-2">
+                    <!-- Quick Examples -->
+                    <div class="flex flex-wrap gap-1 mt-2">
+                        <span class="text-xs text-gray-500 mr-1">Try:</span>
+                        <button onclick="quickSearch('cbit')" class="px-2 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded text-xs transition-all duration-300 hover:scale-105">
+                            "cbit"
+                        </button>
+                        <button onclick="quickSearch('cse')" class="px-2 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded text-xs transition-all duration-300 hover:scale-105">
+                            "cse"
+                        </button>
+                        <button onclick="quickSearch('jntu')" class="px-2 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded text-xs transition-all duration-300 hover:scale-105">
+                            "jntu"
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-300 mb-2">College</label>
+                    <select id="collegeFilter" class="input-field w-full px-4 py-2 appearance-none">
+                        <option value="">All Colleges</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none mt-6">
+                        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-300 mb-2">Branch</label>
+                    <select id="branchFilter" class="input-field w-full px-4 py-2 appearance-none">
+                        <option value="">All Branches</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none mt-6">
+                        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-300 mb-2">Category</label>
+                    <select id="categoryFilter" class="input-field w-full px-4 py-2">
+                        <option value="">All Categories</option>
+                        <option value="OC">OC</option>
+                        <option value="BC_A">BC-A</option>
+                        <option value="BC_B">BC-B</option>
+                        <option value="BC_C">BC-C</option>
+                        <option value="BC_D">BC-D</option>
+                        <option value="BC_E">BC-E</option>
+                        <option value="SC">SC</option>
+                        <option value="ST">ST</option>
+                        <option value="EWS">EWS</option>
+                    </select>
+                </div>
+                <div class="flex items-end space-x-4">
+                    <button onclick="showAllPhasesComparison()" class="btn-secondary px-6 py-3 min-h-[40px] flex items-center justify-center">
+                        📊 Show All Phases Comparison
+                    </button>
+                    <button onclick="exportToCSV()" class="btn-primary px-6 py-3 min-h-[40px] flex items-center justify-center">
+                        Export CSV
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center text-sm text-gray-400">
+                <div>
+                    <span id="recordCount">Loading records...</span>
+                    <div class="mt-1 text-base text-yellow-400">
+                        📱 <strong>Note:</strong> Click on headers to sort • Scroll sideways to see all BC cutoffs
+                    </div>
+                </div>
+                <span id="loadingSpinner" class="spinner"></span>
+            </div>
+        </div>
+
+        <!-- Results Table -->
+        <div class="w-full max-w-full mx-auto">
+            <!-- Top Scroll Bar -->
+            <div class="top-scroll-container mb-2" style="margin-left: 620px;">
+                <div class="top-scroll-content"></div>
+            </div>
+            <div class="table-container" id="mainTableContainer">
+                <table class="w-full min-w-max table-fixed">
+                    <colgroup>
+                        <col style="width: 100px;">  <!-- College Code -->
+                        <col style="width: 250px;">  <!-- College Name -->
+                        <col style="width: 80px;">   <!-- Branch Code -->
+                        <col style="width: 200px;">  <!-- Branch Name -->
+                        <col style="width: 80px;">   <!-- OC Boys -->
+                        <col style="width: 80px;">   <!-- OC Girls -->
+                        <col style="width: 80px;">   <!-- EWS Boys -->
+                        <col style="width: 80px;">   <!-- EWS Girls -->
+                        <col style="width: 80px;">   <!-- SC Boys -->
+                        <col style="width: 80px;">   <!-- SC Girls -->
+                        <col style="width: 80px;">   <!-- ST Boys -->
+                        <col style="width: 80px;">   <!-- ST Girls -->
+                        <col style="width: 80px;">   <!-- BC-A Boys -->
+                        <col style="width: 80px;">   <!-- BC-A Girls -->
+                        <col style="width: 80px;">   <!-- BC-B Boys -->
+                        <col style="width: 80px;">   <!-- BC-B Girls -->
+                        <col style="width: 80px;">   <!-- BC-C Boys -->
+                        <col style="width: 80px;">   <!-- BC-C Girls -->
+                        <col style="width: 80px;">   <!-- BC-D Boys -->
+                        <col style="width: 80px;">   <!-- BC-D Girls -->
+                        <col style="width: 80px;">   <!-- BC-E Boys -->
+                        <col style="width: 80px;">   <!-- BC-E Girls -->
+                    </colgroup>
+                    <thead class="table-header sticky top-0 z-10">
+                        <tr>
+                            <th class="sortable px-3 py-3 text-left text-sm cursor-pointer hover:bg-blue-900/30" data-column="College Code">
+                                College Code <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-left text-sm cursor-pointer hover:bg-blue-900/30" data-column="College Name">
+                                College Name <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-left text-sm cursor-pointer hover:bg-blue-900/30" data-column="Branch Code">
+                                Branch Code <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-left text-sm cursor-pointer hover:bg-blue-900/30" data-column="Branch Name">
+                                Branch Name <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="OC Boys">
+                                OC Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="OC Girls">
+                                OC Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="EWS GEN OU">
+                                EWS Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="EWS GIRLS">
+                                EWS Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="SC Boys">
+                                SC Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="SC Girls">
+                                SC Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="ST Boys">
+                                ST Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="ST Girls">
+                                ST Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_A Boys">
+                                BC-A Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_A Girls">
+                                BC-A Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_B Boys">
+                                BC-B Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_B Girls">
+                                BC-B Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_C Boys">
+                                BC-C Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_C Girls">
+                                BC-C Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_D Boys">
+                                BC-D Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_D Girls">
+                                BC-D Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_E Boys">
+                                BC-E Boys <span class="sort-indicator">↕️</span>
+                            </th>
+                            <th class="sortable px-3 py-3 text-center text-sm cursor-pointer hover:bg-blue-900/30" data-column="BC_E Girls">
+                                BC-E Girls <span class="sort-indicator">↕️</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>

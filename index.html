@@ -627,12 +627,18 @@
                             <div class="text-xs text-gray-400 mt-1">Official closing ranks</div>
                         </div>
                     </a>
-                    <a href="phase2-cutoffs.html" class="nav-btn flex flex-col items-center space-y-4 p-6 rounded-3xl transition-all duration-300 relative min-h-[120px]">
-                        <div class="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full font-bold">PREDICTED</div>
-                        <div class="text-3xl">🎯</div>
+                    <a href="phase2-cutoffs-official.html" class="nav-btn flex flex-col items-center space-y-4 p-6 rounded-3xl transition-all duration-300 min-h-[120px]">
+                        <div class="text-3xl">📈</div>
                         <div class="text-center">
-                            <div class="font-semibold text-sm">Phase 2 Predictions</div>
-                            <div class="text-xs text-gray-400 mt-1">Predicted cutoffs</div>
+                            <div class="font-semibold text-sm">Phase 2 Cutoffs</div>
+                            <div class="text-xs text-gray-400 mt-1">Official cutoffs</div>
+                        </div>
+                    </a>
+                    <a href="phase3-cutoffs.html" class="nav-btn flex flex-col items-center space-y-4 p-6 rounded-3xl transition-all duration-300 min-h-[120px]">
+                        <div class="text-3xl">🏆</div>
+                        <div class="text-center">
+                            <div class="font-semibold text-sm">Phase 3 Cutoffs</div>
+                            <div class="text-xs text-gray-400 mt-1">Final allotments (2025)</div>
                         </div>
                     </a>
                     <a href="previous-year-cutoffs.html" class="nav-btn flex flex-col items-center space-y-4 p-6 rounded-3xl transition-all duration-300 min-h-[120px]">
@@ -642,13 +648,7 @@
                             <div class="text-xs text-gray-400 mt-1">Historical data</div>
                         </div>
                     </a>
-                    <a href="college-predictor.html" class="nav-btn flex flex-col items-center space-y-3 p-4 rounded-3xl transition-all duration-300 min-h-[100px] relative">
-                        <div class="text-2xl">🔮</div>
-                        <div class="text-center">
-                            <div class="font-semibold text-xs">College Predictor</div>
-                            <div class="text-xs text-gray-400 mt-1">Admission predictions</div>
-                        </div>
-                    </a>
+
                     <a href="college-info.html" class="nav-btn flex flex-col items-center space-y-3 p-4 rounded-3xl transition-all duration-300 min-h-[100px] relative">
                         <div class="text-2xl">🏫</div>
                         <div class="text-center">
@@ -705,6 +705,8 @@
         id="btnPhase1">📊 Phase 1</button>
     <button onclick="location.href='?phase=phase2'" class="btn-primary px-6 py-3 rounded-xl transition-all duration-300"
         id="btnPhase2">🎯 Phase 2</button>
+    <button onclick="location.href='?phase=phase3'" class="btn-primary px-6 py-3 rounded-xl transition-all duration-300"
+        id="btnPhase3">🏆 Phase 3</button>
 </div>
 
             <div class="text-center">
@@ -995,10 +997,16 @@
         let itemsPerPage = 150;
 
         // Phase management
-        let currentPhase = 'phase2'; // 'phase1' or 'phase2' - Default to Phase 2
+        let currentPhase = 'phase3'; // 'phase1', 'phase2', or 'phase3' - Default to Phase 3
         let phase1Data = [];
         let phase2Data = [];
-        let isDataLoaded = { phase1: false, phase2: false };
+        let phase3Data = [];
+        let isDataLoaded = { phase1: false, phase2: false, phase3: false };
+        let showAllPhases = true; // Show all phases together
+        // Fast lookups by hallticket for cross-phase comparison
+        let phase1ByHT = new Map();
+        let phase2ByHT = new Map();
+        let phase3ByHT = new Map();
 
         // DOM elements
         const searchInput = document.getElementById('searchInput');
@@ -1043,10 +1051,11 @@
             try {
                 const urlParams = new URLSearchParams(window.location.search);
                 const phaseParam = urlParams.get('phase');
-                currentPhase = (phaseParam === 'phase1' || phaseParam === 'phase2') ? phaseParam : 'phase2';
+                currentPhase = (phaseParam === 'phase1' || phaseParam === 'phase2' || phaseParam === 'phase3') ? phaseParam : 'phase3';
                 updatePhaseDescription();
 
-                await loadPhaseData(currentPhase);
+                // Load all phases for comprehensive search
+                await loadAllPhases();
                 setupEventListeners();
                 setupPhaseEventListeners();
                 populateFilters();
@@ -1058,11 +1067,40 @@
             }
         }
 
+        // Load all phases for comprehensive search
+        async function loadAllPhases() {
+            console.log('🚀 Loading all phases for comprehensive search...');
+
+            // Load all phases in parallel
+            const promises = [
+                loadPhaseData('phase1'),
+                loadPhaseData('phase2'),
+                loadPhaseData('phase3')
+            ];
+
+            await Promise.all(promises);
+
+            // Set current data based on selected phase
+            allData = currentPhase === 'phase1' ? phase1Data : (currentPhase === 'phase2' ? phase2Data : phase3Data);
+
+            console.log('✅ All phases loaded successfully');
+            console.log(`📊 Phase 1: ${phase1Data.length} records`);
+            console.log(`📊 Phase 2: ${phase2Data.length} records`);
+            console.log(`📊 Phase 3: ${phase3Data.length} records`);
+        }
+
         // Load phase-specific data
         async function loadPhaseData(phase) {
             try {
                 let response;
-                const fileName = phase === 'phase1' ? 'all-data.json' : '2025-phase2-allotment-data.json';
+                let fileName;
+                if (phase === 'phase1') {
+                    fileName = 'all-data.json';
+                } else if (phase === 'phase2') {
+                    fileName = '2025-phase2-allotment-data.json';
+                } else if (phase === 'phase3') {
+                    fileName = '2025-phase3-allotment-data.json';
+                }
 
                 // Try server API first (for Vercel/Node.js hosting)
                 try {
@@ -1086,14 +1124,18 @@
                 if (phase === 'phase1') {
                     phase1Data = data;
                     isDataLoaded.phase1 = true;
-                } else {
+                } else if (phase === 'phase2') {
                     // Convert Phase 2 data structure to match Phase 1 format
                     phase2Data = convertPhase2DataFormat(data);
                     isDataLoaded.phase2 = true;
+                } else if (phase === 'phase3') {
+                    // Convert Phase 3 allotment data to match Phase 1 format (same as Phase 2)
+                    phase3Data = convertPhase2DataFormat(data);
+                    isDataLoaded.phase3 = true;
                 }
 
                 // Set current data and process college names
-                allData = phase === 'phase1' ? phase1Data : phase2Data;
+                allData = phase === 'phase1' ? phase1Data : (phase === 'phase2' ? phase2Data : phase3Data);
 
                 // For Phase 1, extract college codes and add collegeName field
                 if (phase === 'phase1') {
@@ -1127,6 +1169,17 @@
                 });
 
                 filteredData = [...allData];
+                // Build hallticket lookup maps for comparisons
+                if (phase === 'phase1') {
+                    phase1ByHT.clear();
+                    phase1Data.forEach(r => r.hallticketno && phase1ByHT.set(r.hallticketno, r));
+                } else if (phase === 'phase2') {
+                    phase2ByHT.clear();
+                    phase2Data.forEach(r => r.hallticketno && phase2ByHT.set(r.hallticketno, r));
+                } else if (phase === 'phase3') {
+                    phase3ByHT.clear();
+                    phase3Data.forEach(r => r.hallticketno && phase3ByHT.set(r.hallticketno, r));
+                }
                 console.log(`📊 Loaded ${allData.length} records from ${colleges.size} colleges for ${phase}`);
             } catch (error) {
                 console.error(`❌ Error loading ${phase} data:`, error);
@@ -1195,6 +1248,11 @@
             console.log(`✅ Conversion complete: ${totalStudents} total students from ${Object.keys(phase2Data).length} colleges`);
             return convertedData;
         }
+
+
+
+
+
 
         // Legacy function for backward compatibility
         async function loadAllData() {
@@ -1355,7 +1413,7 @@
 
                 // Switch to the new phase
                 currentPhase = phase;
-                allData = phase === 'phase1' ? phase1Data : phase2Data;
+                allData = phase === 'phase1' ? phase1Data : (phase === 'phase2' ? phase2Data : phase3Data);
                 filteredData = [...allData];
 
                 // Update UI
@@ -1381,13 +1439,15 @@
     function updatePhaseSelector() {
         document.getElementById('btnPhase1')?.classList.toggle('bg-green-600', currentPhase === 'phase1');
         document.getElementById('btnPhase2')?.classList.toggle('bg-green-600', currentPhase === 'phase2');
+        document.getElementById('btnPhase3')?.classList.toggle('bg-green-600', currentPhase === 'phase3');
     }
 
         // Update phase description
         function updatePhaseDescription() {
             const descriptions = {
                 phase1: 'Currently viewing Phase 1 allotment data with comprehensive student records',
-                phase2: 'Currently viewing Phase 2 allotment data with comprehensive student records'
+                phase2: 'Currently viewing Phase 2 allotment data with comprehensive student records',
+                phase3: 'Currently viewing Phase 3 final allotment data (2025) with complete student records'
             };
             phaseDescription.textContent = descriptions[currentPhase];
         }
@@ -2093,6 +2153,40 @@
         }
 
         // Display results in card format
+        function renderPhaseComparisons(rec) {
+            const ht = rec.hallticketno;
+            if (!ht) return '';
+
+            const lines = [];
+
+            const fmt = (phaseKey, r) => {
+                const code = r?.college || '';
+                const name = r?.collegeName || collegeMap.get(code) || code;
+                const branch = r?.branch || '';
+                const phaseTitle = phaseKey === 'phase1' ? 'Phase 1' : (phaseKey === 'phase2' ? 'Phase 2' : 'Phase 3');
+                return `<div class=\"text-xs text-gray-400 mt-0.5\">${phaseTitle}: <span class=\"text-white/90\">${name} (${code})</span> • <span class=\"text-white/80\">${branch}</span></div>`;
+            };
+
+            if (currentPhase === 'phase1') {
+                const p2 = phase2ByHT.get(ht);
+                const p3 = phase3ByHT.get(ht);
+                if (p2) lines.push(fmt('phase2', p2));
+                if (p3) lines.push(fmt('phase3', p3));
+            } else if (currentPhase === 'phase2') {
+                const p1 = phase1ByHT.get(ht);
+                const p3 = phase3ByHT.get(ht);
+                if (p1) lines.push(fmt('phase1', p1));
+                if (p3) lines.push(fmt('phase3', p3));
+            } else if (currentPhase === 'phase3') {
+                const p1 = phase1ByHT.get(ht);
+                const p2 = phase2ByHT.get(ht);
+                if (p1) lines.push(fmt('phase1', p1));
+                if (p2) lines.push(fmt('phase2', p2));
+            }
+
+            return lines.join('');
+        }
+
         function displayCardResults(displayData) {
             // Use DocumentFragment for better performance
             const fragment = document.createDocumentFragment();
@@ -2135,6 +2229,7 @@
                                     <div class="text-gray-400 mb-2 text-xs">College:</div>
                                     <div class="college-name-primary">${record.collegeName || record.college}</div>
                                     <div class="college-code-secondary">Code: ${record.college}</div>
+                                    ${renderPhaseComparisons(record)}
                                 </div>
                                 <div>
                                     <div class="text-gray-400 mb-2 text-xs">Branch:</div>
